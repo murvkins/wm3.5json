@@ -1,0 +1,2957 @@
+{
+    "products": [
+        {
+            "name": "Kyrrax, the Unrelenting Night",
+            "points": "30",
+            "category": "Warcasters/Warlocks/Masters",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Kyrrax 1",
+                    "title": "Khymera Warlock",
+                    "modeltype": [
+                        "Warlock"
+                    ],
+                    "keywords": [
+                        "Cavalry",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Alpha Hunter",
+                            "description": "Warbeasts in this model's battlegroup beginning their activations in its Control Range can run, charge, or make power attacks without being forced. When this model destroys one or more enemy modes during its activation, warbeasts in its battlegroup beginning their activations in its Control Range gain +2 SPD and MAT for one turn."
+                        },
+                        {
+                            "name": "Cleave",
+                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                        },
+                        {
+                            "name": "Reposition [2\"]",
+                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 2\", then it's activation ends."
+                        },
+                        {
+                            "name": "Spell Rack [2]",
+                            "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "feat": {
+                        "name": "Avalanche of Steel",
+                        "description": "Friendly faction warrior models within Kyrrax’s control range gain a +2 bonus to melee accuracy rolls. Additionally, when a friendly faction model within his control range destroys or removes from play one or more enemy models with an attack, one friendly faction warrior model within his control range may make a 2” advance followed by a basic melee attack. A model may only move and attack as a result of Avalanche of Steel once per game. Avalanche of Steel lasts for one turn."
+                    },
+                    "execution": {
+                        "name": "Set Defense",
+                        "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
+                    },
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "7",
+                        "str": "9",
+                        "aat": "6",
+                        "mat": "7",
+                        "rat": "3",
+                        "def": "13",
+                        "arm": "18",
+                        "arc": "6",
+                        "cmd": "10",
+                        "ctrl": "12",
+                        "hp": "20"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Pallas",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "5",
+                            "count": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        },
+                        {
+                            "name": "Shield",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "2",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Repel",
+                                    "description": "When this model hits an enemy model with this weapon, the model hit is pushed 1” directly away from this model. When this model is hit with a melee attack, after the attack is resolved the attacking model is pushed 1” directly away from this model. This model loses Repel while this weapon system is crippled."
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "presetabilities": [
+                                "Shield"
+                            ]
+                        },
+                        {
+                            "name": "Bodyslam",
+                            "type": "mount",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "12",
+                            "count": "1"
+                        }
+                    ],
+                    "spells": [
+                        {
+                            "name": "Unstoppable Force",
+                            "cost": "2",
+                            "rng": "Self",
+                            "aoe": "Ctrl",
+                            "pow": "-",
+                            "dur": "Turn",
+                            "off": "NO",
+                            "description": "While in the spellcaster’s control range, models in its battlegroup gain Bulldoze. Unstoppable Force lasts for one turn. (When a model with Bulldoze is B2B with an enemy model during its Normal Movement, it can push that model up to 2” directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when a model makes a trample power attack.)"
+                        },
+                        {
+                            "name": "Vortex of Destruction",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "Damage rolls against enemy models in the spellcaster's melee range are automatically boosted."
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Nyxyan, the Stygian Coil",
+            "points": "31",
+            "category": "Warcasters/Warlocks/Masters",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Nyxyan 1",
+                    "title": "Khymera Warlock",
+                    "modeltype": [
+                        "Warlock"
+                    ],
+                    "keywords": [
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Apparition",
+                            "description": "During your Control Phase, warp this model anywhere completely within 2\" of its current location."
+                        },
+                        {
+                            "name": "Long Shadows",
+                            "description": "When a friendly Faction model in this model's CMD range is targeted by a ranged attack, the attack suffers -3 RNG."
+                        },
+                        {
+                            "name": "Prey",
+                            "description": "After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. This model gains +2 to attack accuracy and damage rolls against it's prey. When the prey is destroyed or removed from play, choose another model/unit to be the prey."
+                        },
+                        {
+                            "name": "Spell Rack [3]",
+                            "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "feat": {
+                        "name": "Jaw of the Dragon",
+                        "description": "Nyxyan can immediately choose a new model/unit in her control range to be her prey. Friendly faction warrior models gain the benefits of Nyxyan’s Prey special rule against her prey for one turn."
+                    },
+                    "execution": {
+                        "name": "Howling Flames Expertise",
+                        "description": "This model can cast Howling Flames once a turn for free."
+                    },
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "6",
+                        "aat": "7",
+                        "mat": "5",
+                        "rat": "5",
+                        "def": "15",
+                        "arm": "15",
+                        "arc": "6",
+                        "cmd": "9",
+                        "ctrl": "12",
+                        "hp": "17"
+                    },
+                    "spells": [
+                        {
+                            "name": "Admonition",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "When an enemy model advances and ends its movement or is warped within 6\" of target model in this spellcaster's battlegroup, the affected model can immediately advance up to 3\", then Admonition expires."
+                        },
+                        {
+                            "name": "Howling Flames",
+                            "cost": "3",
+                            "rng": "SP10",
+                            "aoe": "-",
+                            "pow": "12",
+                            "dur": "-",
+                            "off": "YES",
+                            "description": "Howling Flames causes fire damage. Models hit by this attack suffer the Fire continuous effect."
+                        },
+                        {
+                            "name": "Shadow Step",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "-",
+                            "off": "NO",
+                            "description": "Enemy models currently within 2” of the spellcaster suffer Shadow Bind for one round. Additionally, you can place the spellcaster anywhere completely within 3” of its current location. Shadow Step can be cast only once per activation. (A model suffering Shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Rassyk, Spawn of Shadows",
+            "points": "29",
+            "category": "Warcasters/Warlocks/Masters",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Rassyk 1",
+                    "title": "Khymera Warlock",
+                    "modeltype": [
+                        "Warlock"
+                    ],
+                    "keywords": [
+                        "MK4",
+                        "Resistance: Fire",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Battle Formation",
+                            "description": "While in this model’s control range and B2B with one or more models in it's battlegroup, friendly faction warrior models gain +2 ARM and cannot become knocked down. Battle formation lasts for one round."
+                        },
+                        {
+                            "name": "Desperate Mission",
+                            "description": "RNG 5. Target friendly Faction warrior model. if the model is in range, it gains Last Word. Desperate Mission lasts for one round. (When a model with Last Word is disabled by an enemy attack, it can immediately advance up to 3” and can make one basic Melee attack.)"
+                        },
+                        {
+                            "name": "Precision Strike",
+                            "description": "While within this models command range friendly models ignore other friendly models when determining LOS. Friendly models can advance through other friendly models within this model's command range if they have enough movement to move completely past them. Precision Strike lasts for one turn."
+                        },
+                        {
+                            "name": "Side Step",
+                            "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
+                        },
+                        {
+                            "name": "Spell Rack [2]",
+                            "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
+                        }
+                    ],
+                    "feat": {
+                        "name": "Wall of Fangs",
+                        "description": "While in Rassyk’s control range, friendly Faction models gain Defensive Strike. Wall of Fangs lasts for one round."
+                    },
+                    "execution": {
+                        "name": "Acrobatics",
+                        "description": "This model can advance through other models if it has enough movement to move completely past their bases. This model ignores intervening models when declaring its charge target."
+                    },
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "9",
+                        "aat": "6",
+                        "mat": "8",
+                        "rat": "3",
+                        "def": "14",
+                        "arm": "18",
+                        "arc": "6",
+                        "cmd": "9",
+                        "ctrl": "12",
+                        "hp": "18"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Thanatos",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "8",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Decapitation",
+                                    "description": "On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll."
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        }
+                    ],
+                    "spells": [
+                        {
+                            "name": "Death March",
+                            "cost": "3",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "Target friendly Faction unit gains +2 MAT and Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were damaged by enemy attacks during the last round, each model in the unit can advance 3\" and make one basic melee attack.)."
+                        },
+                        {
+                            "name": "Flashing Blade",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "-",
+                            "off": "NO",
+                            "description": "The spellcaster immediately makes one basic attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous."
+                        },
+                        {
+                            "name": "Warpath",
+                            "cost": "3",
+                            "rng": "SELF",
+                            "aoe": "CTRL",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "When a friendly Faction model in the spellcaster's Control Range destroys one or more enemy models with a melee or ranged attack during its activation, immediately after the attack is resolved one warbeast in the spellcaster's battlegroup that is in its Control Range can advance up to 3\". A warbeast can advance as a result of Warpath only once per turn."
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Shyryss, the Flawless Dark",
+            "points": "27",
+            "category": "Warcasters/Warlocks/Masters",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Shyryss 1",
+                    "title": "Khymera Warlock",
+                    "modeltype": [
+                        "Warlock"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Field Marshal [Prowl]",
+                            "description": "Cohort models in this model's battlegroup gain Prowl."
+                        },
+                        {
+                            "name": "Jump",
+                            "description": "After it makes a full advance during its Normal Movement but before it performs its Combat Action, you can place this model anywhere completely within 5\" of its current location. Any effects that prevent charging also prevent this model from using Jump."
+                        },
+                        {
+                            "name": "Prowl",
+                            "description": "While this model has concealment, it gains Stealth."
+                        },
+                        {
+                            "name": "Reposition [3\"]",
+                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        },
+                        {
+                            "name": "Spell Rack [3]",
+                            "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
+                        }
+                    ],
+                    "feat": {
+                        "name": "The Dark Silence",
+                        "description": "While in shyryss’ control range, friendly models gain concealment and Dodge. Additionally, while in Shyryss’ control range, friendly models cannot be targeted by charges or slam power attacks. The Dark Silence lasts for one round."
+                    },
+                    "execution": {
+                        "name": "Improved Tendons",
+                        "description": "This model's RNG weapon gains Thrown."
+                    },
+                    "stats": {
+                        "basesize": "30MM",
+                        "spd": "7",
+                        "str": "7",
+                        "aat": "6",
+                        "mat": "3",
+                        "rat": "7",
+                        "def": "16",
+                        "arm": "14",
+                        "arc": "6",
+                        "cmd": "9",
+                        "ctrl": "12",
+                        "hp": "15"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Venomed Blade",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "8",
+                            "rof": "3",
+                            "pow": "10",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Witch Mark",
+                                    "description": "If this attack hits an enemy model during this model's activation, until the end of that activation this model can target and automatically hit that enemy model with spells, ignoring RNG and LOS."
+                                }
+                            ],
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
+                                    },
+                                    "subabilities": [
+                                        {
+                                            "name": "Poison",
+                                            "description": "Gain an additional die on this weapon’s damage rolls against living models."
+                                        },
+                                        {
+                                            "name": "Shadow Bind",
+                                            "description": "A model hit by this weapon suffers Shadow Bind for one round. (A model suffering shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
+                                        },
+                                        {
+                                            "name": "Snipe",
+                                            "description": "This attack gains +4 RNG."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        }
+                    ],
+                    "spells": [
+                        {
+                            "name": "Banishing Ward",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "Enemy upkeep spells and animi on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi."
+                        },
+                        {
+                            "name": "Hand Of Destruction",
+                            "cost": "2",
+                            "rng": "10",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "YES",
+                            "description": "Friendly models in this model's battlegroup gain an additional die on accuracy and damage rolls against target model/unit. Discard the lowest die in each roll."
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Drakyon",
+            "points": "11",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "U",
+            "models": [
+                {
+                    "name": "Drakyon",
+                    "title": "Khymera Heavy Warbeast",
+                    "modeltype": [
+                        "Warbeast"
+                    ],
+                    "keywords": [
+                        "Mk4",
+                        "Pathfinder",
+                        "Power Attack: Headbutt",
+                        "Power Attack: Slam",
+                        "Power Attack: Trample",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Extended Control Range",
+                            "description": "When checking to see if this model is in its controller’s control range, double the range."
+                        },
+                        {
+                            "name": "Follow Up",
+                            "description": "When this model slams an enemy model, immediately after the slam is resolved this model can advance directly toward the slammed model, up to the distance the slammed model was moved."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "6",
+                        "str": "9",
+                        "mat": "6",
+                        "def": "11",
+                        "arm": "18",
+                        "cmd": "3",
+                        "hp": "28",
+                        "fury": "3",
+                        "thr": "9"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Gore",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "4",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Smite (★Attack)",
+                                    "description": "On a critical hit, the model hit can be slammed d6\" directly away from this model. If the model hit has a larger base than the attacking model, it is moved only half the distance rolled. The POW of collateral damage is equal to the STR of this model."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Claws",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "3",
+                            "count": "2",
+                            "ability": [
+                                {
+                                    "name": "Trash",
+                                    "description": "Gain an additional die on damage rolls with this weapon against knocked down targets."
+                                }
+                            ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Indomitable",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains Unyielding. Indomitable lasts for one round. (A model with Unyielding gains +2 ARM against melee damage rolls.)"
+                        }
+                    ],
+                    "spiral": [
+                        "5",
+                        "3",
+                        "6",
+                        "4",
+                        "5",
+                        "4"
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Hydrix",
+            "points": "8-14",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "U",
+            "models": [
+                {
+                    "name": "Hydrix",
+                    "title": "Khymera Heavy Modular Warbeast",
+                    "modeltype": [
+                        "Warbeast"
+                    ],
+                    "keywords": [
+                        "Dual Attack",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Modular [4]",
+                            "description": "This model is a modular design and has 4 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                        },
+                        {
+                            "name": "Regeneration [d3]",
+                            "description": "This model can be forced to remove d3 damage points once per activation. This model cannot use Regeneration during an activation it runs."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "5",
+                        "str": "10",
+                        "mat": "6",
+                        "rat": "6",
+                        "def": "12",
+                        "arm": "18",
+                        "cmd": "3",
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "9"
+                    },
+                    "modularoptions": [
+                        {
+                            "groupname": "Head (Choose 1)",
+                            "options": [
+                                {
+                                    "cost": "3",
+                                    "name": "Diviner",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [
+                                        "Prescience"
+                                    ],
+                                    "abilities": [
+                                        {
+                                            "name": "Future Sight",
+                                            "description": "This model can boost attack accuracy and damage rolls after rolling."
+                                        },
+                                        {
+                                            "name": "True Sight",
+                                            "description": "This model ignores cloud effects when determining LOS. This model also ignores Stealth."
+                                        }
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Bite",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "6",
+                                            "count": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "5",
+                                    "name": "Overtake",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Resistance: Fire"
+                                    ],
+                                    "animi": [
+                                        "Counterblast"
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Flame Spitter",
+                                            "type": "ranged",
+                                            "fieldoffire": "None",
+                                            "rng": "14",
+                                            "rof": "1",
+                                            "aoe": "3",
+                                            "pow": "14",
+                                            "count": "1",
+                                            "damagetype": [
+                                                "Fire"
+                                            ],
+                                            "presetabilities": [
+                                                "Critical Continuous Fire"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Toothy Maw",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [
+                                        "Ravening Hunger"
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Toothy Maw",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "6",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Sustained Attack",
+                                                    "description": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Smaller Heads (Choose 2)",
+                            "options": [
+                                {
+                                    "cost": "3",
+                                    "name": "Blockhead",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Power Attack: Headbutt"
+                                    ],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Blockhead",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "3",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Beat Back",
+                                                    "description": "Immediately after a basic attack with a weapon with Beat Back is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
+                                                }
+                                            ],
+                                            "presetabilities": [
+                                                "Buckler"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Flame Sprayer",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Flame Sprayer",
+                                            "type": "ranged",
+                                            "fieldoffire": "None",
+                                            "rng": "SP 10",
+                                            "rof": "1",
+                                            "pow": "13",
+                                            "count": "1",
+                                            "damagetype": [
+                                                "Fire"
+                                            ],
+                                            "presetabilities": [
+                                                "Continuous Fire"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "3",
+                                    "name": "Gnashing Fangs",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Horned Piercer",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "6",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Armor-Piercing",
+                                                    "description": "On a critical hit, when calculating damage from this weapon, halve the base ARM stats of the model hit."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Horned Piercer",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Horned Piercer",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "4",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Armor-Piercing",
+                                                    "description": "On a critical hit, when calculating damage from this weapon, halve the base ARM stats of the model hit."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Venom Spitter",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Resistance: Corrosion"
+                                    ],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Venom Spitter",
+                                            "type": "ranged",
+                                            "fieldoffire": "None",
+                                            "rng": "12",
+                                            "rof": "1",
+                                            "aoe": "3",
+                                            "pow": "13",
+                                            "count": "1",
+                                            "damagetype": [
+                                                "Corrosion"
+                                            ],
+                                            "presetabilities": [
+                                                "Critical Continuous Corrosion"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Dorsal Feature",
+                            "options": [
+                                {
+                                    "cost": "3",
+                                    "name": "Bladeback",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Overtake",
+                                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1\"."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "2",
+                                    "name": "Spineback",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Swift Hunter",
+                                            "description": "When this model destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\"."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "5",
+                                    "name": "Wings",
+                                    "statmods": {
+                                        "spd": "2",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Flight"
+                                    ],
+                                    "animi": []
+                                }
+                            ]
+                        }
+                    ],
+                    "spiral": [
+                        "5",
+                        "3",
+                        "7",
+                        "5",
+                        "6",
+                        "4"
+                    ],
+                    "displayorder": 0,
+                    "animi": []
+                }
+            ]
+        },
+        {
+            "name": "Mekanoshredder",
+            "points": "4",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khymera",
+                "Legion of Everblight",
+                "Mercenaries"
+            ],
+            "factions": [
+                "Grymkin",
+                "Khymera",
+                "Legion of Everblight",
+                "Mercenaries"
+            ],
+            "fieldallowance": "2",
+            "models": [
+                {
+                    "name": "Mekanoshredder",
+                    "title": "Mercenary Legion of Everblight Khymera Lesser Warbeast",
+                    "modeltype": [
+                        "Warbeast"
+                    ],
+                    "keywords": [
+                        "Construct",
+                        "Dual Attack",
+                        "Eyeless Sight",
+                        "Riot Quest"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Dismantle",
+                            "description": "This model gains an additional die on damage rolls against construct models."
+                        },
+                        {
+                            "name": "Mercenary [Grymkin]",
+                            "description": "This model will work for Grymkin."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30MM",
+                        "spd": "6",
+                        "str": "5",
+                        "mat": "5",
+                        "rat": "3",
+                        "def": "12",
+                        "arm": "15",
+                        "cmd": "2",
+                        "hp": "16",
+                        "fury": "2"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Bite",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "5",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Assimilation",
+                                    "description": "When this model destroys an enemy construct model with this weapon, immediately after the attack is resolved remove d3 damage points from this model."
+                                },
+                                {
+                                    "name": "Clamp",
+                                    "description": "An enemy model with an equal or smaller base hit by this weapon suffers -2 DEF and for one round cannot advance while within this model's melee range.\n"
+                                }
+                            ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Full Steam",
+                            "cost": "1",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "During its activation, target friendly Faction model can charge without being forced. Additionally, it gains +2” movement and Pathfinder when it charges a construct model."
+                        }
+                    ],
+                    "spiral": [
+                        "3",
+                        "1",
+                        "5",
+                        "2",
+                        "4",
+                        "1"
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Skylla, The Abyssal Fury",
+            "points": "16",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Skylla 1",
+                    "title": "Khymera Heavy Warbeast",
+                    "modeltype": [
+                        "Warbeast"
+                    ],
+                    "keywords": [
+                        "Dual Attack",
+                        "Mk4",
+                        "Pathfinder",
+                        "Resistance: Corrosion",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Regeneration [D3]",
+                            "description": "This model can be forced to remove D3 damage points once per activation. This model cannot use Regeneration during an activation it runs."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "5",
+                        "str": "9",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "12",
+                        "arm": "18",
+                        "cmd": "3",
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "9"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Desolation Blast",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "Sp 10",
+                            "rof": "1",
+                            "pow": "14",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Transfiguration",
+                                    "description": "Models boxed by this weapon are removed from play. When an attack from this weapon boxes one or more enemy models, return one Grunt to a friendly Faction unit within 8\" of thi smodel. The Grunt returns with one unmarked damage box. Place the Grunt within 2\" of another model in that unit. The returned Grunt must forfeit its Normal Movement and Combat Action the turn it is put into play."
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "presetabilities": [
+                                "Continuous Corrosion"
+                            ]
+                        },
+                        {
+                            "name": "Vorpal Maw",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "9",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Transfiguration",
+                                    "description": "Models boxed by this weapon are removed from play. When an attack from this weapon boxes one or more enemy models, return one Grunt to a friendly Faction unit within 8\" of thi smodel. The Grunt returns with one unmarked damage box. Place the Grunt within 2\" of another model in that unit. The returned Grunt must forfeit its Normal Movement and Combat Action the turn it is put into play."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ripping Jaws",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "3",
+                            "count": "2",
+                            "ability": [
+                                {
+                                    "name": "Critical Consume",
+                                    "description": "On a critical hit, if the attack hits a small-based non-Leader model the model hit is removed from play."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Horned Piercer",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "7",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Armor-Piercing",
+                                    "description": "On a critical hit, when calculating damage from this weapon, halve the base ARM stats of the model hit."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Gnashing Fangs",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "5",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Man Catcher",
+                                    "description": "A warrior model hit by this attack suffers -2 DEF and cannot advance while within the model's melee range."
+                                }
+                            ]
+                        }
+                    ],
+                    "spiral": [
+                        "5",
+                        "3",
+                        "7",
+                        "5",
+                        "6",
+                        "4"
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Vipex",
+            "points": "8-15",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "U",
+            "models": [
+                {
+                    "name": "Vipex",
+                    "title": "Khymera Heavy Modular Warbeast",
+                    "modeltype": [
+                        "Warbeast"
+                    ],
+                    "keywords": [
+                        "Dual Attack",
+                        "MK4",
+                        "Pathfinder",
+                        "Power Attack: Headbutt",
+                        "Soulless"
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "6",
+                        "str": "10",
+                        "aat": "6",
+                        "mat": "6",
+                        "rat": "6",
+                        "def": "14",
+                        "arm": "16",
+                        "cmd": "3",
+                        "hp": "26",
+                        "fury": "3",
+                        "thr": "9"
+                    },
+                    "modularoptions": [
+                        {
+                            "groupname": "Head (Choose 1)",
+                            "options": [
+                                {
+                                    "cost": "1",
+                                    "name": "Asp",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Channeler",
+                                            "description": "While this model is in a Friendly Leader's Control Range, the Friendly Leader model can channel spells through it."
+                                        }
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Bite",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "1",
+                                            "count": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "3",
+                                    "name": "Ophidian",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "1",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Reposition [3\"]",
+                                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                                        }
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Bite",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "3",
+                                            "count": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Viper",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "1",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "1",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Side Step",
+                                            "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
+                                        }
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Bite",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "3",
+                                            "count": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Tail (Choose 1)",
+                            "options": [
+                                {
+                                    "cost": "1",
+                                    "name": "Bladed Gale",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [
+                                        "Bladed Gale"
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Spiked Tail",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "1",
+                                            "count": "1",
+                                            "presetabilities": [
+                                                "Chain Weapon"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "1",
+                                    "name": "Chasten",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [
+                                        "Chasten"
+                                    ]
+                                },
+                                {
+                                    "cost": "3",
+                                    "name": "Hunter's Mark",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [
+                                        "Hunter's Mark"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Arms (Choose 1)",
+                            "options": [
+                                {
+                                    "cost": "6",
+                                    "name": "Cleavers",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Cleaver",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "5",
+                                            "count": "2",
+                                            "ability": [
+                                                {
+                                                    "name": "Combo Strike (★Attack)",
+                                                    "description": "Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "8",
+                                    "name": "Impailers",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Impaler",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "5",
+                                            "count": "2",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Paralysis",
+                                                    "description": "On a critical hit, a living model hit has its base DEF reduced to 5 and cannot run, charge, or make slam or trample power attacks for one round."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "spiral": [
+                        "5",
+                        "3",
+                        "6",
+                        "3",
+                        "6",
+                        "3"
+                    ],
+                    "displayorder": 0,
+                    "animi": []
+                }
+            ]
+        },
+        {
+            "name": "Wyvern",
+            "points": "19",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "models": [
+                {
+                    "name": "Wyvern",
+                    "title": "Khymera Super Heavy Warbeast",
+                    "modeltype": [
+                        "Warbeast"
+                    ],
+                    "keywords": [
+                        "Dual Attack",
+                        "Flight",
+                        "Grab Attack",
+                        "Mk4",
+                        "Power Attack: Headbutt",
+                        "Power Attack: Slam",
+                        "Power Attack: Throw",
+                        "Power Attack: Trample"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Warping Winds",
+                            "description": "When a friendly model is targeted by a ranged attack while within 3\" of this model, the attack suffers -3 RNG. Additonally, while within 3\" of this model friendly models gain Resistance: Blast."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "80MM",
+                        "spd": "7",
+                        "str": "10",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "12",
+                        "arm": "19",
+                        "cmd": "3",
+                        "hp": "36",
+                        "fury": "4",
+                        "thr": "9"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Flame Breath",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "Sp 10",
+                            "rof": "1",
+                            "pow": "14",
+                            "count": "1",
+                            "damagetype": [
+                                "Fire"
+                            ],
+                            "presetabilities": [
+                                "Continuous Fire"
+                            ]
+                        },
+                        {
+                            "name": "Bite",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "6",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Consume",
+                                    "description": "On a critical hit, if the attack hits a small-based non-Leader model the model hit is removed from play."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Talon",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "5",
+                            "count": "2",
+                            "presetabilities": [
+                                "Open Fist"
+                            ]
+                        },
+                        {
+                            "name": "Tail Strike",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "3",
+                            "pow": "7",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Smite",
+                                    "description": "On a critical hit, the model hit can be slammed d6\" directly away from this model. If the model hit has a larger base than the attacking model, it is moved only half the distance rolled. The POW of collateral damage is equal to the STR of this model."
+                                }
+                            ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Draconic Aura",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "When an enemy model suffers a fire damage roll while within 10” of this model, add +2 to the roll. Fire and Corrosion continuous effects that affect enemy models within 10” of this model cannot expire. Draconic Aura lasts for one round."
+                        }
+                    ],
+                    "spiral": [
+                        "6",
+                        "4",
+                        "8",
+                        "5",
+                        "8",
+                        "5"
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Incarnate Conjuror",
+            "points": "4",
+            "category": "Solos",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "models": [
+                {
+                    "name": "Incarnate Conjuror",
+                    "title": "Khymera Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Cavalry",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Flame Trail",
+                            "description": "When this model advances into B2B contact with an enemy model during its activation, the enemy model suffers the Continuous Fire effect."
+                        },
+                        {
+                            "name": "Reposition [3\"]",
+                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        },
+                        {
+                            "name": "Whip The Flames",
+                            "description": "Models suffering the Fire continuous effect while in this model's control range suffer -2 to accuracy rolls."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "7",
+                        "str": "7",
+                        "aat": "7",
+                        "def": "12",
+                        "arm": "15",
+                        "cmd": "8",
+                        "hp": "10"
+                    },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Ashes to Ashes (★Attack)",
+                                    "description": "Ashes to Ashes is a RNG 8, Pow 10 arcane attack. If target model is hit, the d3 nearest enemy models within 4\" of it suffer a POW 10 fire damage roll. These additional damage rolls are not considered to have been caused by an attack. Ashes to Ashes damage rolls are simultaneous."
+                                },
+                                {
+                                    "name": "Firestarter (★Action)",
+                                    "description": "RNG 6. Target friendly Faction model. If the model is in range, its melee and ranged weapons gain Continuous Effect: Fire for one turn"
+                                },
+                                {
+                                    "name": "Purifying Prayer (★Action)",
+                                    "description": "Animi and continuous effects on models/units in this model’s command range immediately expire."
+                                }
+                            ]
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Mount",
+                            "type": "mount",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "10",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Ryvyn, The Ony Rampant",
+            "points": "6",
+            "category": "Solos",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Ryvyn, The Onyx Rampant",
+                    "title": "Khymera Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Cavalry",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Jump",
+                            "description": "After it makes a full advance during its Normal Movement but before it performs its Combat Action, you can place this model anywhere completely within 5\" of its current location. Any effects that prevent charging also prevent this model from using Jump."
+                        },
+                        {
+                            "name": "Mortal Fear",
+                            "description": "While in this model’s CMD range, living enemy models suffer -2 to damage rolls. Mortal Fear lasts for one round."
+                        },
+                        {
+                            "name": "Pounce",
+                            "description": "During an activation in which this model was placed as a result of using the Jump ability, it gains +2 to melee accuracy and damage rolls."
+                        },
+                        {
+                            "name": "Prowl",
+                            "description": "While this model has concealment, it gains Stealth."
+                        },
+                        {
+                            "name": "Reposition [3\"]",
+                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "6",
+                        "str": "7",
+                        "mat": "8",
+                        "def": "13",
+                        "arm": "17",
+                        "cmd": "9",
+                        "hp": "10"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Spear",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "7",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Thresher (★Attack)",
+                                    "description": "This model makes one melee attack with this weapon against each model in it's LOS that is in this weapon's melee range. Thresher attacks are simultaneous."
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "presetabilities": [
+                                "Weapon Master"
+                            ]
+                        },
+                        {
+                            "name": "Bite",
+                            "type": "mount",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "12",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Shadowmancer Scion",
+            "points": "4",
+            "category": "Solos",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "3",
+            "models": [
+                {
+                    "name": "Shadowmancer Scion",
+                    "title": "Khymera Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Pathfinder",
+                        "Soulless",
+                        "Stealth"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Apparition",
+                            "description": "During your Control Phase, warp this model anywhere completely within 2\" of its current location."
+                        },
+                        {
+                            "name": "Battle Wizard",
+                            "description": "Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic ability special attack or special action."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "6",
+                        "aat": "7",
+                        "mat": "7",
+                        "def": "13",
+                        "arm": "13",
+                        "cmd": "9",
+                        "hp": "8"
+                    },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Grip Of Shadows (★Action)",
+                                    "description": "This model gains Telemetry for one round. (Other friendly models gain +2 to magic attack rolls against enemy models within 8\" of this model.)"
+                                },
+                                {
+                                    "name": "Puppet Master (★Action) (★Attack)",
+                                    "description": "Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one accuracy or damage roll, then Puppet Master expires. Puppet Master lasts for one round."
+                                },
+                                {
+                                    "name": "Stygian Abyss (★Attack)",
+                                    "description": "A model damaged by Stygian Abyss suffers blind for one round. (A model suffering Blind cannot make ranged or magic attacks, suffers -4 MAT and DEF, and cannot run, charge, grab, throw or make slam or trample power attacks. It must forfeit either its Normal Movement or Combat Action during its next activation. Blind can be shaken.)."
+                                }
+                            ]
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Shadow Blade",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "6",
+                            "count": "2",
+                            "ability": [
+                                {
+                                    "name": "Critical Shadow Bind",
+                                    "description": "On a critical hit, the model hit suffers Shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Spinner",
+            "points": "4",
+            "category": "Solos",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "3",
+            "models": [
+                {
+                    "name": "Spinner",
+                    "title": "Khymera Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Pathfinder",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Smoke Bomb",
+                            "description": "Centre a 3\" AOE cloud effect on this model. This AOE remains in play for one round."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "6",
+                        "rat": "6",
+                        "def": "13",
+                        "arm": "15",
+                        "cmd": "8",
+                        "hp": "5"
+                    },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Grim Returns (★Action)",
+                                    "description": "RNG 5 - Target friendly Faction trooper model. If the model is in range, return one destroyed Grunt to its unit. The model returns with 1 unmarked damage box. Place the returned Grunt in formation and completely within 3˝ of the target trooper model. Returned Grunts must forfeit their normal movement or Combat Actions the turn they are returned to play.\n"
+                                },
+                                {
+                                    "name": "Heal [d3+1] (★Action)",
+                                    "description": "RNG 1\". Target friendly living Faction model. If the model is in range remove d3+1 damage points from it."
+                                },
+                                {
+                                    "name": "Smoke Bomb",
+                                    "description": "Centre a 3\" AOE cloud effect on this model. This AOE remains in play for one round."
+                                }
+                            ]
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Acid Bomb",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "6",
+                            "rof": "1",
+                            "aoe": "3",
+                            "pow": "12",
+                            "count": "1",
+                            "damagetype": [
+                                "Corrosion"
+                            ],
+                            "presetabilities": [
+                                "Continuous Corrosion"
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Wraithwing Paragon",
+            "points": "5",
+            "category": "Solos",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "models": [
+                {
+                    "name": "Wraithwing Paragon",
+                    "title": "Khymera Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Flight",
+                        "Soulless",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Blade Shield",
+                            "description": "This model gains +2 DEF vs ranged attack accuracy rolls."
+                        },
+                        {
+                            "name": "Cleave",
+                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                        },
+                        {
+                            "name": "Hyper-Aggressive",
+                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
+                        },
+                        {
+                            "name": "Shield Guard",
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "7",
+                        "str": "7",
+                        "mat": "7",
+                        "def": "13",
+                        "arm": "18",
+                        "cmd": "8",
+                        "hp": "10"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Great Sword",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "8",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Decapitation",
+                                    "description": "On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll."
+                                }
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Incarnate Knights",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "1",
+            "unitpoints": {
+                "maxcost": "18",
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "11"
+            },
+            "models": [
+                {
+                    "name": "Incarnate Knights",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Cavalry",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Battle-Driven",
+                            "description": "When one or more models in this unit are damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round."
+                        },
+                        {
+                            "name": "Reposition [3\"]",
+                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "50MM",
+                        "spd": "7",
+                        "str": "9",
+                        "mat": "7",
+                        "def": "11",
+                        "arm": "18",
+                        "cmd": "8",
+                        "hp": "10"
+                    },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "10"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "10"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "10"
+                        },
+                        {
+                            "name": "Model C",
+                            "hp": "10"
+                        },
+                        {
+                            "name": "Model D",
+                            "hp": "10"
+                        },
+                        {
+                            "name": "Model E",
+                            "hp": "10"
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Shatterer",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "5",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Knockdown",
+                                    "description": "On a critical hit, the model hit becomes knocked down."
+                                }
+                            ],
+                            "presetabilities": [
+                                "Chain Weapon"
+                            ]
+                        },
+                        {
+                            "name": "Mount",
+                            "type": "mount",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "12",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Quick Fang Stalkers",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "unitpoints": {
+                "maxcost": "13",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "7",
+                "minunit": "Leader and 4 Grunts"
+            },
+            "models": [
+                {
+                    "name": "Quick Fang Stalkers",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Advance Deploy",
+                        "Ambush",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Stealth",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Acrobatics",
+                            "description": "This model can advance through other models if it has enough movement to move completely past their bases. This model ignores intervening models when declaring its charge target."
+                        },
+                        {
+                            "name": "Anatomical Precision",
+                            "description": "When this model's melee damage roll fails to exceed the ARM of a living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough Roll."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30MM",
+                        "spd": "7",
+                        "str": "6",
+                        "mat": "7",
+                        "def": "14",
+                        "arm": "12",
+                        "cmd": "8",
+                        "hp": "1"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Blades",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "3",
+                            "count": "2",
+                            "ability": [
+                                {
+                                    "name": "Combo Strike (★Attack)",
+                                    "description": "Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon."
+                                }
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Quick Fang Wind Strikers",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "unitpoints": {
+                "mincost": "7",
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "13",
+                "minunit": "Leader and 4 Grunts"
+            },
+            "models": [
+                {
+                    "name": "Quick Fang Wind Strikers",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Advance Deploy",
+                        "Ambush",
+                        "Dual Attack",
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Stealth",
+                        "Unstoppable"
+                    ],
+                    "stats": {
+                        "basesize": "30MM",
+                        "spd": "7",
+                        "str": "7",
+                        "mat": "6",
+                        "rat": "7",
+                        "def": "14",
+                        "arm": "12",
+                        "cmd": "8",
+                        "hp": "1"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Blowgun",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "8",
+                            "rof": "1",
+                            "pow": "*",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Critical Shadow Bind",
+                                    "description": "On a critical hit, the model hit suffers Shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
+                                },
+                                {
+                                    "name": "Puncture",
+                                    "description": "On a direct hit, all models hit automatically suffer 1 damage point."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Blade",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "2",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Talon Death Dealers",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "unitpoints": {
+                "mincost": "7",
+                "maxcost": "-",
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-"
+            },
+            "models": [
+                {
+                    "name": "Talon Death Dealers",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Finisher",
+                            "description": "This model gains an additional die on damage rolls against damaged models."
+                        },
+                        {
+                            "name": "Side Step",
+                            "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
+                        },
+                        {
+                            "name": "Unyielding",
+                            "description": "This model gains +2 ARM against melee damage rolls."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "7",
+                        "mat": "7",
+                        "def": "13",
+                        "arm": "15",
+                        "cmd": "8",
+                        "hp": "8"
+                    },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "8"
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Serrated Blade",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "6",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Grievous Wounds",
+                                    "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+                                }
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Talon Lashers",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "unitpoints": {
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-",
+                "mincost": "7",
+                "maxcost": "-"
+            },
+            "models": [
+                {
+                    "name": "Talon Lashers",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Gang",
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
+                        },
+                        {
+                            "name": "Reposition [3\"]",
+                            "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "7",
+                        "mat": "6",
+                        "def": "14",
+                        "arm": "14",
+                        "cmd": "8",
+                        "hp": "8"
+                    },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "8"
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Chain Blade",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "3",
+                            "pow": "3",
+                            "count": "2",
+                            "ability": [
+                                {
+                                    "name": "Critical Knockdown",
+                                    "description": "On a critical hit, the model hit becomes knocked down."
+                                },
+                                {
+                                    "name": "Drag",
+                                    "description": "When this attack hits an enemy model with an equal or smaller base, immediately after the attack is resolved the enemy model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction. After the enemy model is moved, this model can make one basic melee attack against the enemy model. After resolving this melee attack, this model can make additional melee attacks during it's Combat Action."
+                                }
+                            ],
+                            "presetabilities": [
+                                "Chain Weapon"
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Wyrmspine Cinderbacks",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "2",
+            "unitpoints": {
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-",
+                "mincost": "7",
+                "maxcost": "-"
+            },
+            "models": [
+                {
+                    "name": "Wyrmspine Cinderbacks",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Dual Attack",
+                        "MK4",
+                        "Pathfinder",
+                        "Resistance: Fire",
+                        "Soulless"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Smoke Cloud",
+                            "description": "Center a cloud effect template on this model when it makes a ranged attack. The template remains in play for one round."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "6",
+                        "str": "6",
+                        "mat": "6",
+                        "rat": "6",
+                        "def": "12",
+                        "arm": "14",
+                        "cmd": "8",
+                        "hp": "8"
+                    },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "8"
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Fire Blast",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "10",
+                            "rof": "1",
+                            "aoe": "3",
+                            "pow": "13",
+                            "count": "1",
+                            "damagetype": [
+                                "Fire"
+                            ],
+                            "presetabilities": [
+                                "Continuous Fire"
+                            ]
+                        },
+                        {
+                            "name": "Cleaver",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "6",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Wyrmspine Shadowmancers",
+            "category": "Units",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "3",
+            "unitpoints": {
+                "maxcost": "-",
+                "maxunit": "-",
+                "mincost": "5",
+                "minunit": "Leader and 2 Grunts"
+            },
+            "models": [
+                {
+                    "name": "Wyrmspine Shadowmancers",
+                    "title": "Khymera Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "MK4",
+                        "Pathfinder",
+                        "Soulless",
+                        "Stealth"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Apparition",
+                            "description": "During your Control Phase, warp this model anywhere completely within 2\" of its current location."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30MM",
+                        "spd": "6",
+                        "str": "6",
+                        "aat": "6",
+                        "def": "13",
+                        "arm": "13",
+                        "cmd": "7",
+                        "hp": "5"
+                    },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "5"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "5"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "5"
+                        }
+                    ],
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Condition (★Action)",
+                                    "description": "RNG 3”. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
+                                },
+                                {
+                                    "name": "Flesh Eater (★Attack)",
+                                    "description": "Flesh Eater is a RNG 8, POW 10 arcane attack. When Flesh Eater destroys an enemy warrior model, you can remove d3 damage points from a friendly living model within 6\" of this model."
+                                },
+                                {
+                                    "name": "Guidance (★Action)",
+                                    "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                                }
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Quick Fang Master",
+            "points": "2",
+            "category": "Attachments",
+            "primaryfaction": [
+                "Khymera"
+            ],
+            "factions": [
+                "Khymera"
+            ],
+            "fieldallowance": "4",
+            "attachlimit": "1",
+            "models": [
+                {
+                    "name": "Quick Fang Master",
+                    "title": "Khymera Command Attachment",
+                    "modeltype": [
+                        "Attachment",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Advance Deploy",
+                        "Ambush",
+                        "Dual Attack",
+                        "MK4",
+                        "Soulless",
+                        "Stealth",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Acrobatics",
+                            "description": "This model can advance through other models if it has enough movement to move completely past their bases. This model ignores intervening models when declaring its charge target."
+                        },
+                        {
+                            "name": "Anatomical Precision",
+                            "description": "When this model's melee damage roll fails to exceed the ARM of a living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough Roll."
+                        },
+                        {
+                            "name": "Command Attachment [Quick Fang Stalkers and Quick Fang Wind Strikers]",
+                            "description": "This attachment can be added to a Quick Fang Stalkers and Quick Fang Wind Strikers unit."
+                        },
+                        {
+                            "name": "Sacrificial Pawn [Quick Fangs]",
+                            "description": "When this model is directly hit by an enemy ranged attack, you can have one friendly, non-incorporeal Quick Fangs model within 3\" of it directly hit instead. That model is automatically hit and suffers all damage and effects. The Sacrificial Pawn special rule can only trigger once per attack roll."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30MM",
+                        "spd": "7",
+                        "str": "7",
+                        "mat": "7",
+                        "rat": "7",
+                        "def": "14",
+                        "arm": "12",
+                        "cmd": "9",
+                        "hp": "5"
+                    },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "5"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "5"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "5"
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Blight Bomb",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "6",
+                            "rof": "1",
+                            "aoe": "3",
+                            "pow": "12",
+                            "count": "1",
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
+                                    },
+                                    "subabilities": [
+                                        {
+                                            "name": "Black Oil",
+                                            "description": "Models hit suffer blind for one round. (A model suffering blind cannot make ranged or magic attacks, suffers -4 MAT and DEF, and cannot run, charge, or make slam or trample power attacks. It must forfeit either its normal Movement or Combat Action during its next activation. Blind can be shaken.)"
+                                        },
+                                        {
+                                            "name": "Incendiary",
+                                            "description": "This attack causes fire damage, and models suffer the Fire continuous effect."
+                                        },
+                                        {
+                                            "name": "Rust",
+                                            "description": "Construct models hit suffer -2 ARM for one turn.  "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        },
+                        {
+                            "name": "Blade",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "2",
+                            "count": "1",
+                            "presetabilities": [
+                                "Weapon Master"
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        }
+    ]
+}
