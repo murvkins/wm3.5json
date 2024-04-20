@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "name": "Assault Kommader Strakhov & Kommandos",
+            "name": "Assault Kommander Strakhov & Kommandos",
             "points": "27",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
@@ -13,81 +13,8 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Kommandos",
-                    "title": "Khador Assault Kommando",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Assault Kommando",
-                        "Pathfinder",
-                        "Resistance: Corrosion",
-                        "Resistance: Fire"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Alchemical Mask",
-                            "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
-                        },
-                        {
-                            "name": "Companion [Assault Kommander Strakhov]",
-                            "description": "This model is included in any army that includes Assault Kommander Strakhov. If Assault Kommander Strakhov is destroyed or removed from play, remove this model from play. This model is part of Assault Kommander Strakhov's battlegroup."
-                        },
-                        {
-                            "name": "Smoke Bomb",
-                            "description": "Centre a 3\" AOE cloud effect on this model. This AOE remains in play for one round."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "30mm",
-                        "spd": "6",
-                        "str": "6",
-                        "mat": "7",
-                        "rat": "6",
-                        "def": "13",
-                        "arm": "14",
-                        "cmd": "8",
-                        "hp": "5"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Death Whisper Carbine",
-                            "type": "ranged",
-                            "fieldoffire": "none",
-                            "rng": "8",
-                            "pow": "6",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Armor-Piercing",
-                                    "description": "When calculating damage from this weapon, halve the base ARM stats of the models hit."
-                                }
-                            ],
-                            "presetabilities": [
-                                "Assault"
-                            ]
-                        },
-                        {
-                            "name": "Trench Blade",
-                            "type": "melee",
-                            "fieldoffire": "none",
-                            "rng": "1",
-                            "pow": "4",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Brutal Charge",
-                                    "description": "This model gains +2 to charge attack damage rolls with this weapon."
-                                }
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
                     "name": "Strakhov 2",
-                    "title": "Khador Assault Kommando Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -241,6 +168,79 @@
                             "description": "When target friendly Faction model is targeted by an enemy ranged attack, after the attack is resolved the affected model can make one basic melee or ranged attack, then Return fire expires. Return Fire lasts for one Round."
                         }
                     ],
+                    "displayorder": 0
+                },
+                {
+                    "name": "Kommandos",
+                    "title": "Khador Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Assault Kommando",
+                        "Pathfinder",
+                        "Resistance: Corrosion",
+                        "Resistance: Fire"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Alchemical Mask",
+                            "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
+                        },
+                        {
+                            "name": "Companion [Assault Kommander Strakhov]",
+                            "description": "This model is included in any army that includes Assault Kommander Strakhov. If Assault Kommander Strakhov is destroyed or removed from play, remove this model from play. This model is part of Assault Kommander Strakhov's battlegroup."
+                        },
+                        {
+                            "name": "Smoke Bomb",
+                            "description": "Centre a 3\" AOE cloud effect on this model. This AOE remains in play for one round."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30mm",
+                        "spd": "6",
+                        "str": "6",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "13",
+                        "arm": "14",
+                        "cmd": "8",
+                        "hp": "5"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Death Whisper Carbine",
+                            "type": "ranged",
+                            "fieldoffire": "none",
+                            "rng": "8",
+                            "pow": "6",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Armor-Piercing",
+                                    "description": "When calculating damage from this weapon, halve the base ARM stats of the models hit."
+                                }
+                            ],
+                            "presetabilities": [
+                                "Assault"
+                            ]
+                        },
+                        {
+                            "name": "Trench Blade",
+                            "type": "melee",
+                            "fieldoffire": "none",
+                            "rng": "1",
+                            "pow": "4",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Brutal Charge",
+                                    "description": "This model gains +2 to charge attack damage rolls with this weapon."
+                                }
+                            ]
+                        }
+                    ],
                     "displayorder": 1
                 }
             ]
@@ -259,7 +259,7 @@
             "models": [
                 {
                     "name": "Cylena",
-                    "title": "Khador Alternate History Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -283,7 +283,7 @@
                         },
                         {
                             "name": "Henchmen [Nyss Hunters]",
-                            "description": "Choose one friendly Nyss Hunters unit at the beginning of the game to be Henchmen. The chosen unit gains +2 DEF and RAT Hunter and Treewalker."
+                            "description": "Choose one friendly Nyss Hunters unit at the beginning of the game to be Henchmen. The chosen unit gains +2 DEF, +2 RAT, Hunter and Treewalker. (A model with hunter ignores concealment and cover when making ranged attacks.) (A model with Treewalker ignores forests when determining LOS. While completely within a forest, the model also gains +2 DEF against melee attack accuracy rolls.)"
                         },
                         {
                             "name": "Hunter",
@@ -437,7 +437,7 @@
             "models": [
                 {
                     "name": "Sorscha 2",
-                    "title": "Khador Winter Guard Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -591,7 +591,7 @@
             "models": [
                 {
                     "name": "Baranova 1",
-                    "title": "Khador Winter Korps Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -725,7 +725,7 @@
             "models": [
                 {
                     "name": "Borisyuk 1",
-                    "title": "Khador Winter Korps Gun Mage Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -803,7 +803,7 @@
                                         },
                                         {
                                             "name": "Flare",
-                                            "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                            "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                         },
                                         {
                                             "name": "Grievous Wounds",
@@ -870,7 +870,7 @@
             "models": [
                 {
                     "name": "Karchev 2, Deathjack 2",
-                    "title": "Khador Cryx Greylord Warcaster",
+                    "title": "Khador Cryx Warcaster",
                     "modeltype": [
                         "Warcaster"
                     ],
@@ -1102,7 +1102,7 @@
             "models": [
                 {
                     "name": "Karchev 1",
-                    "title": "Khador Greylord Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster"
                     ],
@@ -1332,7 +1332,7 @@
             "models": [
                 {
                     "name": "Zerkova 1",
-                    "title": "Khador Greylord Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -1424,8 +1424,8 @@
                             "count": "1",
                             "ability": [
                                 {
-                                    "name": "Silencer",
-                                    "description": "A model hit by this weapon/attack cannot cast spells for one round."
+                                    "name": "Silence",
+                                    "description": "A model hit by this attack cannot cast spells for one round."
                                 }
                             ],
                             "damagetype": [
@@ -1503,7 +1503,7 @@
             "models": [
                 {
                     "name": "Irusk 1",
-                    "title": "Khador Supreme Kommander Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -1673,7 +1673,7 @@
             "models": [
                 {
                     "name": "Sorscha 3",
-                    "title": "Khador Man-O-War Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -1987,7 +1987,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Reposition [3\"]]",
-                            "description": "Cohort models in this model's battlegroup gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Cohort models in this model's battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Iron Sentinel",
@@ -2000,7 +2000,7 @@
                     },
                     "execution": {
                         "name": "Leadership [Faction Warrior] [Iron Sentinel]",
-                        "description": ""
+                        "description": "While in this model's CMD range, friendly faction Faction Warrior gain Iron Sentinel."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2110,7 +2110,7 @@
             "models": [
                 {
                     "name": "Strakhov 1",
-                    "title": "Khador Assault Kommando Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -2426,7 +2426,7 @@
             "models": [
                 {
                     "name": "Sorscha 1",
-                    "title": "Khador Winter Guard Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -2856,7 +2856,7 @@
                         },
                         {
                             "name": "Flank [Kommander Zoktavir The Butcher Unleashed]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Kommander Zoktavir The Butcher Unleashed warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Kommander Zoktavir The Butcher Unleashed model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Guard Dog",
@@ -2916,7 +2916,7 @@
             "models": [
                 {
                     "name": "Karchev",
-                    "title": "Khador Alternate History Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -3051,75 +3051,8 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Reaver Guard",
-                    "title": "Khador Doom Reaver Solo",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Doom Reaver",
-                        "Thamarite",
-                        "Tough"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Berserk",
-                            "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range."
-                        },
-                        {
-                            "name": "Companion [Obavnik Kommander Zerkova]",
-                            "description": "This model is included in any army that includes Obavnik Kommander Zerkova. If Obavnik Kommander Zerkova is destroyed or removed from play, remove this model from play. This model is part of Obavnik Kommander Zerkova's battlegroup."
-                        },
-                        {
-                            "name": "Guard Dog",
-                            "description": "While this model is within 3\" of it's warlock/warcaster and isn't knocked down or stationary, it's warlock/warcaster gains Unstoppable and +2 DEF against melee attack accuracy rolls and models attacking the warcaster/warlock do not gain back strike bonuses."
-                        },
-                        {
-                            "name": "Hyper-Aggressive",
-                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
-                        },
-                        {
-                            "name": "Return",
-                            "description": "Immediately after resolving a charge attack, this model can make a full advance toward it's warcaster. This model cannot be targeted by free strikes during this movement."
-                        },
-                        {
-                            "name": "Sacred Ward",
-                            "description": "This model cannot be targeted by enemy spells."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "30mm",
-                        "spd": "6",
-                        "str": "7",
-                        "mat": "7",
-                        "rat": "4",
-                        "def": "13",
-                        "arm": "15",
-                        "cmd": "7",
-                        "hp": "8"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Fell Axe",
-                            "type": "melee",
-                            "fieldoffire": "none",
-                            "rng": "2",
-                            "pow": "5",
-                            "count": "1",
-                            "damagetype": [
-                                "Arcane"
-                            ],
-                            "presetabilities": [
-                                "Weapon Master"
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
                     "name": "Zerkova 2",
-                    "title": "Khador Greylord Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -3140,11 +3073,11 @@
                         },
                         {
                             "name": "Granted [Silence]",
-                            "description": "While this model is in play, models in its unit gain Silence. ()"
+                            "description": "While this model is in play, models in its unit gain Silence."
                         },
                         {
-                            "name": "Promote [Doom Reaver]",
-                            "description": ""
+                            "name": "Promote: Doom Reaver",
+                            "description": "If this unit at any time has less than two Reaver Guards, you may select one Doom Reaver Grunt in this model's CMD range and replace it with a Reaver Guard Grunt that is now in this model's unit."
                         },
                         {
                             "name": "Sacred Ward",
@@ -3231,6 +3164,73 @@
                             "description": "Up to two friendly warrior models in the spellcaster's Control Range other than the spellcaster suffer 1d3 damage. For each damage dealt this way a model in the spellcaster's battlegroup in the spellcaster's Control Range gains 1 focus. A model may gain no more the 3 focus this way. Sacrificial Lamb can be cast only once per activation."
                         }
                     ],
+                    "displayorder": 0
+                },
+                {
+                    "name": "Reaver Guard",
+                    "title": "Khador Doom Reaver Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Doom Reaver",
+                        "Thamarite",
+                        "Tough"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Berserk",
+                            "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range."
+                        },
+                        {
+                            "name": "Companion [Obavnik Kommander Zerkova]",
+                            "description": "This model is included in any army that includes Obavnik Kommander Zerkova. If Obavnik Kommander Zerkova is destroyed or removed from play, remove this model from play. This model is part of Obavnik Kommander Zerkova's battlegroup."
+                        },
+                        {
+                            "name": "Guard Dog",
+                            "description": "While this model is within 3\" of it's warlock/warcaster and isn't knocked down or stationary, it's warlock/warcaster gains Unstoppable and +2 DEF against melee attack accuracy rolls and models attacking the warcaster/warlock do not gain back strike bonuses."
+                        },
+                        {
+                            "name": "Hyper-Aggressive",
+                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
+                        },
+                        {
+                            "name": "Return",
+                            "description": "Immediately after resolving a charge attack, this model can make a full advance toward it's warcaster. This model cannot be targeted by free strikes during this movement."
+                        },
+                        {
+                            "name": "Sacred Ward",
+                            "description": "This model cannot be targeted by enemy spells."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30mm",
+                        "spd": "6",
+                        "str": "7",
+                        "mat": "7",
+                        "rat": "4",
+                        "def": "13",
+                        "arm": "15",
+                        "cmd": "7",
+                        "hp": "8"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Fell Axe",
+                            "type": "melee",
+                            "fieldoffire": "none",
+                            "rng": "2",
+                            "pow": "5",
+                            "count": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "presetabilities": [
+                                "Weapon Master"
+                            ]
+                        }
+                    ],
                     "displayorder": 1
                 }
             ]
@@ -3249,7 +3249,7 @@
             "models": [
                 {
                     "name": "Irusk 2",
-                    "title": "Khador Supreme Kommander Warcaster",
+                    "title": "Khador Warcaster",
                     "modeltype": [
                         "Warcaster",
                         "Warrior"
@@ -3430,8 +3430,8 @@
                         "description": "Enemy models that advance except to change facing and end their movement in the Old Witch's control range immediately suffer an unboostable POW 14 damage roll. Warrior models damaged by FIeld of Talons become knocked down. FIeld of Talons lasts for one round."
                     },
                     "execution": {
-                        "name": "Scrapjack gains Extended Control Range",
-                        "description": "FIX ME"
+                        "name": "Trusted Ally [Scrapjack][Extended Control Range]",
+                        "description": "Scrapjack gains Extended Control Range."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -4138,8 +4138,8 @@
                         "description": "The Old Witch gains the benefit of all of her Arcane Machinery effects if able this activation."
                     },
                     "execution": {
-                        "name": "This model gains Trample Power attack.",
-                        "description": "FIX ME"
+                        "name": "Stompy",
+                        "description": "This model gains Power Attack: Trample."
                     },
                     "stats": {
                         "basesize": "120mm",
@@ -4288,7 +4288,7 @@
             "models": [
                 {
                     "name": "Beast 09",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -4469,7 +4469,7 @@
             "models": [
                 {
                     "name": "Behemoth",
-                    "title": "Khador Warjack",
+                    "title": "Khador Super Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -4666,7 +4666,7 @@
             "models": [
                 {
                     "name": "Berserker",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -4688,7 +4688,7 @@
                         },
                         {
                             "name": "Imprint [Jury-Rigged[SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-RiggedSPD."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged[SPD]."
                         },
                         {
                             "name": "Unstable",
@@ -4813,7 +4813,7 @@
             "models": [
                 {
                     "name": "Black Ivan 1",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -5247,7 +5247,7 @@
             "models": [
                 {
                     "name": "Decimator",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -5389,7 +5389,7 @@
             "models": [
                 {
                     "name": "Demolisher",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -5571,7 +5571,7 @@
             "models": [
                 {
                     "name": "Destroyer",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -5715,7 +5715,7 @@
             "models": [
                 {
                     "name": "Devastator",
-                    "title": "Khador Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -5886,7 +5886,7 @@
             "models": [
                 {
                     "name": "Dire Wolf Class",
-                    "title": "Khador Modular Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -5905,7 +5905,7 @@
                         },
                         {
                             "name": "Modular [3] [Left Arm, Right Arm, Head]",
-                            "description": "This model is a modular design and has 3 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 3 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         }
                     ],
                     "stats": {
@@ -6482,7 +6482,7 @@
                         },
                         {
                             "name": "Imprint [Jury-Rigged [SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged SPD."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged [SPD]."
                         },
                         {
                             "name": "Special Issue [Vladimir]",
@@ -6624,7 +6624,7 @@
             "models": [
                 {
                     "name": "Great Bear Class",
-                    "title": "Khador Modular Heavy Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -6643,7 +6643,7 @@
                         },
                         {
                             "name": "Modular [3] [Left Arm, Right Arm, Head]",
-                            "description": "This model is a modular design and has 3 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 3 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         }
                     ],
                     "stats": {
@@ -7711,7 +7711,7 @@
                     "characterabilities": [
                         {
                             "name": "Imprint [Jury-Rigged [SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged SPD."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged [SPD]."
                         },
                         {
                             "name": "Smasher",
@@ -7987,6 +7987,644 @@
             ]
         },
         {
+            "name": "Mastodon",
+            "points": "*",
+            "category": "Warjacks/Warbeasts/Horrors",
+            "primaryfaction": [
+                "Khador"
+            ],
+            "factions": [
+                "Khador"
+            ],
+            "fieldallowance": "2",
+            "models": [
+                {
+                    "name": "Mastodon",
+                    "title": "Khador Colassal Warjack",
+                    "modeltype": [
+                        "Warlock"
+                    ],
+                    "keywords": [
+                        "Construct",
+                        "MK4",
+                        "Pathfinder",
+                        "Power Attack: Headbutt",
+                        "Power Attack: Slam",
+                        "Power Attack: Trample",
+                        "Unstoppable"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Bulldoze",
+                            "description": "When this model is B2B with an enemy model during it's Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
+                        },
+                        {
+                            "name": "Modular [5] [Head, Left and Right Shoulder, Left and Right Arm]",
+                            "description": "This model is a modular design and has 5 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "120MM",
+                        "spd": "4",
+                        "str": "19",
+                        "mat": "6",
+                        "rat": "4",
+                        "def": "8",
+                        "arm": "20",
+                        "hp": "62"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Heavy Mortar",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "16",
+                            "rof": "1",
+                            "aoe": "4",
+                            "pow": "16",
+                            "system": "S",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Arcing Fire",
+                                    "description": "When attacking with this weapon, this model can ignore intervening models except those within 1\" of the target."
+                                }
+                            ]
+                        }
+                    ],
+                    "modularoptions": [
+                        {
+                            "groupname": "Head",
+                            "options": [
+                                {
+                                    "cost": "2",
+                                    "name": "Fire Support",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "1",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": []
+                                },
+                                {
+                                    "cost": "3",
+                                    "name": "Shock Assault",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Aggressive",
+                                            "description": "This model can run or charge without spending a focus point."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Right Arm",
+                            "options": [
+                                {
+                                    "cost": "9",
+                                    "name": "Chain Axe",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Chain Axe",
+                                            "type": "Melee",
+                                            "fieldoffire": "right",
+                                            "rng": "3",
+                                            "pow": "4",
+                                            "system": "R",
+                                            "count": "9",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Shred",
+                                                    "description": "On a critical hit with this weapon during this model's Combat Action, after the attack is resolved this model can make one additional attack with this weapon against the model hit."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "9",
+                                    "name": "Great Axe",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "abilities": [
+                                        {
+                                            "name": "Cleave",
+                                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                                        }
+                                    ],
+                                    "weapons": [
+                                        {
+                                            "name": "Great Axe",
+                                            "type": "Melee",
+                                            "fieldoffire": "right",
+                                            "rng": "3",
+                                            "pow": "5",
+                                            "system": "R",
+                                            "count": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Right Shoulder",
+                            "options": [
+                                {
+                                    "cost": "5",
+                                    "name": "Mounted Deep Freezer",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Deep Freezer",
+                                            "type": "ranged",
+                                            "fieldoffire": "right",
+                                            "rng": "12",
+                                            "rof": "1",
+                                            "aoe": "3",
+                                            "pow": "14",
+                                            "system": "R",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Freeze",
+                                                    "description": "On a critical hit, the model hit becomes stationary for one round unless it has Resistance: Cold."
+                                                }
+                                            ],
+                                            "damagetype": [
+                                                "Cold"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "6",
+                                    "name": "Mounted Heavy Cannon",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Heavy Cannon",
+                                            "type": "ranged",
+                                            "fieldoffire": "right",
+                                            "rng": "15",
+                                            "rof": "1",
+                                            "pow": "16",
+                                            "system": "R",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Momentum",
+                                                    "description": "A small or medium-based model directly hit by this attack is slammed d3\" directly away from this model. The POW of collateral damage is equal to the POW of this weapon. In addition to suffering a normal damage roll, large-based models hit by this attack become knocked down."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Left Shoulder",
+                            "options": [
+                                {
+                                    "cost": "5",
+                                    "name": "Mounted Deep Freezer",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Deep Freezer",
+                                            "type": "ranged",
+                                            "fieldoffire": "left",
+                                            "rng": "12",
+                                            "rof": "1",
+                                            "aoe": "3",
+                                            "pow": "14",
+                                            "system": "L",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Freeze",
+                                                    "description": "On a critical hit, the model hit becomes stationary for one round unless it has Resistance: Cold."
+                                                }
+                                            ],
+                                            "damagetype": [
+                                                "Cold"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "6",
+                                    "name": "Mounted Heavy Cannon",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Heavy Cannon",
+                                            "type": "ranged",
+                                            "fieldoffire": "left",
+                                            "rng": "15",
+                                            "rof": "1",
+                                            "pow": "16",
+                                            "system": "L",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Momentum",
+                                                    "description": "A small or medium-based model directly hit by this attack is slammed d3\" directly away from this model. The POW of collateral damage is equal to the POW of this weapon. In addition to suffering a normal damage roll, large-based models hit by this attack become knocked down."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Left Arm",
+                            "options": [
+                                {
+                                    "cost": "10",
+                                    "name": "Dozer Fist",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Grab Attack",
+                                        "Power Attack: Power Strike",
+                                        "Power Attack: Sweep",
+                                        "Power Attack: Throw"
+                                    ],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Dozer",
+                                            "type": "ranged",
+                                            "fieldoffire": "left",
+                                            "rng": "10",
+                                            "rof": "2",
+                                            "pow": "15",
+                                            "system": "L",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Beat Back",
+                                                    "description": "Immediately after a basic attack with a weapon with Beat Back is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fist",
+                                            "type": "Melee",
+                                            "fieldoffire": "left",
+                                            "rng": "2",
+                                            "pow": "3",
+                                            "system": "L",
+                                            "count": "1",
+                                            "presetabilities": [
+                                                "Open Fist"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "11",
+                                    "name": "Grinder Fist",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Grab Attack",
+                                        "Power Attack: Sweep",
+                                        "Power Attack: Throw",
+                                        "Power Attack: Power Strike"
+                                    ],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Grinder",
+                                            "type": "ranged",
+                                            "fieldoffire": "left",
+                                            "rng": "12",
+                                            "rof": "2",
+                                            "pow": "12",
+                                            "system": "L",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Linked Guns",
+                                                    "description": "When this model makes an initial attack with this weapon, after the initial attack has been resolved it can immediately make one additional attack against the target of the initial attack. This additional attack ignores this weapon's ROF."
+                                                },
+                                                {
+                                                    "name": "Volume Fire",
+                                                    "description": "Attacks with this weapon gain +1 to attack accuracy and damage rolls against medium-based models and +2 to attack accuracy and damage rolls against large, extra-large, and huge-based models."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fist",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "2",
+                                            "pow": "3",
+                                            "system": "L",
+                                            "count": "1",
+                                            "presetabilities": [
+                                                "Open Fist"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "grid": {
+                        "columns": [
+                            {
+                                "column": "1",
+                                "values": [
+                                    "-",
+                                    "-",
+                                    "x",
+                                    "x",
+                                    "L",
+                                    "L"
+                                ]
+                            },
+                            {
+                                "column": "2",
+                                "values": [
+                                    "-",
+                                    "-",
+                                    "x",
+                                    "L",
+                                    "L",
+                                    "C"
+                                ]
+                            },
+                            {
+                                "column": "3",
+                                "values": [
+                                    "-",
+                                    "x",
+                                    "x",
+                                    "L",
+                                    "C",
+                                    "M"
+                                ]
+                            },
+                            {
+                                "column": "4",
+                                "values": [
+                                    "x",
+                                    "x",
+                                    "x",
+                                    "L",
+                                    "C",
+                                    "M"
+                                ]
+                            },
+                            {
+                                "column": "5",
+                                "values": [
+                                    "x",
+                                    "x",
+                                    "S",
+                                    "S",
+                                    "M",
+                                    "H"
+                                ]
+                            },
+                            {
+                                "column": "6",
+                                "values": [
+                                    "x",
+                                    "x",
+                                    "S",
+                                    "C",
+                                    "H",
+                                    "H"
+                                ]
+                            },
+                            {
+                                "column": "7",
+                                "values": [
+                                    "x",
+                                    "x",
+                                    "S",
+                                    "C",
+                                    "H",
+                                    "H"
+                                ]
+                            },
+                            {
+                                "column": "8",
+                                "values": [
+                                    "x",
+                                    "x",
+                                    "S",
+                                    "S",
+                                    "M",
+                                    "H"
+                                ]
+                            },
+                            {
+                                "column": "9",
+                                "values": [
+                                    "x",
+                                    "x",
+                                    "x",
+                                    "R",
+                                    "C",
+                                    "M"
+                                ]
+                            },
+                            {
+                                "column": "10",
+                                "values": [
+                                    "-",
+                                    "x",
+                                    "x",
+                                    "R",
+                                    "C",
+                                    "M"
+                                ]
+                            },
+                            {
+                                "column": "11",
+                                "values": [
+                                    "-",
+                                    "-",
+                                    "x",
+                                    "R",
+                                    "R",
+                                    "C"
+                                ]
+                            },
+                            {
+                                "column": "12",
+                                "values": [
+                                    "-",
+                                    "-",
+                                    "x",
+                                    "x",
+                                    "R",
+                                    "R"
+                                ]
+                            }
+                        ]
+                    },
+                    "displayorder": 0,
+                    "animi": []
+                }
+            ]
+        },
+        {
             "name": "Medveditsa",
             "points": "17",
             "category": "Warjacks/Warbeasts/Horrors",
@@ -8000,7 +8638,7 @@
             "models": [
                 {
                     "name": "Medveditsa",
-                    "title": "Khador Heavy Character Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -8165,7 +8803,7 @@
                     "characterabilities": [
                         {
                             "name": "Imprint [Jury-Rigged[SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-RiggedSPD."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged[SPD]."
                         },
                         {
                             "name": "Shield Guard",
@@ -8705,7 +9343,7 @@
             "models": [
                 {
                     "name": "Torch",
-                    "title": "Khador Character Heavy Warjack",
+                    "title": "Khador Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -8757,7 +9395,7 @@
                                 },
                                 {
                                     "name": "Flare",
-                                    "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                    "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                 }
                             ]
                         },
@@ -8956,7 +9594,7 @@
                                         },
                                         {
                                             "name": "Flare",
-                                            "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                            "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                         },
                                         {
                                             "name": "Incendiary",
@@ -9177,7 +9815,7 @@
             "models": [
                 {
                     "name": "AC-2 Bison",
-                    "title": "Khador Weapon Crew Winter Korps Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9358,7 +9996,7 @@
             "models": [
                 {
                     "name": "Bulkhead 1",
-                    "title": "RiotQuest, Khador, Man-O-War Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9426,7 +10064,7 @@
             "models": [
                 {
                     "name": "Greylord Forge Seer",
-                    "title": "Khador Greylord Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9524,7 +10162,7 @@
             "models": [
                 {
                     "name": "Iron Fang Kovnik",
-                    "title": "Khador Iron Fang Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9535,8 +10173,8 @@
                             "description": "When this model's melee damage roll fails to exceed the ARM of a living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough Roll."
                         },
                         {
-                            "name": "Leadership [Iron Fang]",
-                            "description": "While in this model's CMD range, Friendly Faction Iron Fang gain Unyielding."
+                            "name": "Leadership [Iron Fang] [Unyielding]",
+                            "description": "While in this model's CMD range, friendly faction Iron Fang gain Unyielding. (A model with Unyielding gains +2 ARM against melee damage rolls.)"
                         },
                         {
                             "name": "No Sleeping On The Job [Iron Fang]",
@@ -9600,7 +10238,7 @@
             "models": [
                 {
                     "name": "Sofya 1",
-                    "title": "Khador Black Dragon Iron Fang Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9682,7 +10320,7 @@
             "models": [
                 {
                     "name": "Koldun Lord",
-                    "title": "Khador Greylord Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9694,7 +10332,7 @@
                         },
                         {
                             "name": "Leadership [Greylords] [Prowl]",
-                            "description": ""
+                            "description": "While in this model's CMD range, friendly faction Greylords gain Prowl. (While a model with Prowl has concealment, it gains Stealth.)"
                         },
                         {
                             "name": "Prowl",
@@ -9770,7 +10408,7 @@
             "models": [
                 {
                     "name": "Kontroller",
-                    "title": "Khador Man-O-War Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -9857,13 +10495,10 @@
             "models": [
                 {
                     "name": "Malakov 1",
-                    "title": "Khador Junior Warcaster Solo",
+                    "title": "Khador Solo Junior Warcaster",
                     "modeltype": [
                         "Solo",
                         "Warrior"
-                    ],
-                    "keywords": [
-                        "Journeyman Warcaster"
                     ],
                     "characterabilities": [
                         {
@@ -9951,7 +10586,7 @@
             "models": [
                 {
                     "name": "Sorcha 0",
-                    "title": "Khador Winter Guard Journeyman Warcaster Solo",
+                    "title": "Khador Solo Journeyman Warcaster",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10045,7 +10680,7 @@
             "models": [
                 {
                     "name": "Kovnik Jo",
-                    "title": "Khador Winter Guard Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10223,7 +10858,7 @@
             "models": [
                 {
                     "name": "Man-O-War Drakhun",
-                    "title": "Khador Man-O-War Dragon Solos",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10290,7 +10925,7 @@
                             ]
                         }
                     ],
-                    "displayorder": 1
+                    "displayorder": 0
                 }
             ]
         },
@@ -10308,7 +10943,7 @@
             "models": [
                 {
                     "name": "Man-O-War Kovnik",
-                    "title": "Khador Man-O-War Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10400,7 +11035,7 @@
             "models": [
                 {
                     "name": "Man-O-War Strike Tanker",
-                    "title": "Khador Man-O-War Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10492,7 +11127,7 @@
             "models": [
                 {
                     "name": "Man-O-War Suppressor Tank",
-                    "title": "Khador Man-O-War Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10639,7 +11274,7 @@
             "models": [
                 {
                     "name": "Mortar Team",
-                    "title": "Khador Weapon Crew Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10802,7 +11437,7 @@
             "models": [
                 {
                     "name": "Krol 1",
-                    "title": "Khador Man-O-War solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10825,7 +11460,7 @@
                         },
                         {
                             "name": "Leadership [Man-O-War] [Tough]",
-                            "description": ""
+                            "description": "While in this model's CMD range, friendly faction Man-O-War gain Tough."
                         },
                         {
                             "name": "Repairable",
@@ -10914,7 +11549,7 @@
             "models": [
                 {
                     "name": "Markov 1",
-                    "title": "Khador Iron Fang Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -11010,7 +11645,7 @@
             "models": [
                 {
                     "name": "Widowmaker Marksman",
-                    "title": "Khador Widowmaker Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -11022,8 +11657,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Leadership [Widowmakers][Swift Hunter]",
-                            "description": ""
+                            "name": "Leadership [Widowmakers] [Swift Hunter]",
+                            "description": "While in this model's CMD range, friendly faction Widowmakers gain Swift Hunter. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
                         },
                         {
                             "name": "Marksman",
@@ -11159,7 +11794,7 @@
             "models": [
                 {
                     "name": "Winter Korps Officer",
-                    "title": "Khador Winter Korps Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -11253,7 +11888,7 @@
             "models": [
                 {
                     "name": "Yuri 1",
-                    "title": "Khador Warrior Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -11323,7 +11958,7 @@
             "models": [
                 {
                     "name": "Yuri 2",
-                    "title": "Khador Warrior Solo",
+                    "title": "Khador Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -11402,10 +12037,10 @@
             ],
             "fieldallowance": "4",
             "unitpoints": {
+                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 3 Grunts",
                 "maxcost": "4",
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts"
+                "mincost": "2"
             },
             "models": [
                 {
@@ -11465,15 +12100,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader & 9 Grunts",
-                "minunit": "Leader & 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "mincost": "8",
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "12"
             },
             "models": [
                 {
                     "name": "Assault Kommandos",
-                    "title": "Khador Assault Kommandos Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -11583,10 +12218,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader & 5 Grunts",
-                "minunit": "Leader & 3 Grunts",
+                "maxcost": "4",
+                "maxunit": "Leader and 5 Grunts",
                 "mincost": "2",
-                "maxcost": "4"
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -11638,15 +12273,15 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts",
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4"
+                "mincost": "9",
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "15"
             },
             "models": [
                 {
                     "name": "Black Dragon Kompany",
-                    "title": "Khador",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -11725,15 +12360,15 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxcost": "4",
-                "maxunit": "Leader & 5 Grunts",
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2"
+                "minunit": "Volkov, Kolsk and Yarovich ",
+                "mincost": "9",
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
                     "name": "Kapitan Joreslev Volkov",
-                    "title": "Khador Iron Fang Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -11761,7 +12396,7 @@
                         },
                         {
                             "name": "Flank [Great Bear]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Great Bear warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Great Bear model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Overwhelm",
@@ -11804,7 +12439,7 @@
                 },
                 {
                     "name": "Lieutenant Moskor Kolsk",
-                    "title": "Khador Iron Fang Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -11827,7 +12462,7 @@
                         },
                         {
                             "name": "Flank [Great Bear]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Great Bear warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Great Bear model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Got Your Back",
@@ -11874,7 +12509,7 @@
                 },
                 {
                     "name": "Sergeant Kartov Yarovich",
-                    "title": "Khador Iron Fang Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -11901,7 +12536,7 @@
                         },
                         {
                             "name": "Flank [Great Bear]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Great Bear warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Great Bear model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Overwhelm",
@@ -11956,15 +12591,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "8",
+                "maxcost": "15",
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
                     "name": "Greylord Outriders",
-                    "title": "Khador Greylord Cavalry Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Solo",
                         "Unit"
@@ -12029,8 +12664,8 @@
                             },
                             "subabilities": [
                                 {
-                                    "name": "Freezing Mist (★Action)",
-                                    "description": "Place a 3\" AOE cloud effect completely within the spellcaster's control range. The template is a hazard. While in the AOE, models without Resistance: Cold suffer -2 to their accuracy rolls. The AOE remains in play for one round. "
+                                    "name": "Freezing Fog (★Action)",
+                                    "description": "Place a 3\" AOE cloud effect completely within the spellcaster's control range. The template is a hazard. While in the AOE, models without Resistance: Cold suffer -2 to their accuracy rolls. The AOE remains in play for one round."
                                 },
                                 {
                                     "name": "Frostbite (★Attack)",
@@ -12080,15 +12715,15 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts",
-                "minunit": "Leader & 3 Grunts",
-                "maxcost": "4"
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "-",
+                "maxunit": "-",
+                "mincost": "5"
             },
             "models": [
                 {
                     "name": "Greylord Ternion",
-                    "title": "Khador Greylord Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12169,10 +12804,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4"
+                "mincost": "7",
+                "maxcost": "12",
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -12244,15 +12879,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4",
-                "minunit": "Leader & 3 Grunts"
+                "maxcost": "17",
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "10",
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
                     "name": "Iron Fang Uhlans",
-                    "title": "Khador Iron Fang Cavalry Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit"
                     ],
@@ -12339,15 +12974,15 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "Leader & 5 Grunts",
-                "minunit": "Leader & 3 Grunts",
-                "maxcost": "4",
-                "mincost": "2"
+                "minunit": "Arcondvich and Standard",
+                "maxcost": "-",
+                "mincost": "5",
+                "maxunit": "-"
             },
             "models": [
                 {
                     "name": "Kommandant Atanas Arcondvich",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12422,7 +13057,7 @@
                 },
                 {
                     "name": "Standard",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -12476,15 +13111,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader & 3 Grunts",
-                "maxunit": "Leader & 5 Grunts",
-                "mincost": "2",
-                "maxcost": "4"
+                "mincost": "6",
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "10"
             },
             "models": [
                 {
                     "name": "Kossite Woodsmen",
-                    "title": "Khador",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12561,15 +13196,15 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "2",
-                "maxcost": "4",
-                "minunit": "Leader & 2 Grunts",
-                "maxunit": "Leader & 4 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "14",
+                "mincost": "8",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
                     "name": "Man-O-War Bombardiers",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12663,15 +13298,15 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "4",
-                "maxunit": "Leader & 5 Grunts",
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts"
+                "mincost": "7",
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "13",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
                     "name": "Man-O-War Demolition Korps",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12753,15 +13388,15 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader & 5 Grunts",
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2",
-                "maxcost": "4"
+                "maxcost": "14",
+                "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "8"
             },
             "models": [
                 {
                     "name": "Man-O-War Shocktroopers",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12857,15 +13492,15 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts",
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "20",
+                "mincost": "11"
             },
             "models": [
                 {
                     "name": "Man-O-War Suppressors",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -12971,15 +13606,15 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts",
-                "maxcost": "4",
-                "maxunit": "Leader & 5 Grunts"
+                "mincost": "10",
+                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "19"
             },
             "models": [
                 {
                     "name": "Man-O-War Wrecking Crew",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -13095,10 +13730,10 @@
             ],
             "fieldallowance": "4",
             "unitpoints": {
-                "maxcost": "4",
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts"
+                "maxcost": "-",
+                "maxunit": "-",
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -13176,10 +13811,10 @@
             ],
             "fieldallowance": "4",
             "unitpoints": {
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts",
-                "maxcost": "4",
-                "maxunit": "Leader & 5 Grunts"
+                "maxunit": "-",
+                "maxcost": "-",
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -13268,15 +13903,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "2",
-                "maxcost": "4",
-                "minunit": "Leader & 3 Grunts",
-                "maxunit": "Leader & 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "-",
+                "maxcost": "-",
+                "mincost": "6"
             },
             "models": [
                 {
                     "name": "Widowmakers",
-                    "title": "Khador Widowmaker Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -13344,15 +13979,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4",
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts"
+                "maxcost": "9",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "4",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
                     "name": "Winter Guard infantry",
-                    "title": "Khador Winter Guard Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -13417,15 +14052,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "2",
-                "minunit": "Leader & 3 Grunts",
-                "maxunit": "Leader & 5 Grunts",
-                "maxcost": "4"
+                "maxcost": "9",
+                "mincost": "5",
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
                     "name": "Winter Guard Rifle Korps",
-                    "title": "Khador Winter Guard Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -13484,15 +14119,15 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "4",
-                "minunit": "Leader & 3 Grunts",
-                "mincost": "2",
-                "maxunit": "Leader & 5 Grunts"
+                "maxcost": "12",
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
                     "name": "Winter Korps Infantry",
-                    "title": "Khador Winter Korps Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -13553,14 +14188,14 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxcost": "-",
-                "minunit": "Leader & 2 Grunts",
-                "maxunit": "-",
-                "mincost": "4"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "4",
+                "maxunit": "-"
             },
             "models": [
                 {
                     "name": "Winter Korps Snipers",
-                    "title": "Khador Winter Korps Unit",
+                    "title": "Khador Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -13623,7 +14258,7 @@
             "models": [
                 {
                     "name": "Assault Kommando Flame Thrower",
-                    "title": "Khador Assault Kommando Weapon Attachment",
+                    "title": "Khador Weapon Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -13708,7 +14343,7 @@
             "models": [
                 {
                     "name": "Battle Mechanik Officer",
-                    "title": "Khador Battle Mecanik Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Solo",
                         "Attachment"
@@ -13777,7 +14412,7 @@
             "models": [
                 {
                     "name": "Black Dragon Kapitan",
-                    "title": "Khador Black Dragon Iron Fang Unit",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -13858,7 +14493,7 @@
                 },
                 {
                     "name": "Black Dragon Standard",
-                    "title": "Khador Black Dragon Iron Fang Unit",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -13932,7 +14567,7 @@
             "models": [
                 {
                     "name": "Greylord Escort",
-                    "title": "Khador Greylord Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -14033,7 +14668,7 @@
             "models": [
                 {
                     "name": "Iron Fang Pikemen Kapitan",
-                    "title": "Khador Iron Fang Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14102,7 +14737,7 @@
                 },
                 {
                     "name": "Iron Fang Pikemen Standard",
-                    "title": "Khador Iron Fang Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -14174,7 +14809,7 @@
             "models": [
                 {
                     "name": "Man-O-War Bombardier Officer",
-                    "title": "Khador Man-O-War Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14260,7 +14895,7 @@
             "models": [
                 {
                     "name": "Man-O-War Shocktrooper Officer",
-                    "title": "Khador Man-O-War Unit",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Solo",
                         "Attachment"
@@ -14355,7 +14990,7 @@
             "models": [
                 {
                     "name": "Dragodovich 1",
-                    "title": "Khador Man-O-War Demoliton Korps Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14438,7 +15073,7 @@
             "models": [
                 {
                     "name": "Winter Guard Officer",
-                    "title": "Khador Winter Guard Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14460,7 +15095,7 @@
                         },
                         {
                             "name": "Granted [Reposition [3\"]]",
-                            "description": "While this model is in play, models in its unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "While this model is in play, models in its unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Grapeshot",
@@ -14501,7 +15136,7 @@
                 },
                 {
                     "name": "Winter Guard Standard",
-                    "title": "Khador Winter Guard Command Attachment",
+                    "title": "Khador Command Attachment",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -14517,12 +15152,8 @@
                             "description": "This attachment can be added to a Winter Guard unit."
                         },
                         {
-                            "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
-                        },
-                        {
-                            "name": "Granted [Rise]",
-                            "description": "While this model is in play, models in its unit gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
+                            "name": "Granted [Inspiration, Rise]",
+                            "description": "While this model is in play, models in its unit gain Inspiration and Rise. (A model with Inspiration gains +1 to attack accuracy rolls.) (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
                         },
                         {
                             "name": "Take Up",
@@ -14577,7 +15208,7 @@
             "models": [
                 {
                     "name": "Winter Guard Rocketeer",
-                    "title": "Khador Winter Guard Weapon Attachment",
+                    "title": "Khador Weapon Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14643,7 +15274,7 @@
             "models": [
                 {
                     "name": "Winter Korps Hunting Dog",
-                    "title": "Khador Winter Korps Command Attachement",
+                    "title": "Khador Command Attachement",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14658,12 +15289,8 @@
                             "description": "This attachment can be added to a Winter Korps Snipers unit."
                         },
                         {
-                            "name": "Granted [Pathfinder]",
-                            "description": "While this model is in play, models in its unit gain Pathfinder."
-                        },
-                        {
-                            "name": "Granted [Reposition [3\"]]",
-                            "description": "While this model is in play, models in its unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "name": "Granted [Pathfinder, Reposition [3\"]]",
+                            "description": "While this model is in play, models in its unit gain Pathfinder and Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Mark Target",
@@ -14712,7 +15339,7 @@
             "models": [
                 {
                     "name": "Winter Korps Infantry - Auto Cannon",
-                    "title": "Winter Korps Weapon Attachement",
+                    "title": "Winter Weapon Attachement",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14784,7 +15411,7 @@
             "models": [
                 {
                     "name": "Winter Korps Infantry - Grenade Porter",
-                    "title": "Khador Winter Korps Weapon Attachement",
+                    "title": "Khador Weapon Attachement",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14867,7 +15494,7 @@
             "models": [
                 {
                     "name": "Winter Korps Infantry - Rocketeer",
-                    "title": "Khador Winter Korps Weapon Attachement",
+                    "title": "Khador Weapon Attachement",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14940,7 +15567,7 @@
             "models": [
                 {
                     "name": "Winter Korps Standard",
-                    "title": "Khador Winter Korps Command Attachement",
+                    "title": "Khador Command Attachement",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -14956,12 +15583,8 @@
                             "description": "This attachment can be added to a Winter Korps Infantry unit."
                         },
                         {
-                            "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
-                        },
-                        {
-                            "name": "Granted [Rise]",
-                            "description": "While this model is in play, models in its unit gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
+                            "name": "Granted [Inspiration, Rise]",
+                            "description": "While this model is in play, models in its unit gain Inspiration and Rise. (A model with Inspiration gains +1 to attack accuracy rolls.) (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
                         },
                         {
                             "name": "Take Up",

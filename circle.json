@@ -14,7 +14,7 @@
             "models": [
                 {
                     "name": "Baldur 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -133,7 +133,7 @@
             "models": [
                 {
                     "name": "Baldur 2",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -158,6 +158,10 @@
                     "feat": {
                         "name": "Hallowed Ground",
                         "description": "Friendly Facton models currently in Baldur's control range are affected by Roots of the Earth for one round."
+                    },
+                    "execution": {
+                        "name": "Devourer's Urgency",
+                        "description": "This model gains +1 SPD for each Wurm token on it."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -252,7 +256,7 @@
             "models": [
                 {
                     "name": "Bradigus 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -397,7 +401,7 @@
             "models": [
                 {
                     "name": "Grayle 1",
-                    "title": "Circle Wolf Sworn Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -412,8 +416,8 @@
                             "description": "This model can be included in an Infernals army. If it is, it becomes an Infernal model and not a Circle model. If included in an Infernals army, any non-partisan, non-character Circle Cohort can also be included in this model's battlegroup and they gain Accumulator [Soulless].  Additionally, you may include 2 non-partisan, non-character Circle units and 3 non-partisan, non-Archon, non-character Circle Solos as well."
                         },
                         {
-                            "name": "Leadership [Wolf Sworn]",
-                            "description": "While within this model's CMD range, friendly Wolf Sworn models gain Prowl and Sidestep. (While a model with Prowl has concealment, it gains Stealth.) (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved.)"
+                            "name": "Leadership [Wolf Sworn] [Prowl, Sidestep]",
+                            "description": "While in this model's CMD range, friendly faction Wolf Sworn gain Prowl and Sidestep. (While a model with Prowl has concealment, it gains Stealth.)"
                         },
                         {
                             "name": "Side Step",
@@ -538,7 +542,7 @@
             "models": [
                 {
                     "name": "Iona 1",
-                    "title": "Circle Tharn Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -554,8 +558,8 @@
                             "description": "This model can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement."
                         },
                         {
-                            "name": "Leadership [Tharn]",
-                            "description": "FIX ME"
+                            "name": "Leadership [Tharn] [Dodge]",
+                            "description": "While in this model's CMD range, friendly faction Tharn gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
                         },
                         {
                             "name": "Overtake",
@@ -572,7 +576,7 @@
                     },
                     "execution": {
                         "name": "Flank [Tharn]",
-                        "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Tharn warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                        "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Tharn model, this model gains +2 to attack rolls and gains an additional damage die."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -682,7 +686,7 @@
             "models": [
                 {
                     "name": "Kaya 2",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -697,7 +701,7 @@
                         },
                         {
                             "name": "Flank [Friendly Faction Warbeast]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Warbeast warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Warbeast model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Soothing Song",
@@ -872,9 +876,9 @@
             "models": [
                 {
                     "name": "Kaya 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
-                        "Warcaster"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Blackclad",
@@ -995,7 +999,7 @@
             "models": [
                 {
                     "name": "Kaya 3",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -1007,7 +1011,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Reposition [3\"]]",
-                            "description": "Cohort models in this model's battlegroup gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Cohort models in this model's battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Jump",
@@ -1125,7 +1129,7 @@
             "models": [
                 {
                     "name": "Kromac1 (Tharn Form)",
-                    "title": "Circle Tharn Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -1387,7 +1391,7 @@
             "models": [
                 {
                     "name": "Kromac 2",
-                    "title": "Circle Tharn Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -1528,7 +1532,7 @@
             "models": [
                 {
                     "name": "Krueger 2",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -1698,7 +1702,7 @@
             "models": [
                 {
                     "name": "Krueger 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -1845,7 +1849,7 @@
             "models": [
                 {
                     "name": "Mohsar 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -2012,7 +2016,7 @@
             "models": [
                 {
                     "name": "Morvahna 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -2145,7 +2149,7 @@
             "models": [
                 {
                     "name": "Morvahna 2",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -2311,7 +2315,7 @@
             "models": [
                 {
                     "name": "Tanith 1",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -2467,7 +2471,7 @@
             "models": [
                 {
                     "name": "Old Witch",
-                    "title": "Circle Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -2607,7 +2611,7 @@
             "models": [
                 {
                     "name": "Una 2",
-                    "title": "Circle Blackclad Warlock",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -2768,8 +2772,8 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Wurmwood  1",
-                    "title": "Circle Warlock",
+                    "name": "Wurmwood 1",
+                    "title": "Circle Orboros Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -3047,7 +3051,7 @@
             "models": [
                 {
                     "name": "Brennos The Elderhorn",
-                    "title": "Circle Orbors Heavy Warbeast",
+                    "title": "Circle Orboros Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3515,7 +3519,7 @@
             "models": [
                 {
                     "name": "Gorax Rager",
-                    "title": "Light Warbeast",
+                    "title": "Circle Orboros Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -5286,7 +5290,7 @@
                             "ability": [
                                 {
                                     "name": "Flare",
-                                    "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                    "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                 }
                             ],
                             "damagetype": [
@@ -5565,7 +5569,7 @@
             "models": [
                 {
                     "name": "Blackclad Stoneshaper",
-                    "title": "Circle, Warrior, Blackclad, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -5640,7 +5644,7 @@
             "models": [
                 {
                     "name": "Blackclad Wayfarer",
-                    "title": "Circle, Blackclad, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -5734,7 +5738,7 @@
             "models": [
                 {
                     "name": "Bloodweaver Night Witch",
-                    "title": "Circle, Tharn, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -5752,8 +5756,8 @@
                             "description": "When this model destroys one or more enemy models with a melee attack during its Combat Action, after the attack is resolved this model can advance up to 1\" and make one additional melee attack."
                         },
                         {
-                            "name": "Leadership [Tharn Bloodweavers]",
-                            "description": ""
+                            "name": "Leadership [Tharn Bloodweavers] [Killing Spree]",
+                            "description": "While in this model's CMD range, friendly faction Tharn Bloodweavers gain Killing Spree. (When a model with Killing Spree destroys one or more enemy models with a melee attack during its Combat Action, after the attack is resolved the model can advance up to 1\" and make one additional melee attack.)"
                         }
                     ],
                     "stats": {
@@ -5823,7 +5827,7 @@
             "models": [
                 {
                     "name": "Dogwood 1",
-                    "title": "Riot Quest, Circle, Blackclad, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -5898,7 +5902,7 @@
             ]
         },
         {
-            "name": "Kruger the Stormseer",
+            "name": "Krueger the Stormseer",
             "points": "5",
             "category": "Solos",
             "primaryfaction": [
@@ -5910,8 +5914,8 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Kruger 0",
-                    "title": "Circle Lesser Warlock Solo",
+                    "name": "Krueger 0",
+                    "title": "Circle Orboros Solo Lesser Warlock",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6019,7 +6023,7 @@
             "models": [
                 {
                     "name": "Lord of the Feast 1",
-                    "title": "Circle, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6119,7 +6123,7 @@
             "models": [
                 {
                     "name": "Reeve Hunter",
-                    "title": "Circle, Wolf Sworn, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6136,8 +6140,8 @@
                             "description": "This model ignores concealment and cover when making ranged attacks."
                         },
                         {
-                            "name": "Leadership [Reeves of Orboros]",
-                            "description": "Friendly Reeve of Orboros units is in this model’s command range gain Quick Work and Gunfighter."
+                            "name": "Leadership [Reeves of Orboros] [Quick Work, Gun Fighter]",
+                            "description": "While in this model's CMD range, friendly faction Reeves of Orboros gain Quick Work and Gun Fighter. (When a model with Quick Work destroys one or more enemy models with a melee attack during its Combat Action, immediately after the attack is resolved it can make one basic ranged attack.)"
                         },
                         {
                             "name": "Quick Work",
@@ -6221,7 +6225,7 @@
             "models": [
                 {
                     "name": "Shivers 1",
-                    "title": "Riot Quest, Circle, Wolf Sworn, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6327,7 +6331,7 @@
             "models": [
                 {
                     "name": "Tharn Ravager White Mane",
-                    "title": "Circle, Tharn, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6405,7 +6409,7 @@
             "models": [
                 {
                     "name": "Mononoke 1",
-                    "title": "Circle, Cavalry, Tharn, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6423,8 +6427,8 @@
                             "description": "This model ignores concealment and cover when making ranged attacks."
                         },
                         {
-                            "name": "Leadership [Tharn Wolf Riders]",
-                            "description": ""
+                            "name": "Leadership [Tharn Wolf Riders] [Pending]",
+                            "description": "While in this model's CMD range, friendly faction Tharn Wolf Riders gain Pending."
                         },
                         {
                             "name": "Priority Target [Solos and Command Attachments]",
@@ -6518,7 +6522,7 @@
             "models": [
                 {
                     "name": "Una 1",
-                    "title": "Circle, Blackclad, Lesser Warlock, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6627,7 +6631,7 @@
             "models": [
                 {
                     "name": "War Wolf",
-                    "title": "Circle, Wolf Sworn, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6648,7 +6652,7 @@
                         },
                         {
                             "name": "Sic 'em [Wolf Sworn]",
-                            "description": ""
+                            "description": "Once per turn if this model is not in melee, when a friendly Wolf Sworn model hits an enemy model with an attack, immediately after the attack is resolved this model can charge the enemy hit. This model ignores other Wolf Sworn models when determining LOS, and can advance through them if it has enough movement to move completely past them. This model's charge attack roll is boosted."
                         },
                         {
                             "name": "Tracker",
@@ -6712,8 +6716,8 @@
                             "description": "This model can choose to mount or dismount its mount at any time during its activation. This model loses this ability if it's mounted form has been destroyed or removed from play."
                         },
                         {
-                            "name": "Leadership [War Wolf]",
-                            "description": ""
+                            "name": "Leadership [War Wolf] [Flank [Wolf Sworn]]",
+                            "description": "While in this model's CMD range, friendly faction War Wolf gain Flank [Wolf Sworn]. (When a model with Flank makes a melee attack against an enemy model in the melee range of a friendly Wolf Sworn model, this model gains +2 to attack rolls and gains an additional damage die.)"
                         },
                         {
                             "name": "Prowl",
@@ -6807,11 +6811,11 @@
                         },
                         {
                             "name": "Flank [Wolf Sworn or War Wolf]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Wolf Sworn or War Wolf warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Wolf Sworn or War Wolf model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
-                            "name": "Leadership [War Wolf]",
-                            "description": ""
+                            "name": "Leadership [War Wolf] [Flank [Wolf Sworn]]",
+                            "description": "While in this model's CMD range, friendly faction War Wolf gain Flank [Wolf Sworn]. (When a model with Flank makes a melee attack against an enemy model in the melee range of a friendly Wolf Sworn model, this model gains +2 to attack rolls and gains an additional damage die.)"
                         },
                         {
                             "name": "Prowl",
@@ -6884,7 +6888,7 @@
             "models": [
                 {
                     "name": "Wolf With No Name",
-                    "title": "Mercernary Circle Solo",
+                    "title": "Mercernary Circle Orboros Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6966,9 +6970,9 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "7",
-                "minunit": "Brighid & Caul",
                 "maxunit": "-",
+                "minunit": "Brighid and Caul",
+                "mincost": "7",
                 "maxcost": "-"
             },
             "models": [
@@ -7119,10 +7123,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "minunit": "Skoll, Tala & Caleb",
-                "mincost": "8",
+                "maxunit": "-",
                 "maxcost": "-",
-                "maxunit": "-"
+                "minunit": "Skoll, Tala and Caleb",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -7354,9 +7358,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts",
                 "mincost": "9",
-                "maxunit": "Leader and 4 Grunts",
                 "maxcost": "15"
             },
             "models": [
@@ -7470,10 +7474,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Skoll, Tala & Caleb",
+                "minunit": "Skoll, Tala and Caleb",
                 "maxcost": "-",
-                "mincost": "8",
-                "maxunit": "-"
+                "maxunit": "-",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -7569,8 +7573,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "15",
                 "maxunit": "Leader and 4 Grunts",
+                "maxcost": "15",
                 "minunit": "Leader and 2 Grunts",
                 "mincost": "9"
             },
@@ -7638,10 +7642,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "6",
                 "minunit": "Leader and 3 Grunts",
                 "maxcost": "-",
-                "maxunit": "-"
+                "maxunit": "-",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7756,10 +7760,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-",
                 "maxcost": "-",
-                "mincost": "5",
-                "maxunit": "-"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -7835,10 +7839,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "15",
                 "minunit": "Leader and 2 Grunts",
                 "mincost": "9",
-                "maxunit": "Leader and 4 Grunts",
-                "maxcost": "15"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -7976,9 +7980,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "-",
+                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
-                "mincost": "5",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "5"
             },
             "models": [
                 {
@@ -8096,10 +8100,10 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
-                "maxunit": "-",
                 "maxcost": "-",
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "5"
+                "maxunit": "-",
+                "mincost": "5",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8176,9 +8180,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "mincost": "5",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
-                "maxunit": "-",
-                "minunit": "Leader and 2 Grunts"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -8262,9 +8266,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
                 "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
+                "maxcost": "-",
                 "mincost": "5"
             },
             "models": [
@@ -8361,10 +8365,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "10",
                 "maxunit": "Leader and 4 Grunts",
-                "maxcost": "16",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "10"
+                "maxcost": "16"
             },
             "models": [
                 {
@@ -8497,10 +8501,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "5",
+                "maxcost": "-",
                 "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "mincost": "5"
             },
             "models": [
                 {
@@ -8596,10 +8600,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
                 "mincost": "5",
+                "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -8687,7 +8691,7 @@
                         },
                         {
                             "name": "Granted [Reposition [3\"]]",
-                            "description": "While this model is in play, models in its unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "While this model is in play, models in its unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Prowl",
@@ -8777,7 +8781,7 @@
             "models": [
                 {
                     "name": "Druid Wilder",
-                    "title": "Circle, Blackclad, Warrior, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -8888,7 +8892,7 @@
                         },
                         {
                             "name": "Granted [Reposition [3”]]",
-                            "description": "While this model is in play, models in its unit gain Reposition 3”. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3” can advance up to 3”, then it's activation ends.)"
+                            "description": "While this model is in play, models in its unit gain Reposition [3”]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3” can advance up to 3”, then it's activation ends.)"
                         },
                         {
                             "name": "Hunters Reckoning",
@@ -9185,7 +9189,7 @@
             "models": [
                 {
                     "name": "Tharn Blood Shaman",
-                    "title": "Circle, Tharn, Attachment, Solo",
+                    "title": "Circle Orboros Solo",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -9306,7 +9310,7 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Attachment [Tharn Bloodweavers]",
+                            "name": "Command Attachment [Tharn Bloodweavers]",
                             "description": "This attachment can be added to a Tharn Bloodweavers unit."
                         },
                         {
@@ -9710,7 +9714,7 @@
                         },
                         {
                             "name": "Tactics [Reposition [3\"]",
-                            "description": "Models in this unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Models in this unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         }
                     ],
                     "stats": {
@@ -9810,7 +9814,7 @@
             "models": [
                 {
                     "name": "Gallows Grove",
-                    "title": "Circle, Tree, Structure, Solo",
+                    "title": "Circle Orboros Structure Solo",
                     "modeltype": [
                         "Solo",
                         "Structure"

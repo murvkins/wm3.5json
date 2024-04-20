@@ -379,10 +379,13 @@
                     "modeltype": [
                         "Warlock"
                     ],
+                    "keywords": [
+                        "MK4"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Prowl]",
-                            "description": "Cohort models in this model's battlegroup gain Prowl."
+                            "description": "Cohort models in this model's battlegroup gain Prowl. (While a model with Prowl has concealment, it gains Stealth.)"
                         },
                         {
                             "name": "Jump",
@@ -510,7 +513,7 @@
                         "Warbeast"
                     ],
                     "keywords": [
-                        "Mk4",
+                        "MK4",
                         "Pathfinder",
                         "Power Attack: Headbutt",
                         "Power Attack: Slam",
@@ -599,7 +602,7 @@
         },
         {
             "name": "Hydrix",
-            "points": "8-14",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Khymera"
@@ -611,7 +614,7 @@
             "models": [
                 {
                     "name": "Hydrix",
-                    "title": "Khymera Heavy Modular Warbeast",
+                    "title": "Khymera Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -624,7 +627,7 @@
                     "characterabilities": [
                         {
                             "name": "Modular [4]",
-                            "description": "This model is a modular design and has 4 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 4 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         },
                         {
                             "name": "Regeneration [d3]",
@@ -1190,7 +1193,7 @@
                     ],
                     "keywords": [
                         "Dual Attack",
-                        "Mk4",
+                        "MK4",
                         "Pathfinder",
                         "Resistance: Corrosion",
                         "Soulless"
@@ -1311,7 +1314,7 @@
         },
         {
             "name": "Vipex",
-            "points": "8-15",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Khymera"
@@ -1323,7 +1326,7 @@
             "models": [
                 {
                     "name": "Vipex",
-                    "title": "Khymera Heavy Modular Warbeast",
+                    "title": "Khymera Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -1667,7 +1670,7 @@
                         "Dual Attack",
                         "Flight",
                         "Grab Attack",
-                        "Mk4",
+                        "MK4",
                         "Power Attack: Headbutt",
                         "Power Attack: Slam",
                         "Power Attack: Throw",
@@ -1974,6 +1977,7 @@
                         "Warrior"
                     ],
                     "keywords": [
+                        "MK4",
                         "Pathfinder",
                         "Soulless",
                         "Stealth"
@@ -2068,6 +2072,7 @@
                         "Warrior"
                     ],
                     "keywords": [
+                        "MK4",
                         "Pathfinder",
                         "Soulless"
                     ],
@@ -2152,6 +2157,7 @@
                     ],
                     "keywords": [
                         "Flight",
+                        "MK4",
                         "Soulless",
                         "Unstoppable"
                     ],
@@ -2214,9 +2220,9 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
-                "maxcost": "18",
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "18",
                 "mincost": "11"
             },
             "models": [
@@ -2326,10 +2332,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
-                "maxunit": "Leader and 9 Grunts",
                 "mincost": "7",
-                "minunit": "Leader and 4 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 4 Grunts",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -2399,10 +2405,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
+                "minunit": "Leader and 4 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "13",
-                "minunit": "Leader and 4 Grunts"
+                "mincost": "7",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -2477,10 +2483,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
-                "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "-"
+                "maxunit": "-",
+                "mincost": "7",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -2564,9 +2570,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
                 "mincost": "7",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-"
             },
             "models": [
@@ -2654,10 +2660,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "7",
-                "maxcost": "-"
+                "maxunit": "-",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -2750,10 +2756,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "-",
+                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
-                "mincost": "5",
-                "minunit": "Leader and 2 Grunts"
+                "maxcost": "-",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -2868,8 +2874,8 @@
                             "description": "When this model's melee damage roll fails to exceed the ARM of a living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough Roll."
                         },
                         {
-                            "name": "Command Attachment [Quick Fang Stalkers and Quick Fang Wind Strikers]",
-                            "description": "This attachment can be added to a Quick Fang Stalkers and Quick Fang Wind Strikers unit."
+                            "name": "Command Attachment [Quick Fang Stalkers, Quick Fang Wind Strikers]",
+                            "description": "This attachment can be added to a Quick Fang Stalkers, Quick Fang Wind Strikers unit."
                         },
                         {
                             "name": "Sacrificial Pawn [Quick Fangs]",

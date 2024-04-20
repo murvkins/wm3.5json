@@ -1,6 +1,187 @@
 {
     "products": [
         {
+            "name": "Alexia Ciannor, Betrayer of Corvis",
+            "points": "27",
+            "category": "Warcasters/Warlocks/Masters",
+            "primaryfaction": [
+                "Skorne"
+            ],
+            "factions": [
+                "Skorne"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Alexia",
+                    "title": "Skorne Warlock",
+                    "modeltype": [
+                        "Warlock",
+                        "Warrior"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Alternative History",
+                            "description": "This model is not allowed in competitive play events."
+                        },
+                        {
+                            "name": "Arcane Disjunction",
+                            "description": "When an enemy model casts a spell while in this model's CMD range, double the COST of the spell. Additionally, enemy models must pay double to upkeep spells on models/units in this model's CMD range."
+                        },
+                        {
+                            "name": "Death Magic",
+                            "description": "During its activation, this model can remove friendly Grunt models in its unit from play to make additional melee attacks or to boost accuracy or damage rolls. It can make one additional melee attack or boost one roll for each model removed.  When this model would suffer damage, you can choose one or more models in its unit that are in formation to suffer any number of those damage points instead, divided as you choose. If you do, this model does not suffer that damage. A model cannot suffer more damage as a result of Death Magic than it has unmarked damage boxes."
+                        },
+                        {
+                            "name": "Elite Cadre [Undead] [Shield Guard]",
+                            "description": "Friendly Undead models gain Shield Guard. (When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll.)"
+                        },
+                        {
+                            "name": "Flank [Undead]",
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Undead model, this model gains +2 to attack rolls and gains an additional damage die."
+                        },
+                        {
+                            "name": "Morrdhic Ward",
+                            "description": "This model cannot be targeted by enemy spells."
+                        },
+                        {
+                            "name": "Passive Necromancy",
+                            "description": "Once per turn when another living warrior model in this model's CMD range is destroyed by an enemy attack, you can choose to remove the boxed model from play and replace it with a Thrall Warrior model. The Thrall Warrior must forfeit it's combat action the turn it is put into play."
+                        },
+                        {
+                            "name": "Range Amplifier",
+                            "description": "When this model casts a spell and is the point of origin for the spell, the spell gains +5 RNG."
+                        },
+                        {
+                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. 2\""
+                        },
+                        {
+                            "name": "Unholy Desecration",
+                            "description": "When a living model is destroyed in this model's CMD range, this model gains the destroyed model's corpse token. At the end of your next Control Phase, remove all corpse tokens from this model and add to play one Thrall Warrior Solo model for each 3 corpse token's removed within 3\" of this model. The Thrall Warrior must forfeit it's Combat action the turn it is put into play."
+                        }
+                    ],
+                    "feat": {
+                        "name": "Unholy Communion",
+                        "description": "Choose 9 enemy non-Leader warrior models currently in Alexia's control range. Living models chosen suffer a boostable POW 12 corrosion damage roll. Take control of undead models chosen, which become friendly independent models and can activate normally this turn. Unholy Communion lasts for one turn."
+                    },
+                    "execution": {
+                        "name": "Mistress of The Witchfire Blade -\"Now I call my army of the dead, the Cauldron Born, arise, my messengers of death, our time has arrived.\"",
+                        "description": ""
+                    },
+                    "stats": {
+                        "basesize": "30mm",
+                        "spd": "6",
+                        "str": "4",
+                        "aat": "7",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "15",
+                        "arm": "15",
+                        "arc": "7",
+                        "cmd": "10",
+                        "ctrl": "14",
+                        "hp": "16"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Hand Cannon",
+                            "type": "ranged",
+                            "fieldoffire": "none",
+                            "rng": "12",
+                            "pow": "12",
+                            "count": "1"
+                        },
+                        {
+                            "name": "Witchfire",
+                            "type": "melee",
+                            "fieldoffire": "none",
+                            "rng": "1",
+                            "pow": "8",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Death Toll [small or medium-based]",
+                                    "description": "When this weapon boxes a living enemy warrior model during this model's combat action, remove that model from play and add one Grunt to a friendly small or medium-based unit in this model's CMD range. Place the grunt in formation and in this model's CMD range. The Grunt must forfeit it's combat Action the turn it was put into play."
+                                },
+                                {
+                                    "name": "Devour Essence",
+                                    "description": "A model hit by this weapon loses all essence points and soul tokens."
+                                },
+                                {
+                                    "name": "Energy Siphon",
+                                    "description": "When this attack hits an enemy model with 1 or more focus, fury, or essence points on it, that model loses 1 focus, fury or essence point and this model gains 1 fury point."
+                                },
+                                {
+                                    "name": "Life Drinker",
+                                    "description": "When an attack with this weapon destroys a living enemy model, immediately after the attack is resolved this model can remove d3 damage points."
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "presetabilities": [
+                                "Weapon Master"
+                            ]
+                        }
+                    ],
+                    "spells": [
+                        {
+                            "name": "Banishing Ward",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "Enemy upkeep spells and animi on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi."
+                        },
+                        {
+                            "name": "Bleed",
+                            "cost": "2",
+                            "rng": "8",
+                            "aoe": "-",
+                            "pow": "10",
+                            "dur": "-",
+                            "off": "YES",
+                            "description": "When Bleed damages a living enemy model, this model can remove d3 damage points."
+                        },
+                        {
+                            "name": "Hollow",
+                            "cost": "3",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "Target friendly Faction unit gains +2 ARM, Undead and Soul Vessel. Once per turn when an affected model is disabled by an enemy attack, replace it with a friendly Void Spirit model. A model replaced by hollow is destroyed. The spellcaster gains its soul token regardless of the proximity of other models. (A model with soul Vessel generates soul tokens as if it were a living model.)."
+                        },
+                        {
+                            "name": "Obliteration",
+                            "cost": "4",
+                            "rng": "10",
+                            "aoe": "5",
+                            "pow": "15",
+                            "dur": "-",
+                            "off": "YES",
+                            "description": "The force of this attack blasts apart the earth itself."
+                        },
+                        {
+                            "name": "Vision",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
+                            "off": "NO",
+                            "description": "When target friendly Faction model is directly hit by an attack, you can choose to have it suffer no damage roll from the attack, then Vision expires."
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
             "name": "Archdomia Makeda",
             "points": "30",
             "category": "Warcasters/Warlocks/Masters",
@@ -280,7 +461,7 @@
                         },
                         {
                             "name": "Granted [Reposition [3\"]]",
-                            "description": "While this model is in play, models in its unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "While this model is in play, models in its unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Hidden Blade",
@@ -296,8 +477,8 @@
                         "description": "Dominar Morghoul & Escorts and friendly Faction warrior models beginning their activations in Morghoul's control range gain Acrobatics, Overtake, and Unstoppable. Death Wind lasts for one turn. (When a model with Overtake destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1\".)"
                     },
                     "execution": {
-                        "name": "Leadership [Paingiver Bloodrunners]",
-                        "description": "While in this model's CMD range, Friendly Faction Paingiver Bloodrunner’s melee weapons gain Eye-Thief. (When a living or undead model is damaged by an attack with a weapon with Eye-Thief, it suffers Blind for one round.)"
+                        "name": "Leadership [Paingiver Bloodrunners] [Eye-Thief]",
+                        "description": "While in this model's CMD range, friendly faction Paingiver Bloodrunners gain Eye-Thief. (When a living or undead model is damaged by an attack with a weapon with Eye-Thief, it suffers Blind for one round. (A model suffering Blind cannot make range or magic attacks, suffers -4 MAT and DEF, and cannot run, charge, or make slam or trample power attacks. It must forfeit either its Normal Movement or Combat Action during its next activation. Blind can be shaken.))"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -1002,7 +1183,7 @@
                         },
                         {
                             "name": "Flank [Warbeast in this model's battlegroup]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Warbeast in this model's battlegroup warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Warbeast in this model's battlegroup model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Focused Strike",
@@ -1803,7 +1984,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Praetorian Keltarii] [Wall of Steel]",
-                        "description": "Friendly Praetorian Keltarii models gain Wall of Steel. ()"
+                        "description": "Friendly Praetorian Keltarii models gain Wall of Steel."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -1920,8 +2101,8 @@
                         "description": "Makeda immediately casts Incite without spending fury. Additionally, when a model in Makeda's battlegroup destroys one or more enemy models in her control range with an attack, either Makeda can gain 1 fury point or 1 fury point can be removed from a model in her battlegroup that is in her control range. Dance of Death lats for one turn."
                     },
                     "execution": {
-                        "name": "Leadership [Exalted Court]",
-                        "description": ""
+                        "name": "Leadership [Exalted Court] [Guard Dog]",
+                        "description": "While in this model's CMD range, friendly faction Exalted Court gain Guard Dog."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2247,6 +2428,10 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Elite Cadre [Void Spirits] [Killing Spree]",
                             "description": "Friendly Void Spirits models gain Killing Spree. (When a model with Killing Spree destroys one or more enemy models with a melee attack during its Combat Action, after the attack is resolved the model can advance up to 1\" and make one additional melee attack.)"
                         },
@@ -2255,16 +2440,20 @@
                             "description": "Void Spirits units can be included in any army that also includes Mordikaar 1."
                         },
                         {
-                            "name": "Leadership [Void Spirits]",
-                            "description": "While in this model's CMD range, friendly Faction Void Spirits models gain Tough, Stealth and +1 to attack rolls."
+                            "name": "Leadership [Void Spirits] [Tough]",
+                            "description": "While in this model's CMD range, friendly faction Void Spirits gain Tough."
                         },
                         {
                             "name": "Poltergeist",
                             "description": "When an enemy model misses this model with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from this model."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "This model can gain soul tokens. 2\""
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
+                        },
+                        {
+                            "name": "Veteran Leader [Void Spirits]",
+                            "description": "While in this model's CMD range, Void Spirits models gain +1 to attack accuracy rolls."
                         },
                         {
                             "name": "Void Walk",
@@ -2589,8 +2778,8 @@
                         "description": "Remove 9 damage points from each friendly Faction construct models currently in Zaal, The Ancestral Advocate's control range. While in Zaal's control range, friendly Faction construct models gain +5 ARM. Strength Eternal lasts for one round."
                     },
                     "execution": {
-                        "name": "Leadership [Ancestral Guardian]",
-                        "description": "While in this model's CMD range, Friendly Faction Ancestral Guardian’s gain Weight of Stone. (When a model is damaged by this weapon it suffers –3 SPD and DEF for one round.)"
+                        "name": "Leadership [Ancestral Guardian] [Weight of Stone]",
+                        "description": "While in this model's CMD range, friendly faction Ancestral Guardian gain Weight of Stone."
                     },
                     "stats": {
                         "basesize": "40mm",
@@ -2616,8 +2805,8 @@
                             "count": "1",
                             "ability": [
                                 {
-                                    "name": "Silencer",
-                                    "description": "A model hit by this weapon/attack cannot cast spells for one round."
+                                    "name": "Silence",
+                                    "description": "A model hit by this attack cannot cast spells for one round."
                                 }
                             ],
                             "damagetype": [
@@ -2695,7 +2884,7 @@
             "models": [
                 {
                     "name": "Agonizer",
-                    "title": "Skorne Titan Lesser Warbeast",
+                    "title": "Skorne Lesser Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3202,7 +3391,7 @@
             "models": [
                 {
                     "name": "Basilisk Drake",
-                    "title": "Skorne Basilisk Light Warbeast",
+                    "title": "Skorne Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3214,8 +3403,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Leadership [Basilisk Krea]",
-                            "description": "Friendly Basilisk Krea models in this model’s CMD range gain +1 Fury."
+                            "name": "Leadership [Basilisk Krea] [+1 Fury]",
+                            "description": "While in this model's CMD range, friendly faction Basilisk Krea gain +1 Fury."
                         }
                     ],
                     "stats": {
@@ -3302,7 +3491,7 @@
             "models": [
                 {
                     "name": "Basilisk Krea",
-                    "title": "Skorne Basilisk Light Warbeast",
+                    "title": "Skorne Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3316,7 +3505,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Basilisk Drake]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Basilisk Drake warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Basilisk Drake model, this model gains +2 to attack rolls and gains an additional damage die."
                         }
                     ],
                     "stats": {
@@ -3398,7 +3587,7 @@
             "models": [
                 {
                     "name": "Bronzeback Titan",
-                    "title": "Skorne Titan Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3422,12 +3611,12 @@
                             "description": "If this model hits the same model with two initial attacks with Open Fist, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
                         },
                         {
-                            "name": "Hyper-Aggressive",
-                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
+                            "name": "Herd Alpha",
+                            "description": "When a friendly non-Bronzeback Titan ends its activation in this model's CMD range, you can remove 1 fury point from that Titan."
                         },
                         {
-                            "name": "Leadership [Titans]",
-                            "description": "When a friendly non-Bronzeback Titan ends its activation in this model's CMD range, you can remove 1 fury point from that Titan."
+                            "name": "Hyper-Aggressive",
+                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
                         },
                         {
                             "name": "Retaliatory Strike",
@@ -3520,7 +3709,7 @@
             "models": [
                 {
                     "name": "Chiron",
-                    "title": "Skorne Basilisk Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3648,7 +3837,7 @@
             "models": [
                 {
                     "name": "Cyclops Brute",
-                    "title": "Skorne Cyclops Light Warbeast",
+                    "title": "Skorne Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3744,7 +3933,7 @@
             "models": [
                 {
                     "name": "Cyclops Raider",
-                    "title": "Skorne Cyclops Light Warbeast",
+                    "title": "Skorne Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3843,7 +4032,7 @@
             "models": [
                 {
                     "name": "Cyclops Savage",
-                    "title": "Skorne Cyclops Light Warbeast",
+                    "title": "Skorne Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -3926,7 +4115,7 @@
             "models": [
                 {
                     "name": "Cyclops Shaman",
-                    "title": "Skorne Cyclops Light Warbeast",
+                    "title": "Skorne Light Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -4029,7 +4218,7 @@
             "models": [
                 {
                     "name": "Desert Hydra",
-                    "title": "Skorne Hydra Gargantuan Warbeast",
+                    "title": "Skorne Gargantuan Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -4411,7 +4600,7 @@
             "models": [
                 {
                     "name": "Molik Karn",
-                    "title": "Skorne Cyclops Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -4612,7 +4801,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Cohort]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Cohort warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Cohort model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Return",
@@ -4680,7 +4869,7 @@
             "models": [
                 {
                     "name": "Rhinodon",
-                    "title": "Skorne Rhinodon Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -4784,13 +4973,15 @@
             "models": [
                 {
                     "name": "The Terrorizer",
-                    "title": "Skorne Agonizer Titan Lesser Warbeast",
+                    "title": "Skorne Lesser Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
                     "keywords": [
+                        "Agonizer",
                         "Dual Attack",
                         "Riot Quest",
+                        "Titan",
                         "Unstoppable"
                     ],
                     "characterabilities": [
@@ -4913,7 +5104,7 @@
             "models": [
                 {
                     "name": "Tiberion",
-                    "title": "Skorne Titan Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -5039,7 +5230,7 @@
             "models": [
                 {
                     "name": "Titan Cannoneer",
-                    "title": "Skorne Titan Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -5158,7 +5349,7 @@
             "models": [
                 {
                     "name": "Titan Gladiator",
-                    "title": "Skorne Titan Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -5276,7 +5467,7 @@
             "models": [
                 {
                     "name": "Titan Sentry",
-                    "title": "Skorne Titan Heavy Warbeast",
+                    "title": "Skorne Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -5404,7 +5595,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Exalted Warrior]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Exalted Warrior warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Exalted Warrior model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Immortal Companion",
@@ -5687,8 +5878,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Leadership [Construct]",
-                            "description": "While in this model’s CMD range, friendly Construct warrior models gain Tough."
+                            "name": "Leadership [Construct] [Tough]",
+                            "description": "While in this model's CMD range, friendly faction Construct gain Tough."
                         }
                     ],
                     "stats": {
@@ -5866,7 +6057,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Ancestral Guardian]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Ancestral Guardian warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Ancestral Guardian model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Ghost Shield",
@@ -6057,7 +6248,7 @@
             "models": [
                 {
                     "name": "Makeda 0",
-                    "title": "Skorne Lesser Warlock Solo",
+                    "title": "Skorne Solo Lesser Warlock",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6386,8 +6577,8 @@
                             "description": "After it makes a full advance during its Normal Movement but before it performs its Combat Action, you can place this model anywhere completely within 5\" of its current location. Any effects that prevent charging also prevent this model from using Jump."
                         },
                         {
-                            "name": "Leadership [Praetorian Ferox]",
-                            "description": "While in this model’s CMD range, friendly Praetorian Ferox models gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
+                            "name": "Leadership [Praetorian Ferox] [Dodge]",
+                            "description": "While in this model's CMD range, friendly faction Praetorian Ferox gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
                         },
                         {
                             "name": "Pounce",
@@ -6481,8 +6672,8 @@
                             "description": "When this model destroys one or more enemy models with a melee attack during its Combat Action, after the attack is resolved this model can advance up to 1\" and make one additional melee attack."
                         },
                         {
-                            "name": "Leadership [Praetorian Ferox]",
-                            "description": "While in this model’s CMD range, friendly Praetorian Ferox models gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
+                            "name": "Leadership [Praetorian Ferox] [Dodge]",
+                            "description": "While in this model's CMD range, friendly faction Praetorian Ferox gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
                         },
                         {
                             "name": "Set Defense",
@@ -6552,7 +6743,7 @@
             "models": [
                 {
                     "name": "Zaadesh 1",
-                    "title": "Skorne Lesser Warlock Solo",
+                    "title": "Skorne Solo Lesser Warlock",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6730,7 +6921,7 @@
             "models": [
                 {
                     "name": "Void Spirit",
-                    "title": "Void Spirit",
+                    "title": "Skorne Solo",
                     "modeltype": [
                         "Solo"
                     ],
@@ -6791,10 +6982,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
-                "maxcost": "13",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "13",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -7018,10 +7209,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "13",
-                "minunit": "Leader and 3 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -7128,10 +7319,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "11",
-                "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7193,10 +7384,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "-",
-                "mincost": "8",
                 "maxcost": "-",
-                "minunit": "Valgesh, Cidar and J'Deth"
+                "mincost": "8",
+                "minunit": "Valgesh, Cidar and J'Deth",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7217,7 +7408,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Praetorian]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Praetorian warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Praetorian model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Oath of the Bloodstone Marches [Overtake]",
@@ -7281,7 +7472,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Praetorian]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Praetorian warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Praetorian model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Oath of the Bloodstone Marches [Cleave]",
@@ -7349,7 +7540,7 @@
                         },
                         {
                             "name": "Flank [Praetorian]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Praetorian warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Praetorian model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Oath of the Bloodstone Marches [Dying Breath]",
@@ -7405,10 +7596,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
                 "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -7467,10 +7658,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "3",
                 "minunit": "Leader and 3 Grunts",
-                "maxcost": "5",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "3",
+                "maxcost": "5"
             },
             "models": [
                 {
@@ -7538,10 +7729,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "-",
                 "mincost": "5",
-                "maxunit": "-"
+                "maxcost": "-",
+                "maxunit": "-",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7612,10 +7803,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "10",
-                "maxcost": "16",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts"
+                "maxcost": "16",
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "10"
             },
             "models": [
                 {
@@ -7732,8 +7923,8 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
                 "maxcost": "10"
             },
@@ -7804,10 +7995,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
-                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -7884,10 +8075,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7948,10 +8139,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "-",
+                "minunit": "Leader and Standard",
                 "maxunit": "-",
-                "mincost": "5",
-                "minunit": "Leader & Standard",
-                "maxcost": "-"
+                "mincost": "5"
             },
             "models": [
                 {
@@ -8078,15 +8269,15 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
                 "minunit": "Gunner and 2 Grunts",
-                "maxunit": "-",
-                "mincost": "3"
+                "maxcost": "-",
+                "mincost": "3",
+                "maxunit": "-"
             },
             "models": [
                 {
                     "name": "Gunner",
-                    "title": "Skorne Venator Unit",
+                    "title": "Skorne Unit",
                     "modeltype": [
                         "Unit"
                     ],
@@ -8161,7 +8352,7 @@
                 },
                 {
                     "name": "Grunt",
-                    "title": "Skorne Venator Unit",
+                    "title": "Skorne Unit",
                     "modeltype": [
                         "Grunt"
                     ],
@@ -8211,14 +8402,14 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "-",
-                "maxcost": "-",
                 "mincost": "5",
-                "minunit": "Gunner and 1 Grunt"
+                "minunit": "Gunner and 1 Grunt",
+                "maxcost": "-"
             },
             "models": [
                 {
                     "name": "Gunner",
-                    "title": "Skorne Venator Unit",
+                    "title": "Skorne Unit",
                     "modeltype": [
                         "Unit"
                     ],
@@ -8330,10 +8521,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "8",
+                "maxunit": "Leader and 5 Grunts",
                 "minunit": "Leader and 3 Grunts",
                 "maxcost": "13",
-                "maxunit": "Leader and 5 Grunts"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -8441,15 +8632,15 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "mincost": "6",
+                "maxcost": "11",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
                     "name": "Venator Slingers",
-                    "title": "Skorne Venator Unit",
+                    "title": "Skorne Unit",
                     "modeltype": [
                         "Unit"
                     ],
@@ -8495,7 +8686,7 @@
                                         },
                                         {
                                             "name": "Flare",
-                                            "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                            "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                         },
                                         {
                                             "name": "Scather",
@@ -9159,7 +9350,7 @@
                         },
                         {
                             "name": "Tactics [Reposition [3\"]]",
-                            "description": "Models in this unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Models in this unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         }
                     ],
                     "stats": {

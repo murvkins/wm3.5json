@@ -14,7 +14,7 @@
             "models": [
                 {
                     "name": "Absylonia 2",
-                    "title": "Legion Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -294,7 +294,7 @@
             "models": [
                 {
                     "name": "Anamag 1",
-                    "title": "Legion Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -430,7 +430,7 @@
             "models": [
                 {
                     "name": "Bethayne 2",
-                    "title": "Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -456,7 +456,7 @@
                     },
                     "execution": {
                         "name": "Field Marshal [Reposition [3\"]]",
-                        "description": "Cohort models in this model's battlegroup gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                        "description": "Cohort models in this model's battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                     },
                     "stats": {
                         "basesize": "40mm",
@@ -590,7 +590,7 @@
             "models": [
                 {
                     "name": "Bethayne 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -813,7 +813,7 @@
             "models": [
                 {
                     "name": "Eiryss",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1001,7 +1001,7 @@
             "models": [
                 {
                     "name": "Fyanna 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1134,7 +1134,7 @@
             "models": [
                 {
                     "name": "Kallus 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1284,7 +1284,7 @@
             "models": [
                 {
                     "name": "Kallus 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1413,7 +1413,7 @@
             "models": [
                 {
                     "name": "Kryssa 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1565,7 +1565,7 @@
             "models": [
                 {
                     "name": "Lylyth 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1579,7 +1579,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Reposition [3\"]]",
-                            "description": "Cohort models in this model's battlegroup gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Cohort models in this model's battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Prowl",
@@ -1720,7 +1720,7 @@
             "models": [
                 {
                     "name": "Lylyth 3",
-                    "title": "Legion Of Everblight Battle Engine Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock"
                     ],
@@ -1758,8 +1758,8 @@
                         "description": "When an enemy model is directly hit by a ranged attack made by a friendly Faction model while the friendly Faction model is in Lylyth's control range, the enemy model becomes stationary for one round. The Reaping lasts for one turn."
                     },
                     "execution": {
-                        "name": "Leadership [Blighted Nyss Raptors]",
-                        "description": "Friendly Blighted Nyss Raptors in this model's CMD range gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its Combat Action, immediately after the attack is resolved it can make one basic ranged attack.)"
+                        "name": "Leadership [Blighted Nyss Raptors] [Quick Work]",
+                        "description": "While in this model's CMD range, friendly faction Blighted Nyss Raptors gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its Combat Action, immediately after the attack is resolved it can make one basic ranged attack.)"
                     },
                     "stats": {
                         "basesize": "120mm",
@@ -1863,7 +1863,7 @@
             "models": [
                 {
                     "name": "Lylyth 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -1882,7 +1882,7 @@
                         },
                         {
                             "name": "Elite Cadre [Strider Deathstalker] [+1 MAT, +1 RAT, and Stealth]",
-                            "description": "Friendly Strider Deathstalker models gain +1 MAT, +1 RAT, and Stealth."
+                            "description": "Friendly Strider Deathstalker models gain +1 MAT, +1 RAT and and Stealth."
                         },
                         {
                             "name": "Evasive",
@@ -2002,7 +2002,7 @@
             "models": [
                 {
                     "name": "Lylyth 4",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -2148,7 +2148,7 @@
             "models": [
                 {
                     "name": "Rhyas 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -2275,7 +2275,7 @@
             "models": [
                 {
                     "name": "Saeryn 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -2436,7 +2436,7 @@
             "models": [
                 {
                     "name": "Rhyas 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Attachment",
@@ -2471,7 +2471,7 @@
                             "description": "When this model is missed by an enemy melee attack, immediately after the attack is resolved it can make one basic melee attack against the attacking model."
                         },
                         {
-                            "name": "Twin Sister",
+                            "name": "Twin Sister: Rhyas",
                             "description": "Saeryn and Rhyas are both warlock models. Saeryn and Rhyas share a single battlegroup and count as one warlock for the purposes of army construction. Rhyas is attached to Saeryn and cannot have an attachment. Your warlock is destroyed only if both Saeryn and Rhyas are destroyed or removed from play. If Rhyas advances or is warped outside of Saeryn's Control Range at any time during her activation, her activation immediately ends. If Rhyas activates and is outside of Saeryn's Control Range, she must immediately use her movement action to move back into Saeryn's Control Range, if her movement would be insufficient to get back into Saeryn's Control Range, she must run to move back into Saeryn's Control Range."
                         }
                     ],
@@ -2551,7 +2551,7 @@
                 },
                 {
                     "name": "Saeryn 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -2686,7 +2686,7 @@
             "models": [
                 {
                     "name": "Thagrosh 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -2840,7 +2840,7 @@
             "models": [
                 {
                     "name": "Thagrosh 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -3004,7 +3004,7 @@
             "models": [
                 {
                     "name": "Vayl 2",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -3166,7 +3166,7 @@
             "models": [
                 {
                     "name": "Vayl 1",
-                    "title": "Legion Of Everblight Warlock",
+                    "title": "Legion of Everblight Warlock",
                     "modeltype": [
                         "Warlock",
                         "Warrior"
@@ -5450,7 +5450,7 @@
             "models": [
                 {
                     "name": "Seraph",
-                    "title": "Legion of Everblight Heavy",
+                    "title": "Legion of Everblight Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -5569,7 +5569,7 @@
                         },
                         {
                             "name": "Flank [Friendly Faction Warbeast]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Warbeast warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Warbeast model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Rabid",
@@ -6007,7 +6007,7 @@
             "models": [
                 {
                     "name": "Zuriel",
-                    "title": "Legion of Everbligh Heavy Warbeast",
+                    "title": "Legion of Everblight Heavy Warbeast",
                     "modeltype": [
                         "Warbeast"
                     ],
@@ -6111,80 +6111,6 @@
             ]
         },
         {
-            "name": "Ammok The Truthbearer",
-            "points": "3",
-            "category": "Solos",
-            "primaryfaction": [
-                "Legion of Everblight"
-            ],
-            "factions": [
-                "Legion of Everblight"
-            ],
-            "fieldallowance": "C",
-            "models": [
-                {
-                    "name": "Ammok The Truthbearer",
-                    "title": "Legion of Everblight",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Blighted Ogrun",
-                        "Tough"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Attached",
-                            "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
-                        },
-                        {
-                            "name": "Exorcist",
-                            "description": "While within 10\" of this model, enemy models lose and cannot become Incorporeal."
-                        },
-                        {
-                            "name": "Leadership [Blighted Ogrun]",
-                            "description": "While in this model’s CMD range, friendly Blighted Ogrun models gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
-                        },
-                        {
-                            "name": "Rise",
-                            "description": "If this model is knocked down at the beginning of your Maintenance Phase, it stands up."
-                        },
-                        {
-                            "name": "Spiritual Conduit",
-                            "description": "While its Leader is in this model’s command range, when the Leader casts a spell and is the point of origin for the spell, the spell gains +2 RNG"
-                        },
-                        {
-                            "name": "Unbinding (★Action)",
-                            "description": " Enemy upkeep spells on models/units within 5” of this model expire. For each upkeep spell that expires as a result of Unbinding, the model maintaining the spell suffers d3 damage points."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "40MM",
-                        "spd": "5",
-                        "str": "9",
-                        "mat": "6",
-                        "rat": "3",
-                        "def": "11",
-                        "arm": "16",
-                        "cmd": "10",
-                        "hp": "8"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Club",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "3",
-                            "count": "1"
-                        }
-                    ],
-                    "displayorder": 0
-                }
-            ]
-        },
-        {
             "name": "Annyssa Ryvaal",
             "points": "6",
             "category": "Solos",
@@ -6281,7 +6207,7 @@
             "models": [
                 {
                     "name": "Beast Mistress",
-                    "title": "Legion of Everblight solo",
+                    "title": "Legion of Everblight Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6294,11 +6220,11 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Aggressive]",
-                            "description": "Cohort models in this model's battlegroup gain Aggressive. ()"
+                            "description": "Cohort models in this model's battlegroup gain Aggressive."
                         },
                         {
                             "name": "Flank [Friendly Faction Lesser Warbeast]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Lesser Warbeast warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Lesser Warbeast model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Lesser Warlock",
@@ -6693,8 +6619,8 @@
                             "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
-                            "name": "Leadership [Blighted Nyss Swordsmen]",
-                            "description": "While in this model’s CMD range, friendly Blighted Nyss Swordsmen models gain True Strike. (When a model with True Strike damages a warjack or warbeast with a melee attack, the owner of the model chooses which column or branch suffers the damage.)"
+                            "name": "Leadership [Blighted Nyss Swordsmen] [True Strike]",
+                            "description": "While in this model's CMD range, friendly faction Blighted Nyss Swordsmen gain True Strike. (When this model damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)"
                         },
                         {
                             "name": "Overtake",
@@ -6966,8 +6892,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Leadership [Grotesques]",
-                            "description": "While in this model’s CMD range, friendly Grotesque models gain Stealth."
+                            "name": "Leadership [Grotesques] [Stealth]",
+                            "description": "While in this model's CMD range, friendly faction Grotesques gain Stealth."
                         },
                         {
                             "name": "Sprint",
@@ -7158,8 +7084,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Leadership [Striders]",
-                            "description": "While in this model’s CMD range, friendly Strider models gain Swift Hunter. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
+                            "name": "Leadership [Striders] [Swift Hunter]",
+                            "description": "While in this model's CMD range, friendly faction Striders gain Swift Hunter. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
                         },
                         {
                             "name": "Marksman",
@@ -7302,7 +7228,7 @@
             "models": [
                 {
                     "name": "Thagrosh 0",
-                    "title": "Legion of Everblight Solo",
+                    "title": "Legion of Everblight Solo Lesser Warlock",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -7500,8 +7426,8 @@
                             "description": "This model can use Blight Cloud once per activation at any time. Center a 3” AOE cloud effect on this model. The AOE remains centered on this model for one round. If this model is destroyed or removed from play, remove the AOE from play. Models in the AOE when it is placed or that enter or end their activation in the AOE suffer the Continuous Corrosion effect."
                         },
                         {
-                            "name": "Leadership [Virtue]",
-                            "description": "While in this model’s CMD range, friendly Virtue models gain Blight Cloud. (A model with Blight Cloud can use Blight Cloud once per activation at any time. Center a 3” AOE cloud effect on the model. The AOE remains centered on the model for one round. If the model is destroyed or removed from play, remove the AOE from play. Models in the AOE when it is placed or that enter or end their activation in the AOE suffer the Continuous Corrosion effect.)"
+                            "name": "Leadership [Virtue] [Blight Cloud]",
+                            "description": "While in this model's CMD range, friendly faction Virtue gain Blight Cloud."
                         },
                         {
                             "name": "Meltdown",
@@ -7600,8 +7526,8 @@
                             "description": "Immediately after this model resolves a melee attack in which it destroys one or more living models, it can end its activation and remove d3 damage points."
                         },
                         {
-                            "name": "Leadership [Blighted Ogrun]",
-                            "description": "While in this model’s CMD range, friendly Blighted Ogrun models gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
+                            "name": "Leadership [Blighted Ogrun] [Blood Drinker]",
+                            "description": "While in this model's CMD range, friendly faction Blighted Ogrun gain Blood Drinker."
                         },
                         {
                             "name": "Unyielding",
@@ -7689,8 +7615,8 @@
                             },
                             "subabilities": [
                                 {
-                                    "name": "Freezing Mist (★Action)",
-                                    "description": "Place a 3\" AOE cloud effect completely within the spellcaster's control range. The template is a hazard. While in the AOE, models without Resistance: Cold suffer -2 to their accuracy rolls. The AOE remains in play for one round. "
+                                    "name": "Freezing Fog (★Action)",
+                                    "description": "Place a 3\" AOE cloud effect completely within the spellcaster's control range. The template is a hazard. While in the AOE, models without Resistance: Cold suffer -2 to their accuracy rolls. The AOE remains in play for one round."
                                 },
                                 {
                                     "name": "Puppet Master (★Action) (★Attack)",
@@ -7722,9 +7648,9 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "minunit": "Sevryn, Rhylyss & Vysarr",
-                "mincost": "8",
                 "maxunit": "-",
+                "mincost": "8",
+                "minunit": "Sevryn, Rhylyss and Vysarr",
                 "maxcost": "-"
             },
             "models": [
@@ -7990,9 +7916,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11"
             },
             "models": [
@@ -8065,10 +7991,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "12"
+                "mincost": "7",
+                "maxcost": "12",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -8148,10 +8074,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader & 2 Grunts",
-                "maxunit": "-",
                 "maxcost": "-",
-                "mincost": "4"
+                "maxunit": "-",
+                "mincost": "4",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8240,8 +8166,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "14",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
                 "mincost": "9"
             },
@@ -8311,10 +8237,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "10",
-                "maxcost": "16",
                 "maxunit": "Leader and 4 Grunts",
-                "minunit": "Leader and 2 Grunts"
+                "maxcost": "16",
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "10"
             },
             "models": [
                 {
@@ -8408,10 +8334,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
                 "maxunit": "-",
+                "minunit": "Gunner and 2 Grunts",
                 "mincost": "3",
-                "minunit": "Gunner & 2 Grunts"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -8541,10 +8467,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "5",
                 "mincost": "3",
-                "maxunit": "Vessel and 6 Grunts",
                 "minunit": "Vessel and 4 Grunts",
-                "maxcost": "5"
+                "maxunit": "Vessel and 6 Grunts"
             },
             "models": [
                 {
@@ -8648,9 +8574,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "-",
-                "minunit": "Leader and 5 Grunts",
                 "mincost": "7",
-                "maxcost": "-"
+                "maxcost": "-",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -8720,8 +8646,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "-",
                 "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "7"
             },
             "models": [
@@ -8798,10 +8724,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
                 "maxcost": "12",
+                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "mincost": "7"
             },
             "models": [
                 {
@@ -8861,9 +8787,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "Leader and 4 Grunts",
+                "maxcost": "13",
                 "mincost": "8",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "13"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8956,9 +8882,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "mincost": "8",
-                "maxcost": "13",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts"
+                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -9052,10 +8978,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
+                "mincost": "6",
                 "maxcost": "9",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9118,10 +9044,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
                 "mincost": "11",
+                "maxcost": "17",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "17"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -9227,10 +9153,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -9297,10 +9223,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "mincost": "7",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "11",
-                "maxunit": "Leader and 9 Grunts"
+                "mincost": "7",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9366,9 +9292,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "mincost": "6",
                 "maxunit": "-",
+                "mincost": "6",
+                "maxcost": "-",
                 "minunit": "Leader and 3 Tentacles"
             },
             "models": [
@@ -9519,10 +9445,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "maxcost": "-",
                 "maxunit": "-",
                 "mincost": "7",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -9594,6 +9520,80 @@
                             "damagetype": [
                                 "Arcane"
                             ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
+            "name": "Ammok The Truthbearer",
+            "points": "3",
+            "category": "Attachments",
+            "primaryfaction": [
+                "Legion of Everblight"
+            ],
+            "factions": [
+                "Legion of Everblight"
+            ],
+            "fieldallowance": "C",
+            "models": [
+                {
+                    "name": "Ammok The Truthbearer",
+                    "title": "Legion of Everblight Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Blighted Ogrun",
+                        "Tough"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Attached",
+                            "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
+                        },
+                        {
+                            "name": "Exorcist",
+                            "description": "While within 10\" of this model, enemy models lose and cannot become Incorporeal."
+                        },
+                        {
+                            "name": "Leadership [Blighted Ogrun] [Rise]",
+                            "description": "While in this model's CMD range, friendly faction Blighted Ogrun gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
+                        },
+                        {
+                            "name": "Rise",
+                            "description": "If this model is knocked down at the beginning of your Maintenance Phase, it stands up."
+                        },
+                        {
+                            "name": "Spiritual Conduit",
+                            "description": "While its Leader is in this model’s command range, when the Leader casts a spell and is the point of origin for the spell, the spell gains +2 RNG"
+                        },
+                        {
+                            "name": "Unbinding (★Action)",
+                            "description": " Enemy upkeep spells on models/units within 5” of this model expire. For each upkeep spell that expires as a result of Unbinding, the model maintaining the spell suffers d3 damage points."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40MM",
+                        "spd": "5",
+                        "str": "9",
+                        "mat": "6",
+                        "rat": "3",
+                        "def": "11",
+                        "arm": "16",
+                        "cmd": "10",
+                        "hp": "8"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Club",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "3",
+                            "count": "1"
                         }
                     ],
                     "displayorder": 0
@@ -10382,7 +10382,7 @@
             "models": [
                 {
                     "name": "Warspear Chieftain",
-                    "title": "Legion of Everblight Unit",
+                    "title": "Legion of Everblight Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"

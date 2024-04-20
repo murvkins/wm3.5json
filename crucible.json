@@ -16,7 +16,7 @@
             "models": [
                 {
                     "name": "Syvestro 1",
-                    "title": "Crucible Guard Ordic Warcaster",
+                    "title": "Crucible Guard Warcaster",
                     "modeltype": [
                         "Warcaster"
                     ],
@@ -356,7 +356,7 @@
             "models": [
                 {
                     "name": "Locke 1",
-                    "title": "Crucible Guard, Convergence of Cyriss Warcaster",
+                    "title": "Crucible Guard Convergence of Cyriss Warcaster",
                     "modeltype": [
                         "Warcaster"
                     ],
@@ -526,7 +526,7 @@
             "models": [
                 {
                     "name": "MacKay 1",
-                    "title": "Crucible Guard Battle Engine Warcaster",
+                    "title": "Crucible Guard Warcaster",
                     "modeltype": [
                         "Warcaster"
                     ],
@@ -758,6 +758,14 @@
                         {
                             "name": "Reposition [5\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 5\", then it's activation ends."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
                         }
                     ],
                     "feat": {
@@ -887,7 +895,7 @@
             "models": [
                 {
                     "name": "Marshal General Baldwin Gearhart",
-                    "title": "Crucible Warcaster",
+                    "title": "Crucible Guard Warcaster",
                     "modeltype": [
                         "Warcaster"
                     ],
@@ -2496,6 +2504,10 @@
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 5\", then it's activation ends."
                         },
                         {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
                             "name": "Swift Hunter",
                             "description": "When this model destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\"."
                         }
@@ -2585,6 +2597,10 @@
                         {
                             "name": "Reposition [5\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 5\", then it's activation ends."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Side Step",
@@ -2736,15 +2752,15 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "maxunit": "-",
                 "mincost": "4",
                 "maxcost": "-",
-                "minunit": "Leader & 2 Grunts",
-                "maxunit": "-"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
                     "name": "Combat Alchemists",
-                    "title": "Crucible Guard Alchemist Warrior Unit",
+                    "title": "Crucible Guard Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -2855,7 +2871,7 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader & 2 Grunts",
+                "minunit": "Leader and 2 Grunts",
                 "mincost": "6",
                 "maxcost": "-",
                 "maxunit": "-"
@@ -2863,7 +2879,7 @@
             "models": [
                 {
                     "name": "Containment Operatives",
-                    "title": "Crucible Guard Alchemist Unit",
+                    "title": "Crucible Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -2963,10 +2979,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "12",
-                "mincost": "7",
+                "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts"
+                "maxcost": "12",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -3078,8 +3094,8 @@
             "unitpoints": {
                 "mincost": "7",
                 "maxcost": "12",
-                "minunit": "Leader & 5 Grunts",
-                "maxunit": "Leader & 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -3175,9 +3191,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "mincost": "6",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -3207,6 +3223,10 @@
                         {
                             "name": "Order: Strafing Run",
                             "description": "Affected models gain +2 SPD and Reposition [5\"] this turn. (At the end of an activation in which it did not run or fail a charge, a model with Reposition [5\"] can advance up to 5\", then its activation ends.)"
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         }
                     ],
                     "stats": {
@@ -3266,10 +3286,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "mincost": "9",
                 "maxcost": "15",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts",
-                "mincost": "9"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -3379,14 +3399,14 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxcost": "-",
-                "minunit": "Gunner & 2 Grunts",
+                "minunit": "Gunner and 2 Grunts",
                 "maxunit": "-",
                 "mincost": "5"
             },
             "models": [
                 {
                     "name": "Gunner",
-                    "title": "Crucible Guard Weapon Crew Officer",
+                    "title": "Crucible Guard Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -3486,7 +3506,7 @@
                 },
                 {
                     "name": "Grunt",
-                    "title": "Crucible Guard Alchemist Weapon Crew Unit",
+                    "title": "Crucible Guard Unit",
                     "modeltype": [
                         "Unit",
                         "Warrior",
@@ -3553,9 +3573,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "14",
-                "mincost": "8",
                 "maxunit": "Leader and 4 Grunts",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -3651,11 +3671,14 @@
             "models": [
                 {
                     "name": "Marc 1 (Little Alyce)",
-                    "title": "Crucible Guard Llaelese Solo",
+                    "title": "Crucible Guard Solo",
                     "modeltype": [
                         "Solo",
                         "Attachment",
                         "Warrior"
+                    ],
+                    "keywords": [
+                        "Llaelese"
                     ],
                     "characterabilities": [
                         {
@@ -3737,12 +3760,13 @@
                 },
                 {
                     "name": "Marc 1 (Big Alyce)",
-                    "title": "Crucible Guard Llaelese Solo",
+                    "title": "Crucible Guard Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
                     ],
                     "keywords": [
+                        "Llaelese",
                         "Tough"
                     ],
                     "characterabilities": [
@@ -3831,7 +3855,7 @@
                         },
                         {
                             "name": "Tactics [Reposition [3\"]]",
-                            "description": "Models in this unit gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Models in this unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         }
                     ],
                     "stats": {
@@ -3960,7 +3984,7 @@
             "models": [
                 {
                     "name": "Crucible Guard Rocketman Captain",
-                    "title": "Crucible Guard Rocketmen Command Attachment",
+                    "title": "Crucible Guard Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -3995,6 +4019,10 @@
                         {
                             "name": "Granted [Dodge]",
                             "description": "While this model is in play, models in its unit gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Tactics [Sunblind 'em]",
@@ -4159,7 +4187,7 @@
             "models": [
                 {
                     "name": "Rocketman Gunner",
-                    "title": "Crucible Guard Rocketmen Weapon Attachment",
+                    "title": "Crucible Guard Weapon Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -4185,6 +4213,10 @@
                         {
                             "name": "Garrison Troops",
                             "description": "This model can be included in an Ord or Llael army and are considered in faction."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Weapon Attachment [Crucible Guard Rocketmen]",

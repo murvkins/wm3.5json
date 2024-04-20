@@ -8,7 +8,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -21,6 +22,16 @@
                     "keywords": [
                         "Dual Attack",
                         "Resistance: Electric"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
+                        }
                     ],
                     "feat": {
                         "name": "Eye Of The Storm",
@@ -880,8 +891,8 @@
                         "description": "When one or more enemy models are destroyed by an attack while in Kraye's control range, immediately after the attack is resolved, one model in Kraye's battlegroup currently in it's control range gains 1 focus point. Additionally, while in Kraye's control range, models in his battlegroup gain Stealth. Shadow war lasts for one round."
                     },
                     "execution": {
-                        "name": "Leadership [Rangers]",
-                        "description": "Friendly Ranger models in this model’s CMD range’s weapons gain Beacon and Flare. (Friendly Faction models can charge or make a slam power attack against an enemy model hit by a weapon with Beacon without being forced or spending focus. A friendly Faction model charging an enemy model hit by Beacon gains +2” movement. Beacon lasts for one turn.) (Models hit by a weapon with Flare lose and cannot gain Stealth and suffer -2 DEF for one turn.)"
+                        "name": "Leadership [Rangers] [Beacon, Flare]",
+                        "description": "While in this model's CMD range, friendly faction Rangers gain Beacon and Flare. (Friendly Faction models can charge or make a slam power attack against an enemy model hit by a weapon with Beacon without being forced or spending focus. A friendly Faction model charging an enemy model hit by Beacon gains +2\" movement. Beacon lasts for one turn.) (Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round.)"
                     },
                     "stats": {
                         "basesize": "50mm",
@@ -1015,7 +1026,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [True Sight]",
-                            "description": "Cohort models in this model's battlegroup gain True Sight. ()"
+                            "description": "Cohort models in this model's battlegroup gain True Sight."
                         },
                         {
                             "name": "Heart of Darkness [Cygnar]",
@@ -1281,7 +1292,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -1318,8 +1330,16 @@
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
                         },
                         {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
                             "name": "Spell Rack [2]",
                             "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
                         }
                     ],
                     "feat": {
@@ -1440,12 +1460,20 @@
                             "description": "This model can be targeted with Repair special actions as if it were a construct model."
                         },
                         {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
                             "name": "Spell Rack [2]",
                             "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
                         },
                         {
                             "name": "Steady",
                             "description": "This model cannot become knocked down."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
                         },
                         {
                             "name": "Sturdy",
@@ -1578,8 +1606,8 @@
                         "description": "Haley and friendly Faction models beginning their activations in her control range can make one additional ranged or melee attack during their activations. Blitz lasts for one turn."
                     },
                     "execution": {
-                        "name": "Leadership [Long Gunners]",
-                        "description": "While in this model’s CMD range, friendly faction Long Gunner models gain Volume Fire. (A model with Volume Fire gains +1 to attack accuracy and damage rolls against medium-based models and +2 to attack accuracy and damage rolls against large, extra-large, and huge-based models.)"
+                        "name": "Leadership [Long Gunners] [Volume Fire]",
+                        "description": "While in this model's CMD range, friendly faction Long Gunners gain Volume Fire. (Attacks with a weapon with Volumn Fire gain +1 to attack accuracy and damage rolls against medium-based models and +2 to attack accuracy and damage rolls against large, extra-large, and huge-based models.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -1985,79 +2013,6 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Rocket Turret",
-                    "title": "Cygnar Solo",
-                    "modeltype": [
-                        "Solo"
-                    ],
-                    "keywords": [
-                        "Construct",
-                        "Gunfighter"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Circular Vision",
-                            "description": "Models never gain a back strike bonus against this model."
-                        },
-                        {
-                            "name": "Companion [Colonel Brisbane]",
-                            "description": "This model is included in any army that includes Colonel Brisbane. If Colonel Brisbane is destroyed or removed from play, remove this model from play. This model is part of Colonel Brisbane's battlegroup."
-                        },
-                        {
-                            "name": "Created",
-                            "description": "This model does not begin the game in play."
-                        },
-                        {
-                            "name": "Gun Platform",
-                            "description": "This model can make ranged attacks even while in melee and can target models outside of melee."
-                        },
-                        {
-                            "name": "Pack It Up",
-                            "description": "If this model is in play during your Maintenance Phase, you can remove it from play."
-                        },
-                        {
-                            "name": "Sentry Fire",
-                            "description": "Once per turn, when an enemy model is warped or advances into and ends its movement within 8\" of this model, this model can immediately make one basic ranged attack targeting that model."
-                        },
-                        {
-                            "name": "Turret",
-                            "description": "This model can only advance to change it's facing. This model cannot become knocked down or be pushed and is automatically hit by melee attacks. This model does not suffer blast damage."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "40mm",
-                        "spd": "0",
-                        "str": "1",
-                        "rat": "6",
-                        "def": "5",
-                        "arm": "18",
-                        "cmd": "0",
-                        "hp": "5"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Rocket",
-                            "type": "ranged",
-                            "fieldoffire": "none",
-                            "rng": "12",
-                            "rof": "1",
-                            "pow": "14",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "High-Explosive",
-                                    "description": "Blast damage caused by this weapon is POW 10."
-                                },
-                                {
-                                    "name": "Siege Weapon",
-                                    "description": "This weapon gains an additional die to its damage rolls against huge-based models and structures."
-                                }
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
                     "name": "Siege 2",
                     "title": "Cygnar Warcaster",
                     "modeltype": [
@@ -2183,6 +2138,79 @@
                             "description": "Place a wall template anywhere completely within the spellcaster's Control Range where it does not touch a model's base, an obstruction, or an obstacle. When a model enters or ends its activation in the wall template it suffers 1 damage point."
                         }
                     ],
+                    "displayorder": 0
+                },
+                {
+                    "name": "Rocket Turret",
+                    "title": "Cygnar Solo",
+                    "modeltype": [
+                        "Solo"
+                    ],
+                    "keywords": [
+                        "Construct",
+                        "Gunfighter"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Circular Vision",
+                            "description": "Models never gain a back strike bonus against this model."
+                        },
+                        {
+                            "name": "Companion [Colonel Brisbane]",
+                            "description": "This model is included in any army that includes Colonel Brisbane. If Colonel Brisbane is destroyed or removed from play, remove this model from play. This model is part of Colonel Brisbane's battlegroup."
+                        },
+                        {
+                            "name": "Created",
+                            "description": "This model does not begin the game in play."
+                        },
+                        {
+                            "name": "Gun Platform",
+                            "description": "This model can make ranged attacks even while in melee and can target models outside of melee."
+                        },
+                        {
+                            "name": "Pack It Up",
+                            "description": "If this model is in play during your Maintenance Phase, you can remove it from play."
+                        },
+                        {
+                            "name": "Sentry Fire",
+                            "description": "Once per turn, when an enemy model is warped or advances into and ends its movement within 8\" of this model, this model can immediately make one basic ranged attack targeting that model."
+                        },
+                        {
+                            "name": "Turret",
+                            "description": "This model can only advance to change it's facing. This model cannot become knocked down or be pushed and is automatically hit by melee attacks. This model does not suffer blast damage."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40mm",
+                        "spd": "0",
+                        "str": "1",
+                        "rat": "6",
+                        "def": "5",
+                        "arm": "18",
+                        "cmd": "0",
+                        "hp": "5"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Rocket",
+                            "type": "ranged",
+                            "fieldoffire": "none",
+                            "rng": "12",
+                            "rof": "1",
+                            "pow": "14",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "High-Explosive",
+                                    "description": "Blast damage caused by this weapon is POW 10."
+                                },
+                                {
+                                    "name": "Siege Weapon",
+                                    "description": "This weapon gains an additional die to its damage rolls against huge-based models and structures."
+                                }
+                            ]
+                        }
+                    ],
                     "displayorder": 1
                 }
             ]
@@ -2195,7 +2223,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -2206,18 +2235,29 @@
                         "Warcaster",
                         "Warrior"
                     ],
+                    "keywords": [
+                        "Stormsmith"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Arcane Accumulator",
                             "description": "When another model is in this model's Control Range casts a spell, this model gains one power token. This model can have up to three power tokens at any time. After this model replenishes its focus during your next Control Phase, replace each power token with 1 focus point."
                         },
                         {
-                            "name": "Elite Cadre [Field Mechanic Crew Chief] [Empower ]",
-                            "description": "Friendly Field Mechanic Crew Chief models gain Empower."
+                            "name": "Elite Cadre [Field Mechanic Crew Chief] [Empower]",
+                            "description": "Friendly Field Mechanic Crew Chief models gain Empower. (RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point.)"
                         },
                         {
                             "name": "Field Marshal [Supercharged]",
                             "description": "Cohort models in this model's battlegroup gain Supercharged."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
                         }
                     ],
                     "feat": {
@@ -2778,7 +2818,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -2801,6 +2842,14 @@
                         {
                             "name": "Focus Matrix",
                             "description": "This model can allocate focus during its activation. Once per turn during its activation, you can remove focus from warjacks in this model's battlegroup that are in its Control Range and give those focus to this model. This model cannot have more focus than its ARC as a result of Focus Matrix."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
                         },
                         {
                             "name": "Veteran Leader [Stormsmith]",
@@ -3558,7 +3607,7 @@
                         },
                         {
                             "name": "Flank [Storm Knight]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Storm Knight warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Storm Knight model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Quick Work",
@@ -5185,7 +5234,7 @@
                         },
                         {
                             "name": "Modular [3]",
-                            "description": "This model is a modular design and has 3 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 3 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         }
                     ],
                     "stats": {
@@ -8484,7 +8533,7 @@
                         },
                         {
                             "name": "Modular [3]",
-                            "description": "This model is a modular design and has 3 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 3 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         }
                     ],
                     "stats": {
@@ -9744,7 +9793,7 @@
                                     "subabilities": [
                                         {
                                             "name": "Flare",
-                                            "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                            "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                         },
                                         {
                                             "name": "Snipe",
@@ -9807,7 +9856,7 @@
                         },
                         {
                             "name": "Elite Cadre [Sword Knights] [Reposition [3\"]]",
-                            "description": "Friendly Sword Knights models gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "Friendly Sword Knights models gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Sacrificial Pawn [Faction Warjack]",
@@ -9877,216 +9926,6 @@
                         }
                     ],
                     "displayorder": 0
-                }
-            ]
-        },
-        {
-            "name": "Artificer Prime Nemo",
-            "points": "17",
-            "category": "Solos",
-            "primaryfaction": [
-                "Cygnar"
-            ],
-            "factions": [
-                "Cygnar"
-            ],
-            "fieldallowance": "C",
-            "models": [
-                {
-                    "name": "Nemo 4",
-                    "title": "Mercenary Cygnaran Battle Engine Journeyman Warcaster Solo",
-                    "modeltype": [
-                        "Battle Engine"
-                    ],
-                    "keywords": [
-                        "Battle Engine",
-                        "Cygnaran",
-                        "Dual Attack",
-                        "Mercenary",
-                        "Resistance: Electric"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Journeyman Warcaster",
-                            "description": "This model is not a warcaster or Leader, but has the following warcaster special rules: Battlegroup Controller, Focus Manipulation, Power Field, and Spellcaster. This model must have at least one warjack in its battlegroup at the start of the game."
-                        },
-                        {
-                            "name": "Opening The Gate",
-                            "description": "This model can use Opening the Gate once per game at any time during its activation. Immediately add to play one friendly living non-character Faction solo with a point cost of 5 or less, placing it completely within 3\" of this model. That solo must forfeit its Combat Action the turn it is put into play."
-                        },
-                        {
-                            "name": "Partisan [Cygnar]",
-                            "description": "When included in a Cygnar army, this model is a Cygnar model instead of a Mercenary model."
-                        },
-                        {
-                            "name": "Soul Vessel",
-                            "description": "This model generates soul tokens as if it were a living model."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "120MM",
-                        "spd": "4",
-                        "str": "8",
-                        "aat": "6",
-                        "mat": "5",
-                        "rat": "6",
-                        "def": "11",
-                        "arm": "18",
-                        "arc": "5",
-                        "cmd": "8",
-                        "ctrl": "10",
-                        "hp": "26"
-                    },
-                    "nestedabilities": [
-                        {
-                            "topability": {
-                                "name": "Opening the Gate",
-                                "description": "This model can use Opening the Gate once per game at any time during its activation. Immediately add to play one friendly living non-character Faction solo with a point cost of 5 or less, placing it completely within 3\" of this model. That solo must forfeit its Combat Action the turn it is put into play."
-                            },
-                            "subabilities": [
-                                {
-                                    "name": "Fold Space",
-                                    "description": ""
-                                },
-                                {
-                                    "name": "Spatial Vortex",
-                                    "description": ""
-                                }
-                            ]
-                        }
-                    ],
-                    "weapons": [
-                        {
-                            "name": "Electrical Strikes",
-                            "type": "ranged",
-                            "fieldoffire": "None",
-                            "rng": "13",
-                            "rof": "2",
-                            "pow": "14",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Thunderbolt",
-                                    "description": "Enemy models hit are pushed d3\" directly away from the attacking model. On a critical hit, the enemy model becomes knocked down after being pushed."
-                                }
-                            ],
-                            "damagetype": [
-                                "Electric"
-                            ]
-                        },
-                        {
-                            "name": "Bash",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "4",
-                            "count": "1"
-                        }
-                    ],
-                    "spells": [
-                        {
-                            "name": "Lightning Shroud",
-                            "cost": "2",
-                            "rng": "6",
-                            "aoe": "-",
-                            "pow": "-",
-                            "dur": "UP",
-                            "off": "NO",
-                            "description": "Target warjack in the spellcaster's battlegroup gains +2 to Melee Damage rolls and Resistance: Electricity, and its melee weapons gain Electro Leap. (When a model is hit by a basic attack made with a weapon with Electro Leap, you can have lightning arc to the nearest model within 4\" of the model hit, ignoring the attacking model and any model with Resistance: electricity. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll. Lightning arc damage rolls are not considered to have been caused by an attack. Resolve lightning arc damage rolls simultaneously with the damage resulting from the attack that caused the leap.)."
-                        },
-                        {
-                            "name": "Locomotion",
-                            "cost": "",
-                            "rng": "",
-                            "aoe": "",
-                            "pow": "",
-                            "dur": "",
-                            "off": "NO",
-                            "description": ""
-                        },
-                        {
-                            "name": "Watcher",
-                            "cost": "2",
-                            "rng": "SELF",
-                            "aoe": "-",
-                            "pow": "-",
-                            "dur": "UP",
-                            "off": "NO",
-                            "description": "Once per turn when an enemy model advances and ends its movement within 6\" of the spellcaster, you can choose a Cohort model in the spellcaster's battlegroup that is in its Control Range. That Cohort model can immediately make a full advance toward the enemy model and then can make one basic attack targeting the enemy model."
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
-                    "name": "Arcane Mechaniks",
-                    "title": "Mercenary Cygnar Unit",
-                    "modeltype": [
-                        "Unit",
-                        "Companion"
-                    ],
-                    "keywords": [
-                        "Resistance: Electric"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Companion [Artificer Prime Nemo]",
-                            "description": "This model is included in any army that includes Artificer Prime Nemo. If Artificer Prime Nemo is destroyed or removed from play, remove this model from play. This model is part of Artificer Prime Nemo's battlegroup."
-                        },
-                        {
-                            "name": "Partisan [Cygnar]",
-                            "description": "When included in a Cygnar army, this model is a Cygnar model instead of a Mercenary model."
-                        },
-                        {
-                            "name": "Repair [D3+1] (★Action)",
-                            "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove D3+1 damage point from it."
-                        },
-                        {
-                            "name": "Super Tune",
-                            "description": ""
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "30MM",
-                        "spd": "6",
-                        "str": "6",
-                        "mat": "5",
-                        "rat": "6",
-                        "def": "13",
-                        "arm": "11",
-                        "cmd": "6",
-                        "hp": "1"
-                    },
-                    "hpbars": [
-                        {
-                            "name": "A",
-                            "hp": "1"
-                        },
-                        {
-                            "name": "B",
-                            "hp": "1"
-                        },
-                        {
-                            "name": "C",
-                            "hp": "1"
-                        }
-                    ],
-                    "weapons": [
-                        {
-                            "name": "Stun Glaive",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "6",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Critical Stall",
-                                    "description": ""
-                                }
-                            ]
-                        }
-                    ],
-                    "displayorder": 1
                 }
             ]
         },
@@ -10461,7 +10300,7 @@
                                         },
                                         {
                                             "name": "Flare",
-                                            "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                            "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                         },
                                         {
                                             "name": "Shadow Fire",
@@ -11098,15 +10937,15 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Storm Knight]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Storm Knight warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Storm Knight model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Force Barrier",
                             "description": "This model gains +2 DEF against ranged accuracy attack rolls and Resistance: Blast."
                         },
                         {
-                            "name": "Leadership [Storm Knight]",
-                            "description": "While in this model’s CMD range, friendly Storm Knight models gain Force Barrier. (A model with Force Barrier gains +2 DEF against ranged accuracy attack rolls and Resistance: Blast.)"
+                            "name": "Leadership [Storm Knight] [Force Barrier]",
+                            "description": "While in this model's CMD range, friendly faction Storm Knight gain Force Barrier."
                         },
                         {
                             "name": "Quick Work",
@@ -11207,7 +11046,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Swift Hunter]",
-                            "description": "Cohort models in this model's battlegroup gain Swift Hunter."
+                            "description": "Cohort models in this model's battlegroup gain Swift Hunter. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
                         },
                         {
                             "name": "Journeyman Warcaster",
@@ -11529,8 +11368,8 @@
                             "description": "Foxhole Buddy - While B2B with a friendly model that is dug in, this model gains cover, Blast Resistance, and does not block LOS."
                         },
                         {
-                            "name": "Leadership [Trencher]",
-                            "description": "While in this model’s CMD range, friendly Trencher models gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
+                            "name": "Leadership [Trencher] [Dodge]",
+                            "description": "While in this model's CMD range, friendly faction Trencher gain Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)"
                         },
                         {
                             "name": "Noisy (★Action)",
@@ -11595,7 +11434,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Friendly Warrior]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Warrior warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Warrior model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Jump",
@@ -11679,7 +11518,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -11701,6 +11541,10 @@
                         {
                             "name": "Hit The Deck!",
                             "description": "Ignore this model when determining which models would be hit by an AOE. If it would be hit by an AOE, it instead becomes knocked down. While this model is knocked down, ranged attacks targeting it automatically miss."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Rise",
@@ -12005,7 +11849,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Trencher]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Trencher warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Trencher model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Foxhole Buddy",
@@ -12268,7 +12112,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "4",
             "models": [
@@ -12293,6 +12138,10 @@
                         {
                             "name": "Man-Sized",
                             "description": "This model is treated as a small-based model and occupies the space from the bottom of its base to a height of 1.75”."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         }
                     ],
                     "stats": {
@@ -12462,10 +12311,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "Leader and 5 Grunts",
                 "maxcost": "9",
-                "mincost": "5"
+                "mincost": "5",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -12570,10 +12419,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "9",
-                "maxunit": "-",
                 "maxcost": "-",
-                "minunit": "Captain Dixon Lynch, Lieutenant Darcy Ryan & Sergent Samual Watts"
+                "mincost": "9",
+                "minunit": "Captain Dixon Lynch, Lieutenant Darcy Ryan and Sergent Samual Watts",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -12595,8 +12444,8 @@
                             "description": "Models in this unit gain a +1 cumulative bonus to ranged damage rolls for each other model in this unit that has hit an enemy model with a ranged attack this activation."
                         },
                         {
-                            "name": "Leadership [Gunmage]",
-                            "description": "While in this model’s CMD range, friendly Gunmage models gain Prowl. (While a model with Prowl has concealment, it gains Stealth.)"
+                            "name": "Leadership [Gunmage] [Prowl]",
+                            "description": "While in this model's CMD range, friendly faction Gunmage gain Prowl. (While a model with Prowl has concealment, it gains Stealth.)"
                         },
                         {
                             "name": "Military Attaché [Llael]",
@@ -12680,7 +12529,7 @@
                         },
                         {
                             "name": "Granted [Swift Hunter]",
-                            "description": "While this model is in play, models in its unit gain Swift Hunter."
+                            "description": "While this model is in play, models in its unit gain Swift Hunter. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
                         },
                         {
                             "name": "Military Attaché [Llael]",
@@ -12857,10 +12706,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Crew Chief & 3 Grunts",
-                "maxunit": "Crew Chief & 5 Grunts",
-                "mincost": "2",
-                "maxcost": "5"
+                "maxcost": "5",
+                "maxunit": "Crew Chief and 5 Grunts",
+                "minunit": "Crew Chief and 3 Grunts",
+                "mincost": "2"
             },
             "models": [
                 {
@@ -12974,9 +12823,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader & 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "11",
-                "maxunit": "Leader & 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "6"
             },
             "models": [
@@ -13050,9 +12899,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "minunit": "Leader & 5 Grunts",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "7"
             },
             "models": [
@@ -13151,10 +13000,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
-                "minunit": "Leader & 5 Grunts",
                 "maxcost": "-",
-                "maxunit": "-"
+                "mincost": "8",
+                "maxunit": "-",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -13228,9 +13077,9 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "14",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts",
                 "mincost": "8"
             },
             "models": [
@@ -13383,13 +13232,14 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "-",
-                "minunit": "Leader and 2 Grunts",
                 "mincost": "5",
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-",
                 "maxcost": "-"
             },
             "models": [
@@ -13415,6 +13265,10 @@
                         {
                             "name": "Reposition [3\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         }
                     ],
                     "stats": {
@@ -13483,10 +13337,10 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
                 "mincost": "10",
                 "maxcost": "19",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -13625,9 +13479,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "Leader and 4 Grunts",
-                "maxcost": "18",
                 "mincost": "11",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "18"
             },
             "models": [
                 {
@@ -13745,118 +13599,6 @@
             ]
         },
         {
-            "name": "Storm Vanes",
-            "category": "Units",
-            "primaryfaction": [
-                "Cygnar"
-            ],
-            "factions": [
-                "Convergence of Cyriss",
-                "Crucible Guard",
-                "Cygnar",
-                "Supernal Coalition"
-            ],
-            "fieldallowance": "2",
-            "unitpoints": {
-                "minunit": "Leader & 2 Grunts",
-                "maxcost": "-",
-                "mincost": "5",
-                "maxunit": "-"
-            },
-            "models": [
-                {
-                    "name": "Storm Vanes",
-                    "title": "Cygnar Unit",
-                    "modeltype": [
-                        "Unit",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Gunfighter",
-                        "MK4",
-                        "Resistance: Electric",
-                        "Stormforge",
-                        "Stormsmith"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Arcane Collaboration",
-                            "description": "This model can be taken in a [Crucible Guard], [Supernal Coalition] or [Convergence] army, if it is, it is considered the same faction as the army Leader."
-                        },
-                        {
-                            "name": "Plasma Nimbus",
-                            "description": "If this model is hit by a melee attack, immediately after the attack is resolved you can choose to have the attacking model suffer a POW 10 Electric damage roll unless this model was destroyed or removed from play by the attack."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "30MM",
-                        "spd": "5",
-                        "str": "5",
-                        "mat": "5",
-                        "rat": "6",
-                        "def": "12",
-                        "arm": "14",
-                        "cmd": "6",
-                        "hp": "5"
-                    },
-                    "hpbars": [
-                        {
-                            "name": "Leader",
-                            "hp": "5"
-                        },
-                        {
-                            "name": "Model A",
-                            "hp": "5"
-                        },
-                        {
-                            "name": "Model B",
-                            "hp": "5"
-                        }
-                    ],
-                    "nestedabilities": [
-                        {
-                            "topability": {
-                                "name": "Arcane Machinery",
-                                "description": "Once per turn at any time during its activation, this model can use one of the following effects. Arcane Machinery effects last for one round."
-                            },
-                            "subabilities": [
-                                {
-                                    "name": "Channeler",
-                                    "description": "While this model is in a Friendly Leader's Control Range, the Friendly Leader model can channel spells through it."
-                                },
-                                {
-                                    "name": "Polarity Field",
-                                    "description": "This model cannot be targeted by a charge or slam power attack made by a model beginning the charge or slam in it's front arc."
-                                },
-                                {
-                                    "name": "Wind Weaver",
-                                    "description": "When a friendly model is targeted by a non-magical ranged attack while within 2” of this model, the attack suffers -3 RNG. Additionally, within 2” of this model friendly models gain Resistance: Blast."
-                                }
-                            ]
-                        }
-                    ],
-                    "weapons": [
-                        {
-                            "name": "Storm Surge",
-                            "type": "ranged",
-                            "fieldoffire": "None",
-                            "rng": "Sp6",
-                            "rof": "1",
-                            "pow": "10",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Electro Leap",
-                                    "description": "When a model is hit by a basic attack made with this weapon, you can have lightning arc to the nearest model within 4\" of the model hit, ignoring the attacking model and any model with Resistance: Electric. The model the lightning arcs to suffers an unboostable POW 10 Electric damage roll. Lightning arc damage rolls are not considered to have been caused by an attack. Resolve lightning arc damage rolls simultaneously with the damage resulting from the attack that caused the leap."
-                                }
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                }
-            ]
-        },
-        {
             "name": "Stormblade Infantry",
             "category": "Units",
             "primaryfaction": [
@@ -13868,8 +13610,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "6",
-                "maxunit": "-",
                 "maxcost": "-",
+                "maxunit": "-",
                 "minunit": "Leader and 5 Grunts"
             },
             "models": [
@@ -13987,10 +13729,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "11",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 4 Grunts",
-                "maxcost": "11"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -14069,10 +13811,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
                 "maxcost": "13",
-                "mincost": "7",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "7"
             },
             "models": [
                 {
@@ -14216,10 +13958,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
                 "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 4 Grunts",
                 "mincost": "7",
-                "minunit": "Leader and 4 Grunts"
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -14286,14 +14028,15 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "-",
                 "mincost": "4",
-                "maxcost": "-"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -14311,6 +14054,10 @@
                         {
                             "name": "Reposition [3\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         }
                     ],
                     "stats": {
@@ -14386,13 +14133,14 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "3",
-                "maxunit": "-",
                 "maxcost": "-",
+                "maxunit": "-",
                 "minunit": "Gunner and Grunt"
             },
             "models": [
@@ -14419,6 +14167,10 @@
                         {
                             "name": "Mobile Artillery",
                             "description": "When this model advances as part of its Normal Movement, it gains +1” movement for each Grunt in this unit within 2” of it at the start of its advance."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Take Up",
@@ -14529,9 +14281,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 4 Grunts",
                 "maxcost": "15",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 4 Grunts",
                 "mincost": "8"
             },
             "models": [
@@ -14597,10 +14349,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "10"
+                "maxcost": "10",
+                "mincost": "6",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -14620,7 +14372,7 @@
                         },
                         {
                             "name": "Flank [Friendly Faction Cohort Model]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Order: Shield Wall",
@@ -14679,7 +14431,7 @@
                     "characterabilities": [
                         {
                             "name": "Flank [Friendly Faction Cohort Model]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Order: Shield Wall",
@@ -14737,8 +14489,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
                 "maxcost": "15",
+                "mincost": "8",
                 "maxunit": "Leader and 5 Grunts",
                 "minunit": "Leader and 2 Grunts"
             },
@@ -14846,9 +14598,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader & 5 Grunts ",
-                "minunit": "Leader & 3 Grunts ",
+                "maxunit": "Leader and 5 Grunts ",
                 "mincost": "9",
+                "minunit": "Leader and 3 Grunts ",
                 "maxcost": "15"
             },
             "models": [
@@ -14972,10 +14724,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts",
                 "mincost": "9",
                 "maxcost": "17",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -15071,10 +14823,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Gunner & 2 Grunts",
                 "maxunit": "-",
-                "mincost": "5",
-                "maxcost": "-"
+                "minunit": "Gunner and 2 Grunts",
+                "maxcost": "-",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -15217,10 +14969,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Gunner & Grunt",
-                "maxunit": "-",
+                "mincost": "4",
                 "maxcost": "-",
-                "mincost": "4"
+                "maxunit": "-",
+                "minunit": "Gunner and Grunt"
             },
             "models": [
                 {
@@ -15355,10 +15107,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
+                "maxcost": "-",
                 "maxunit": "-",
                 "mincost": "5",
-                "maxcost": "-"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -15435,10 +15187,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "9",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "15"
+                "mincost": "9",
+                "maxcost": "15",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -15522,10 +15274,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "minunit": "Spotter & Gunner",
+                "mincost": "4",
+                "minunit": "Spotter and Gunner",
                 "maxunit": "-",
-                "mincost": "4"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -15661,9 +15413,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader & 5 Grunts",
-                "maxunit": "Leader & 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "8",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "13"
             },
             "models": [
@@ -15738,9 +15490,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader & 9 Grunts",
-                "minunit": "Leader & 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "14"
             },
             "models": [
@@ -15903,7 +15655,7 @@
             "models": [
                 {
                     "name": "Captain Karli",
-                    "title": "Cygnar Trencher Weapon Crew Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -16063,7 +15815,7 @@
             "models": [
                 {
                     "name": "Officer",
-                    "title": "Long Gunner Officer Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Unit",
                         "Warrior"
@@ -16128,7 +15880,7 @@
                 },
                 {
                     "name": "Standard",
-                    "title": "Long Gunner Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -16198,7 +15950,7 @@
             "models": [
                 {
                     "name": "Order of the Arcane Tempest Gun Mage Pistoleer Officer",
-                    "title": "Cygnar Gun Mage Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -16296,7 +16048,7 @@
             "models": [
                 {
                     "name": "Squire",
-                    "title": "Cygnar Warcaster Attachment",
+                    "title": "Cygnar Solo",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -16315,6 +16067,10 @@
                         {
                             "name": "Attached",
                             "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Reserve Accumulator",
@@ -16378,7 +16134,7 @@
                         },
                         {
                             "name": "Granted [Cleave]",
-                            "description": "While this model is in play, models in its unit gain Cleave. ()"
+                            "description": "While this model is in play, models in its unit gain Cleave."
                         },
                         {
                             "name": "Iron Zeal",
@@ -16612,11 +16368,11 @@
                         },
                         {
                             "name": "Flank [Friendly Faction Cohort Model]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Granted [Precision Strike]",
-                            "description": "While this model is in play, models in its unit gain Precision Strike. ()"
+                            "description": "While this model is in play, models in its unit gain Precision Strike."
                         },
                         {
                             "name": "Penetrating Strike",
@@ -16678,7 +16434,7 @@
                         },
                         {
                             "name": "Flank [Friendly Faction Cohort Model]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort Model model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Granted [Insipration]",
@@ -16744,7 +16500,7 @@
             "models": [
                 {
                     "name": "Trencher Commando Officer",
-                    "title": "Cygnar Trencher Commando Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -16838,7 +16594,7 @@
             "models": [
                 {
                     "name": "Trencher Commando Scattergunner",
-                    "title": "Cygnar Trencher Commando Weapon Attachment",
+                    "title": "Cygnar Weapon Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -16918,7 +16674,7 @@
             "models": [
                 {
                     "name": "Trencher Infantry Officer",
-                    "title": "Cygnar Trencher Infantry Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -16995,7 +16751,7 @@
                 },
                 {
                     "name": "Sniper",
-                    "title": "Cygnar Trencher Infantry Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -17081,7 +16837,7 @@
             "models": [
                 {
                     "name": "Trencher Infantry Rifle Grenadier",
-                    "title": "Cygnar Trencher Infantry Weapon Attachment",
+                    "title": "Cygnar Weapon Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -17180,7 +16936,7 @@
             "models": [
                 {
                     "name": "Trencher Long Gunner Officer",
-                    "title": "Cygnar Long Gunner Officer Command Attachment",
+                    "title": "Cygnar Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -17210,7 +16966,7 @@
                         },
                         {
                             "name": "Tactics [Marksman]",
-                            "description": "Models in this unit gain Marksman. ()"
+                            "description": "Models in this unit gain Marksman."
                         }
                     ],
                     "stats": {
@@ -17255,7 +17011,8 @@
                 "Cygnar"
             ],
             "factions": [
-                "Cygnar"
+                "Cygnar",
+                "Supernal Coalition"
             ],
             "fieldallowance": "2",
             "models": [
@@ -17286,6 +17043,10 @@
                         {
                             "name": "Repulsor Field",
                             "description": "When this model is hit with a melee attack, after the attack is resolved the attacker is pushed 1\" directly away from this model. "
+                        },
+                        {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
                             "name": "Superconduction",

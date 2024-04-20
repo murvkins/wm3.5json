@@ -775,8 +775,8 @@
                         "description": "When a friendly Faction model makes a melee attack against an enemy model while the enemy model is in Grand Exemplar Kreoss's control range, the attack automatically hits. While in Kreoss' control range, friendly Faction models can make one additional melee attack during their Combat Actions. Strength of Arms lasts for one turn."
                     },
                     "execution": {
-                        "name": "Leadership [Exemplar]",
-                        "description": "Friendly Exemplar models in this model’s CMD range gain Rise."
+                        "name": "Leadership [Exemplar] [Rise]",
+                        "description": "While in this model's CMD range, friendly faction Exemplar gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -1165,7 +1165,7 @@
                         },
                         {
                             "name": "Field Marshal [Oracular Vision]",
-                            "description": "Cohort models in this model's battlegroup gain Oracular Vision. ()"
+                            "description": "Cohort models in this model's battlegroup gain Oracular Vision."
                         },
                         {
                             "name": "Oracular Vision",
@@ -1459,7 +1459,7 @@
                     },
                     "execution": {
                         "name": "Field Marshal [Purgation]",
-                        "description": "Cohort models in this model's battlegroup gain Purgation. ()"
+                        "description": "Cohort models in this model's battlegroup gain Purgation."
                     },
                     "stats": {
                         "basesize": "40mm",
@@ -1584,7 +1584,7 @@
                     },
                     "execution": {
                         "name": "Field Marshal [Reposition [3\"]",
-                        "description": "Cohort models in this model's battlegroup gain Reposition 3\". (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                        "description": "Cohort models in this model's battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2300,7 +2300,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [True Sight]",
-                            "description": "Cohort models in this model's battlegroup gain True Sight. ()"
+                            "description": "Cohort models in this model's battlegroup gain True Sight."
                         },
                         {
                             "name": "Irregulars [Blessing Of Vengeance]",
@@ -5591,7 +5591,7 @@
                             "ability": [
                                 {
                                     "name": "Flare",
-                                    "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                    "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                 }
                             ],
                             "damagetype": [
@@ -6047,7 +6047,7 @@
                             "ability": [
                                 {
                                     "name": "Flare",
-                                    "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                    "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                 }
                             ],
                             "damagetype": [
@@ -6101,7 +6101,7 @@
                             "ability": [
                                 {
                                     "name": "Flare",
-                                    "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                    "description": "Models hit by an attack with Flare lose Stealth and cannot gain Stealth and suffer -2 DEF for one round."
                                 }
                             ],
                             "damagetype": [
@@ -7259,8 +7259,8 @@
                             "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
                         },
                         {
-                            "name": "Leadership [Paladin]",
-                            "description": "While in this model’s CMD range, friendly Paladin models gain Girded. (A model with Girded and models B2B with it gain Resistance: Blast.)"
+                            "name": "Leadership [Paladin] [Girded]",
+                            "description": "While in this model's CMD range, friendly faction Paladin gain Girded."
                         },
                         {
                             "name": "Reposition [3\"]",
@@ -7349,8 +7349,8 @@
                             "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
                         },
                         {
-                            "name": "Leadership [Paladin]",
-                            "description": "While in this model’s CMD range, friendly Paladin models gain Girded. (A model with Girded and models B2B with it gain Resistance: Blast.)"
+                            "name": "Leadership [Paladin] [Girded]",
+                            "description": "While in this model's CMD range, friendly faction Paladin gain Girded."
                         },
                         {
                             "name": "Retaliatory Strike",
@@ -7525,8 +7525,8 @@
                             "description": ""
                         },
                         {
-                            "name": "Leadership [Exemplar Bastions and Examplar Cinerators]",
-                            "description": "Friendly Exemplar Bastion and Exemplar Cinerators models can remove 1 damage point when they begin an activation in the CMD range of one or more Exemplar Bastion Seneschals."
+                            "name": "Leadership [Exemplar Bastions and Examplar Cinerators][Walk it Off]",
+                            "description": "While in this model's CMD range, friendly faction Exemplar Bastions and Examplar Cinerators gain Walk it Off. (Models with Walk it Off can remove 1 damage point when they begin an activation in the CMD range of this model.)"
                         },
                         {
                             "name": "Set Defense",
@@ -7600,8 +7600,8 @@
                             "description": "If this model is disabled by an enemy attack, you can choose a non-disabled friendly Exemplar Errants model within 5\" of this model to be destroyed. If another model is destroyed as a result of Call to Sacrifice, remove 1 damage point from this model."
                         },
                         {
-                            "name": "Leadership [Exemplar Errants]",
-                            "description": "While in this model’s CMD range, friendly Exemplar Errant models gain Unyielding. (A model with Unyielding gains +2 ARM against melee damage rolls.)"
+                            "name": "Leadership [Exemplar Errants] [Unyielding]",
+                            "description": "While in this model's CMD range, friendly faction Exemplar Errants gain Unyielding. (A model with Unyielding gains +2 ARM against melee damage rolls.)"
                         },
                         {
                             "name": "Unyielding",
@@ -8076,7 +8076,7 @@
                         },
                         {
                             "name": "Flank [Exemplar]",
-                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Exemplar warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+                            "description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Exemplar model, this model gains +2 to attack rolls and gains an additional damage die."
                         },
                         {
                             "name": "Killing Spree",
@@ -8582,8 +8582,8 @@
                             "description": "While this model is B2B with one or more friendly Temple Flameguard models, it does not suffer damage from non-magical melee or ranged attacks."
                         },
                         {
-                            "name": "Leadership [Temple Flameguard]",
-                            "description": "While in this model’s CMD range, friendly Temple Flameguard models gain Rapid Strike. (A model with Rapid Strike can make one additional melee attack each Combat Action.)"
+                            "name": "Leadership [Temple Flameguard] [Rapid Strike]",
+                            "description": "While in this model's CMD range, friendly faction Temple Flameguard gain Rapid Strike. (A model with Rapid Strike can make one additional melee attack each Combat Action.)"
                         },
                         {
                             "name": "Rapid Strike",
@@ -9125,8 +9125,8 @@
             "unitpoints": {
                 "minunit": "Leader and 3 Grunts",
                 "mincost": "3",
-                "maxunit": "Leader and 5 Grunts",
-                "maxcost": "5"
+                "maxcost": "5",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9269,9 +9269,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 6 Grunts",
-                "mincost": "6",
                 "maxcost": "10",
-                "maxunit": "Leader and 10 Grunts"
+                "maxunit": "Leader and 10 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -9342,10 +9342,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "4",
                 "minunit": "Gunner and 2 Grunts",
-                "maxunit": "-",
-                "maxcost": "-"
+                "mincost": "4",
+                "maxcost": "-",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -9458,10 +9458,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "14",
                 "mincost": "9",
                 "maxunit": "Leader and 4 Grunts",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "14"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -9553,10 +9553,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "14",
                 "mincost": "9",
-                "maxunit": "Leader and 3 Grunts"
+                "maxunit": "Leader and 3 Grunts",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -9634,10 +9634,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "13",
                 "mincost": "8",
-                "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -9724,9 +9724,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts",
                 "mincost": "10",
+                "maxunit": "Leader and 4 Grunts",
                 "maxcost": "17"
             },
             "models": [
@@ -9828,9 +9828,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "9",
                 "maxunit": "Leader and 4 Grunts",
                 "maxcost": "15",
+                "mincost": "9",
                 "minunit": "Leader and 2 Grunts"
             },
             "models": [
@@ -9915,9 +9915,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "12",
-                "mincost": "7",
                 "minunit": "Leader and 5 Grunts",
+                "mincost": "7",
+                "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -9993,8 +9993,8 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "10",
                 "minunit": "Leader and 5 Grunts",
+                "maxcost": "10",
                 "mincost": "5"
             },
             "models": [
@@ -10081,10 +10081,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "-",
-                "maxunit": "-",
+                "minunit": "Leader and 2 Grunts",
                 "mincost": "5",
-                "minunit": "Leader & 2 Grunts"
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -10158,10 +10158,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader & 5 Grunts",
+                "maxunit": "-",
                 "mincost": "7",
                 "maxcost": "-",
-                "maxunit": "-"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -10222,10 +10222,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "1"
+                "maxcost": "1",
+                "mincost": "6",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -10302,10 +10302,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
+                "minunit": "Visgoth Juviah Rhoven and Honor Guard",
+                "maxcost": "-",
                 "maxunit": "-",
-                "minunit": "Visgoth Juviah Rhoven & Honor Guard",
-                "mincost": "8",
-                "maxcost": "-"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -10491,8 +10491,8 @@
                             "description": "If this model is disabled by an enemy attack, you can choose a non-disabled model in this unit within 3” of this model to be destroyed and this model removes 1 damage point."
                         },
                         {
-                            "name": "Tactics: Reposition [3\"]",
-                            "description": ""
+                            "name": "Tactics [Reposition [3\"]]",
+                            "description": "Models in this unit gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         }
                     ],
                     "stats": {
@@ -10549,7 +10549,7 @@
                 },
                 {
                     "name": "Standard",
-                    "title": "Protectorate of Menoth Exemplar Errant Command Attachment",
+                    "title": "Protectorate of Menoth Command Attachment",
                     "modeltype": [
                         "Attachment",
                         "Warrior"
@@ -10832,7 +10832,7 @@
                         },
                         {
                             "name": "Granted [Cleave]",
-                            "description": "While this model is in play, models in its unit gain Cleave. ()"
+                            "description": "While this model is in play, models in its unit gain Cleave."
                         },
                         {
                             "name": "Tactics [Overtake]",
@@ -11025,12 +11025,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
-                        },
-                        {
-                            "name": "Granted [Rise]",
-                            "description": "While this model is in play, models in its unit gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
+                            "name": "Granted [Inspiration, Rise]",
+                            "description": "While this model is in play, models in its unit gain Inspiration and Rise. (A model with Inspiration gains +1 to attack accuracy rolls.) (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
                         },
                         {
                             "name": "Relentless Charge",

@@ -2,7 +2,7 @@
     "products": [
         {
             "name": "Horruskh, The Thousand Wraths",
-            "points": "+30",
+            "points": "30",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
                 "Orgoth"
@@ -144,7 +144,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Swift Hunter]",
-                            "description": "Cohort models in this model's battlegroup gain Swift Hunter."
+                            "description": "Cohort models in this model's battlegroup gain Swift Hunter. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
                         },
                         {
                             "name": "Hell Marked",
@@ -249,7 +249,7 @@
         },
         {
             "name": "Oriax, The Soul Slaver",
-            "points": "+30",
+            "points": "30",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
                 "Orgoth"
@@ -267,6 +267,7 @@
                     ],
                     "keywords": [
                         "Eyeless Sight",
+                        "MK4",
                         "Resistance: Cold",
                         "Soulless"
                     ],
@@ -387,7 +388,7 @@
         },
         {
             "name": "Sabbreth, The Eternal Annihilation",
-            "points": "+27",
+            "points": "27",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
                 "Orgoth"
@@ -513,7 +514,7 @@
         },
         {
             "name": "Gharlghast",
-            "points": "26-33",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Orgoth"
@@ -525,13 +526,14 @@
             "models": [
                 {
                     "name": "Gharlgast",
-                    "title": "Orgoth Modular Monstrosity",
+                    "title": "Orgoth Monstrosity",
                     "modeltype": [
                         "Monstrosity"
                     ],
                     "keywords": [
                         "Dual Attack",
                         "Eyeless Sight",
+                        "MK4",
                         "Pathfinder",
                         "Power Attack: Headbutt",
                         "Power Attack: Slam",
@@ -549,7 +551,7 @@
                         },
                         {
                             "name": "Modular [5] [Head, Right Fist, Right Forearm, Left Fist, Left Forearm]",
-                            "description": "This model is a modular design and has 5 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 5 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         },
                         {
                             "name": "Orgoth Monstrosity",
@@ -1218,7 +1220,7 @@
         },
         {
             "name": "Jackal Class",
-            "points": "5-11",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Orgoth"
@@ -1230,7 +1232,7 @@
             "models": [
                 {
                     "name": "Jackal Class",
-                    "title": "Orgoth Light Modular Jack",
+                    "title": "Orgoth Light Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
@@ -1248,7 +1250,7 @@
                         },
                         {
                             "name": "Modular [3]",
-                            "description": "This model is a modular design and has 3 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 3 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         }
                     ],
                     "stats": {
@@ -1955,6 +1957,7 @@
                     "keywords": [
                         "Eyeless Sight",
                         "Grab Attack",
+                        "MK4",
                         "Power Attack: Headbutt",
                         "Power Attack: Slam",
                         "Power Attack: Throw",
@@ -2115,7 +2118,7 @@
         },
         {
             "name": "Tyrant Class",
-            "points": "11-20",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Orgoth"
@@ -2127,13 +2130,14 @@
             "models": [
                 {
                     "name": "Tyrant Class",
-                    "title": "Orgoth Heavy Modular Warjack",
+                    "title": "Orgoth Heavy Warjack",
                     "modeltype": [
                         "Warjack"
                     ],
                     "keywords": [
                         "Construct",
                         "Dual Attack",
+                        "MK4",
                         "Power Attack: Headbutt",
                         "Power Attack: Slam",
                         "Power Attack: Trample"
@@ -2145,7 +2149,7 @@
                         },
                         {
                             "name": "Modular [3]",
-                            "description": "This model is a modular design and has 3 groups to choose an option for. During list construction, choose one of the provided options per group. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options."
+                            "description": "This model is a modular design and has 3 Hardpoints to choose an option for. During list construction, choose one of the provided options per Hardpoints. The model's total point cost is equal to the point costs of all selected options. This model gains the keywords, abilities, weapons and statistic adjustments of the selected options. If this model is a Warjack or Monstrosity, if the hardpoint is attached to a system, while that system is crippled it loses all abilities gained from that hardpoint."
                         }
                     ],
                     "stats": {
@@ -3410,10 +3414,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "11",
-                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
                 "minunit": "Leader and 4 Grunts",
-                "mincost": "6"
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -3487,9 +3491,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "9",
                 "maxunit": "-",
+                "mincost": "9",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-"
             },
             "models": [
@@ -3576,10 +3580,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "11",
+                "mincost": "6",
                 "minunit": "Leader and 4 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -3644,9 +3648,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
+                "maxunit": "-",
                 "mincost": "10"
             },
             "models": [
@@ -3812,9 +3816,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
                 "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
+                "mincost": "8",
                 "maxcost": "-"
             },
             "models": [
@@ -3896,10 +3900,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
                 "maxunit": "-",
-                "mincost": "9",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "-",
+                "mincost": "9"
             },
             "models": [
                 {
@@ -3980,10 +3984,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "-",
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
-                "mincost": "4"
+                "mincost": "4",
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -4068,6 +4072,9 @@
                         "Attachment",
                         "Warrior"
                     ],
+                    "keywords": [
+                        "MK4"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Command Attachment [Reaver]",
@@ -4078,12 +4085,8 @@
                             "description": "While within 5” of this model, enemy models suffer -1 ARM."
                         },
                         {
-                            "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
-                        },
-                        {
-                            "name": "Granted [Rise]",
-                            "description": "While this model is in play, models in its unit gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
+                            "name": "Granted [Inspiration, Rise]",
+                            "description": "While this model is in play, models in its unit gain Inspiration and Rise. (A model with Inspiration gains +1 to attack accuracy rolls.) (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
                         },
                         {
                             "name": "Take Up",
