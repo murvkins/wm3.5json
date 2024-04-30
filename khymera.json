@@ -653,7 +653,7 @@
                     },
                     "modularoptions": [
                         {
-                            "groupname": "Head (Choose 1)",
+                            "groupname": "Central Head",
                             "options": [
                                 {
                                     "cost": "3",
@@ -675,7 +675,16 @@
                                     },
                                     "keywords": [],
                                     "animi": [
-                                        "Prescience"
+                                        {
+                                            "name": "Prescience",
+                                            "cost": "1",
+                                            "rng": "6",
+                                            "aoe": "-",
+                                            "pow": "-",
+                                            "dur": "TURN",
+                                            "off": "NO",
+                                            "description": "Target friendly Faction model gains Future Sight. Prescience lasts for one turn."
+                                        }
                                     ],
                                     "abilities": [
                                         {
@@ -720,7 +729,16 @@
                                         "Resistance: Fire"
                                     ],
                                     "animi": [
-                                        "Counterblast"
+                                        {
+                                            "name": "Counterblast",
+                                            "cost": "1",
+                                            "rng": "SELF",
+                                            "aoe": "-",
+                                            "pow": "-",
+                                            "dur": "RND",
+                                            "off": "NO",
+                                            "description": "When an enemy model advances and ends its movement in the spellcaster’s command range, the spellcaster can make one basic melee or ranged attack targeting that model, then Counterblast expires. Counterblast lasts for one round."
+                                        }
                                     ],
                                     "weapons": [
                                         {
@@ -761,7 +779,16 @@
                                     },
                                     "keywords": [],
                                     "animi": [
-                                        "Ravening Hunger"
+                                        {
+                                            "name": "Ravening Hunger",
+                                            "cost": "1",
+                                            "rng": "SELF",
+                                            "aoe": "-",
+                                            "pow": "-",
+                                            "dur": "TURN",
+                                            "off": "NO",
+                                            "description": "The spellcaster gains an additional die on melee damage rolls against living models and Snacking. Ravening Hunger lasts for one turn."
+                                        }
                                     ],
                                     "weapons": [
                                         {
@@ -783,7 +810,7 @@
                             ]
                         },
                         {
-                            "groupname": "Smaller Heads (Choose 2)",
+                            "groupname": "Smaller Head 1",
                             "options": [
                                 {
                                     "cost": "3",
@@ -887,16 +914,16 @@
                                     "animi": [],
                                     "weapons": [
                                         {
-                                            "name": "Horned Piercer",
+                                            "name": "Gnashing Fangs",
                                             "type": "Melee",
                                             "fieldoffire": "None",
                                             "rng": "1",
-                                            "pow": "6",
+                                            "pow": "4",
                                             "count": "1",
                                             "ability": [
                                                 {
-                                                    "name": "Critical Armor-Piercing",
-                                                    "description": "On a critical hit, when calculating damage from this weapon, halve the base ARM stats of the model hit."
+                                                    "name": "Man Catcher",
+                                                    "description": "A warrior model hit by this attack suffers -2 DEF and cannot advance while within the model's melee range."
                                                 }
                                             ]
                                         }
@@ -983,7 +1010,207 @@
                             ]
                         },
                         {
-                            "groupname": "Dorsal Feature",
+                            "groupname": "Smaller Head 2",
+                            "options": [
+                                {
+                                    "cost": "3",
+                                    "name": "Blockhead",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Power Attack: Headbutt"
+                                    ],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Blockhead",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "3",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Beat Back",
+                                                    "description": "Immediately after a basic attack with a weapon with Beat Back is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
+                                                }
+                                            ],
+                                            "presetabilities": [
+                                                "Buckler"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Flame Sprayer",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Flame Sprayer",
+                                            "type": "ranged",
+                                            "fieldoffire": "None",
+                                            "rng": "SP 10",
+                                            "rof": "1",
+                                            "pow": "13",
+                                            "count": "1",
+                                            "damagetype": [
+                                                "Fire"
+                                            ],
+                                            "presetabilities": [
+                                                "Continuous Fire"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "3",
+                                    "name": "Gnashing Fangs",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Gnashing Fangs",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "4",
+                                            "count": "1",
+                                            "ability": [
+                                                {
+                                                    "name": "Man Catcher",
+                                                    "description": "A warrior model hit by this attack suffers -2 DEF and cannot advance while within the model's melee range."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Horned Piercer",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Horned Piercer",
+                                            "type": "Melee",
+                                            "fieldoffire": "None",
+                                            "rng": "1",
+                                            "pow": "6",
+                                            "count": "4",
+                                            "ability": [
+                                                {
+                                                    "name": "Critical Armor-Piercing",
+                                                    "description": "On a critical hit, when calculating damage from this weapon, halve the base ARM stats of the model hit."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "cost": "4",
+                                    "name": "Venom Spitter",
+                                    "statmods": {
+                                        "spd": "0",
+                                        "str": "0",
+                                        "aat": "0",
+                                        "mat": "0",
+                                        "rat": "0",
+                                        "def": "0",
+                                        "arm": "0",
+                                        "arc": "0",
+                                        "cmd": "0",
+                                        "ctrl": "0",
+                                        "fury": "0",
+                                        "thr": "0",
+                                        "ess": "0"
+                                    },
+                                    "keywords": [
+                                        "Resistance: Corrosion"
+                                    ],
+                                    "animi": [],
+                                    "weapons": [
+                                        {
+                                            "name": "Venom Spitter",
+                                            "type": "ranged",
+                                            "fieldoffire": "None",
+                                            "rng": "12",
+                                            "rof": "1",
+                                            "aoe": "3",
+                                            "pow": "13",
+                                            "count": "1",
+                                            "damagetype": [
+                                                "Corrosion"
+                                            ],
+                                            "presetabilities": [
+                                                "Critical Continuous Corrosion"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "groupname": "Dorsal  Feature",
                             "options": [
                                 {
                                     "cost": "3",
@@ -1073,8 +1300,7 @@
                         "6",
                         "4"
                     ],
-                    "displayorder": 0,
-                    "animi": []
+                    "displayorder": 0
                 }
             ]
         },
@@ -1491,7 +1717,16 @@
                                     },
                                     "keywords": [],
                                     "animi": [
-                                        "Bladed Gale"
+                                        {
+                                            "name": "Bladed Gale",
+                                            "cost": "3",
+                                            "rng": "SP8",
+                                            "aoe": "-",
+                                            "pow": "13",
+                                            "dur": "-",
+                                            "off": "YES",
+                                            "description": "Models hit lose Flight for one round."
+                                        }
                                     ],
                                     "weapons": [
                                         {
@@ -1527,7 +1762,16 @@
                                     },
                                     "keywords": [],
                                     "animi": [
-                                        "Chasten"
+                                        {
+                                            "name": "Chasten",
+                                            "cost": "2",
+                                            "rng": "8",
+                                            "aoe": "-",
+                                            "pow": "12",
+                                            "dur": "-",
+                                            "off": "YES",
+                                            "description": "Enemy upkeep spells and animi on target model/unit damaged by this attack expire."
+                                        }
                                     ]
                                 },
                                 {
@@ -1550,7 +1794,16 @@
                                     },
                                     "keywords": [],
                                     "animi": [
-                                        "Hunter's Mark"
+                                        {
+                                            "name": "Hunter's Mark",
+                                            "cost": "2",
+                                            "rng": "10",
+                                            "aoe": "-",
+                                            "pow": "-",
+                                            "dur": "TURN",
+                                            "off": "YES",
+                                            "description": "Friendly models can charge or make a slam power attack against target enemy model hit by Hunter's Mark without being forced or spending focus. A friendly model charging an enemy model hit by Hunter's Mark gains +2\" of movement. Hunter's Mark lasts for one turn."
+                                        }
                                     ]
                                 }
                             ]
@@ -1643,8 +1896,7 @@
                         "6",
                         "3"
                     ],
-                    "displayorder": 0,
-                    "animi": []
+                    "displayorder": 0
                 }
             ]
         },
@@ -2220,10 +2472,10 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
-                "mincost": "11",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "18",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "11",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -2332,8 +2584,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "13",
+                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 4 Grunts",
                 "mincost": "7"
             },
@@ -2405,9 +2657,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 4 Grunts",
+                "mincost": "7",
                 "maxcost": "13"
             },
             "models": [
@@ -2484,9 +2736,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "-",
-                "mincost": "7",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "maxcost": "-",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -2570,9 +2822,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
                 "maxcost": "-",
                 "mincost": "7",
+                "maxunit": "-",
                 "minunit": "Leader and 2 Grunts"
             },
             "models": [
@@ -2660,10 +2912,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
                 "mincost": "7",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "maxcost": "-",
+                "maxunit": "-",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -2756,10 +3008,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "mincost": "5",
                 "maxunit": "-",
                 "maxcost": "-",
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "5"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
