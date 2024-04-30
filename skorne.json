@@ -212,7 +212,7 @@
                             "description": "Cohort models in this model's battlegroup gain Shield Guard. (When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll.)"
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         }
                     ],
@@ -1318,7 +1318,7 @@
                     "characterabilities": [
                         {
                             "name": "Elite Cadre [Nihilator] [Groundwork]",
-                            "description": "Friendly Nihilator models gain Groundwork."
+                            "description": "Friendly Nihilator models gain Groundwork. (While knocked down, a model with Groundwork is not automatically hit by melee attacks and its DEF is not reduced by being knocked down.)"
                         },
                         {
                             "name": "Field Marshal [Pain Response]",
@@ -1469,7 +1469,7 @@
                             "description": "Once per turn, anytime during your activation phase except while activating another model, this model can remove 1 fury point from a warbeast in its battlegroup that is in its Control Range and add 1 fury point to it's own current total. The warbeast suffers d3 damage points."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -1483,7 +1483,7 @@
                     },
                     "execution": {
                         "name": "Field Marshal [Extended Control Range]",
-                        "description": "Cohort models in this model's battlegroup gain Extended Control Range."
+                        "description": "Cohort models in this model's battlegroup gain Extended Control Range. (When checking to see if a model with Extended Control Rnage is in its controller’s control range, double the range.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -1963,7 +1963,7 @@
                     "characterabilities": [
                         {
                             "name": "Elite Cadre [Praetorian Swordsmen] [Vengeance]",
-                            "description": "Friendly Praetorian Swordsmen models gain Vengeance."
+                            "description": "Friendly Praetorian Swordsmen models gain Vengeance. (During your Maintenance Phase, if one or more models in this unit with Vengeance were damaged by enemy attacks during the last round, each model in the unit can advance 3” and make one basic melee attack.)"
                         },
                         {
                             "name": "Foresight",
@@ -1984,7 +1984,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Praetorian Keltarii] [Wall of Steel]",
-                        "description": "Friendly Praetorian Keltarii models gain Wall of Steel."
+                        "description": "Friendly Praetorian Keltarii models gain Wall of Steel. (While a model with Wall of Steel is B2B with one or more models in its unit, it gains +2 ARM.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2102,7 +2102,7 @@
                     },
                     "execution": {
                         "name": "Leadership [Exalted Court] [Guard Dog]",
-                        "description": "While in this model's CMD range, friendly faction Exalted Court gain Guard Dog."
+                        "description": "While in this model's CMD range, friendly faction Exalted Court gain Guard Dog. (While a model with Guard Dog is within 3\" of it's warlock/warcaster and isn't knocked down or stationary, it's warlock/warcaster gains Unstoppable and +2 DEF against melee attack accuracy rolls and models attacking the warcaster/warlock do not gain back strike bonuses.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2779,7 +2779,7 @@
                     },
                     "execution": {
                         "name": "Leadership [Ancestral Guardian] [Weight of Stone]",
-                        "description": "While in this model's CMD range, friendly faction Ancestral Guardian gain Weight of Stone."
+                        "description": "While in this model's CMD range, friendly faction Ancestral Guardian gain Weight of Stone. (When a model is hit with a weapon with Weight of Stone it suffers -3 SPD and DEF for one Round.)"
                     },
                     "stats": {
                         "basesize": "40mm",
@@ -3730,11 +3730,11 @@
                         },
                         {
                             "name": "Dig In (★Action)",
-                            "description": "This model gains cover, does ot suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
+                            "description": "This model gains cover, does not suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
                         },
                         {
                             "name": "Elite Cadre [Basilisks] [Dig In]",
-                            "description": "Friendly Basilisks models gain Dig In."
+                            "description": "Friendly Basilisks models gain Dig In. (A model with Dig In may use it as a special action. The model gains cover, does not suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in.)"
                         }
                     ],
                     "stats": {
@@ -5002,7 +5002,7 @@
                             "description": "While damaged, this model gains +1 FURY."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         }
                     ],
@@ -6982,10 +6982,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "13",
-                "mincost": "8"
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "8",
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -7007,7 +7007,7 @@
                         },
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Order: Reform Ranks",
@@ -7101,10 +7101,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts",
-                "mincost": "8"
+                "maxcost": "13",
+                "mincost": "8",
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -7209,10 +7209,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "13",
+                "minunit": "Leader and 3 Grunts",
                 "mincost": "8",
-                "minunit": "Leader and 3 Grunts"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7384,10 +7384,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxcost": "-",
-                "mincost": "8",
                 "minunit": "Valgesh, Cidar and J'Deth",
-                "maxunit": "-"
+                "maxunit": "-",
+                "maxcost": "-",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -7415,7 +7415,7 @@
                             "description": "As long as Valgesh is in play, Praetorian models in his CMD range gain Overtake. Praetorian models lose Overtake if this model leaves play, or while under your opponents control."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -7598,8 +7598,8 @@
             "unitpoints": {
                 "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts",
-                "mincost": "7"
+                "mincost": "7",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7658,10 +7658,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
                 "mincost": "3",
-                "maxcost": "5"
+                "maxcost": "5",
+                "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7729,10 +7729,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "5",
-                "maxcost": "-",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "-",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "5",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -7803,10 +7803,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "maxcost": "16",
                 "maxunit": "Leader and 5 Grunts",
-                "mincost": "10"
+                "minunit": "Leader and 3 Grunts",
+                "mincost": "10",
+                "maxcost": "16"
             },
             "models": [
                 {
@@ -7923,10 +7923,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "10"
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "10",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7995,10 +7995,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11"
+                "maxcost": "11",
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -8045,7 +8045,7 @@
                                 },
                                 {
                                     "name": "Duelist",
-                                    "description": "This model gains +2 DEF against melee accuracy rolls.\n"
+                                    "description": "This model gains +2 DEF against melee accuracy rolls."
                                 }
                             ]
                         }
@@ -8075,8 +8075,8 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
+                "maxcost": "11",
                 "maxunit": "Leader and 9 Grunts",
                 "mincost": "6"
             },
@@ -8093,7 +8093,7 @@
                             "description": "When this model hits a non-Leader cohort model with a melee attack, you can choose to have the model hit suffer 1 damage point instead of a damage roll."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         }
                     ],
@@ -8139,10 +8139,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "5",
                 "maxcost": "-",
                 "minunit": "Leader and Standard",
-                "maxunit": "-",
-                "mincost": "5"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -8270,9 +8270,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Gunner and 2 Grunts",
-                "maxcost": "-",
+                "maxunit": "-",
                 "mincost": "3",
-                "maxunit": "-"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -8402,8 +8402,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "-",
-                "mincost": "5",
                 "minunit": "Gunner and 1 Grunt",
+                "mincost": "5",
                 "maxcost": "-"
             },
             "models": [
@@ -8521,10 +8521,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts",
                 "maxcost": "13",
-                "mincost": "8"
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "8",
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -8633,9 +8633,9 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "6"
             },
             "models": [
                 {
@@ -8996,7 +8996,7 @@
                         },
                         {
                             "name": "Tactics [Practiced Maneuvers]",
-                            "description": "Models in this unit gain Practiced Maneuvers."
+                            "description": "Models in this unit gain Practiced Maneuvers. (A model with Practiced Manuevers can ignore other models in its unit when determining LOS and can advance through them if it has enough movement to move completely past them.)"
                         }
                     ],
                     "stats": {
@@ -9129,7 +9129,7 @@
                             "description": "This model can use Power Swell once per game at any time during its unit's activation. This activation, models in this unit gain an additional die on melee damage rolls."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -9241,7 +9241,7 @@
                         },
                         {
                             "name": "Granted [Sacred Ward]",
-                            "description": "While this model is in play, models in its unit gain Sacred Ward."
+                            "description": "While this model is in play, models in its unit gain Sacred Ward. (A model with Sacred Ward cannot be targeted by enemy spells.)"
                         },
                         {
                             "name": "Order: Kill",

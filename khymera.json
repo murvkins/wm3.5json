@@ -32,7 +32,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Reposition [2\"]",
@@ -276,7 +276,7 @@
                             "description": "While within this models command range friendly models ignore other friendly models when determining LOS. Friendly models can advance through other friendly models within this model's command range if they have enough movement to move completely past them. Precision Strike lasts for one turn."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -1451,7 +1451,7 @@
                                     "animi": [],
                                     "abilities": [
                                         {
-                                            "name": "Side Step",
+                                            "name": "Sidestep",
                                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                                         }
                                     ],
@@ -2168,7 +2168,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Hyper-Aggressive",
@@ -2221,9 +2221,9 @@
             "fieldallowance": "1",
             "unitpoints": {
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 2 Grunts",
+                "mincost": "11",
                 "maxcost": "18",
-                "mincost": "11"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -2332,10 +2332,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts",
+                "maxcost": "13",
                 "minunit": "Leader and 4 Grunts",
-                "maxcost": "13"
+                "mincost": "7"
             },
             "models": [
                 {
@@ -2405,9 +2405,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 4 Grunts",
-                "maxunit": "Leader and 9 Grunts",
                 "mincost": "7",
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 4 Grunts",
                 "maxcost": "13"
             },
             "models": [
@@ -2483,9 +2483,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
                 "mincost": "7",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-"
             },
             "models": [
@@ -2507,7 +2507,7 @@
                             "description": "This model gains an additional die on damage rolls against damaged models."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -2571,9 +2571,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "7",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -2660,10 +2660,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "mincost": "7",
                 "maxunit": "-",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "7",
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -2756,9 +2756,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
                 "maxcost": "-",
+                "minunit": "Leader and 2 Grunts",
                 "mincost": "5"
             },
             "models": [

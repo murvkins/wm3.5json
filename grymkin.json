@@ -2293,7 +2293,7 @@
                         },
                         {
                             "name": "Elite Cadre [Hollowman] [Pathfinder]",
-                            "description": "Friendly Hollowman models gain Pathfinder."
+                            "description": "Friendly Hollowman models gain Pathfinder. (a model with Pathfinder ignores the movement penalty of Rough [Forest] and Rough [Rubble] terrain while advancing.)"
                         },
                         {
                             "name": "Poisoned Fate",
@@ -3121,7 +3121,7 @@
                     "characterabilities": [
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Reposition [3\"]",
@@ -3206,9 +3206,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
                 "maxcost": "10"
             },
             "models": [
@@ -3272,8 +3272,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "8",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "13"
             },
             "models": [
@@ -3470,10 +3470,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "7",
                 "maxunit": "-",
-                "maxcost": "-",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -3497,7 +3497,7 @@
                         },
                         {
                             "name": "Duelist",
-                            "description": "This model gains +2 DEF against melee accuracy rolls.\n"
+                            "description": "This model gains +2 DEF against melee accuracy rolls."
                         },
                         {
                             "name": "Gang",
@@ -3551,10 +3551,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "7",
                 "maxunit": "Leader and 4 Grunts",
-                "maxcost": "12"
+                "maxcost": "12",
+                "mincost": "7",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -3626,10 +3626,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
-                "maxunit": "Leader and 4 Grunts",
                 "maxcost": "15",
-                "minunit": "Leader and 2 Grunts"
+                "maxunit": "Leader and 4 Grunts",
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -3709,9 +3709,9 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "5",
-                "minunit": "Heidrun and Agrona",
                 "maxcost": "-",
+                "minunit": "Heidrun and Agrona",
+                "mincost": "5",
                 "maxunit": "-"
             },
             "models": [
@@ -3903,7 +3903,7 @@
                         },
                         {
                             "name": "Granted [Blood-Bound]",
-                            "description": "While this model is in play, models in its unit gain Blood-Bound."
+                            "description": "While this model is in play, models in its unit gain Blood-Bound. (When a model with Blood-Bound destroys a living enemy model with an attack during its activation, after the attack is resolved you can return to play one destroyed model in its unit. Place the returned model completely within 3\" of the attacking model. The returned model cannot activate the turn it returns to play. The destroyed enemy model is removed from play and does not provide a soul or corpse token.)"
                         },
                         {
                             "name": "Reposition [3\"]",
@@ -4077,8 +4077,8 @@
                             "description": "Models in this model's battlegroup that are currently in this model's control range and are B2B with one or more models in this model's battlegroup gain +2 ARM and cannot become knocked down."
                         },
                         {
-                            "name": "Granted [Retalitory Strike]",
-                            "description": "While this model is in play, models in its unit gain Retalitory Strike."
+                            "name": "Granted [Retaliatory Strike]",
+                            "description": "While this model is in play, models in its unit gain Retaliatory Strike. (If a model with Retaliatory Strike is hit by a melee attack made by an enemy model during your opponent's turn, after that attack is resolved the model with Retaliatory Strike can immediately make one basic melee attack against that model. The model with Retaliatory Strike can make only one Retaliatory Strike per turn.)"
                         },
                         {
                             "name": "Impervious Flesh",

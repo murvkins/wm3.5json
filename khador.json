@@ -38,7 +38,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Assault Kommandos] [Pathfinder]",
-                        "description": "Friendly Assault Kommandos models gain Pathfinder."
+                        "description": "Friendly Assault Kommandos models gain Pathfinder. (a model with Pathfinder ignores the movement penalty of Rough [Forest] and Rough [Rubble] terrain while advancing.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -603,8 +603,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Field Marshal [Channler]",
-                            "description": "Cohort models in this model's battlegroup gain Channler."
+                            "name": "Field Marshal [Channeler]",
+                            "description": "Cohort models in this model's battlegroup gain Channeler. (The controller of a model with Channeler can channel spells through it.)"
                         },
                         {
                             "name": "Long Shadows",
@@ -739,7 +739,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Pathfinder]",
-                            "description": "Cohort models in this model's battlegroup gain Pathfinder."
+                            "description": "Cohort models in this model's battlegroup gain Pathfinder. (a model with Pathfinder ignores the movement penalty of Rough [Forest] and Rough [Rubble] terrain while advancing.)"
                         },
                         {
                             "name": "Prowl",
@@ -881,8 +881,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Field Marshal [Field Penalty 2]",
-                            "description": "Cohort models in this model's battlegroup gain Field Penalty 2."
+                            "name": "Field Marshal [Field Penalty [Self] [2]]",
+                            "description": "Cohort models in this model's battlegroup gain Field Penalty [Self]. (A model with Field Penalty's cost is increased cumulatively by 2 for each same model included in your list beyond the second one.)"
                         },
                         {
                             "name": "Hate Infused",
@@ -907,7 +907,7 @@
                     },
                     "execution": {
                         "name": "Regenerative Alloys",
-                        "description": "When Karchev & Deathjack is targeted by a Repair skill, add d3 to the roll."
+                        "description": "When this model is targeted by a Repair skill, add d3 to the roll."
                     },
                     "stats": {
                         "basesize": "50mm",
@@ -1685,8 +1685,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Field Marshal [Flank Man-o-War]",
-                            "description": "Cohort models in this model's battlegroup gain Flank Man-o-War."
+                            "name": "Field Marshal [Flank [Man-o-War]]",
+                            "description": "Cohort models in this model's battlegroup gain Flank [Man-o-War]. (When a model with Flank makes a melee attack against an enemy model in the melee range of a friendly Man-o-War model, this model gains +2 to attack rolls and gains an additional damage die.)"
                         },
                         {
                             "name": "Irregulars [Medium Based Man-o-War]",
@@ -1706,8 +1706,8 @@
                         "description": "Place six 3\" AOE cloud effects anywhere completely in Sorscha's control range. These AOEs remain in play for one round. A model without Resistance: Cold suffers 1 point of cold damage for each Dead of Winter AOE it enters or ends it's activation within."
                     },
                     "execution": {
-                        "name": "Elite Cadre [Man-o-War] [Advanced Move]",
-                        "description": "Friendly Man-o-War models gain Advanced Move."
+                        "name": "Elite Cadre [Man-o-War] [Advance Move]",
+                        "description": "Friendly Man-o-War models gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)"
                     },
                     "stats": {
                         "basesize": "40mm",
@@ -2000,7 +2000,7 @@
                     },
                     "execution": {
                         "name": "Leadership [Faction Warrior] [Iron Sentinel]",
-                        "description": "While in this model's CMD range, friendly faction Faction Warrior gain Iron Sentinel."
+                        "description": "While in this model's CMD range, friendly faction Faction Warrior gain Iron Sentinel. (While B2B with a friendly Faction warjack, a model with Iron Sentinel gains +2 DEF and ARM and cannot become knocked down.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2827,9 +2827,9 @@
                             "rng": "6",
                             "aoe": "-",
                             "pow": "-",
-                            "dur": "UP",
+                            "dur": "Up",
                             "off": "NO",
-                            "description": "Target friendly Faction model/unit gains +2 to its melee damage rolls and Take Down. (Models disabled by a melee attack made by a model with Take Down cannot make a Tough roll. Models boxed by a melee attack made by a model with Take Down are removed from play.)."
+                            "description": "Target friendly Faction model/unit gains +2 to it's melee attack damage rolls and Takedown."
                         }
                     ],
                     "displayorder": 0
@@ -3073,7 +3073,7 @@
                         },
                         {
                             "name": "Granted [Silence]",
-                            "description": "While this model is in play, models in its unit gain Silence."
+                            "description": "While this model is in play, models in its unit gain Silence. (A model hit by this attack cannot cast spells for one round.)"
                         },
                         {
                             "name": "Promote: Doom Reaver",
@@ -3278,7 +3278,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Faction Warrior] [Dying Breath]",
-                        "description": "Friendly Faction Warrior models gain Dying Breath."
+                        "description": "Friendly Faction Warrior models gain Dying Breath. (When a model with Dying Breath is boxed by an enemy attack at any time except while it is advancing, it can be immediately make one basic attack.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -3410,7 +3410,7 @@
                         },
                         {
                             "name": "Field Marshal [Apparition]",
-                            "description": "Cohort models in this model's battlegroup gain Apparition."
+                            "description": "Cohort models in this model's battlegroup gain Apparition. (During your Control Phase, a model with Appartion can warp anywhere completely within 2\" of its current location.)"
                         },
                         {
                             "name": "Great Power",
@@ -4688,7 +4688,7 @@
                         },
                         {
                             "name": "Imprint [Jury-Rigged[SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged[SPD]."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged[SPD]. (A model with Jury-Rigged can spend 1 focus point to use Jury-Rigged at the start of its activation. This activation, the model gains +2 SPD. At the end of the activation, the model suffers 1 damage point to its first available Movement system box. The model can't use Jury-Rigged if its Movement system is crippled. Jury-Rigged can only be used once per activation.)"
                         },
                         {
                             "name": "Unstable",
@@ -5409,7 +5409,7 @@
                         },
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Gun Platform",
@@ -5874,7 +5874,7 @@
         },
         {
             "name": "Dire Wolf Class",
-            "points": "8-15",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Khador"
@@ -5994,14 +5994,10 @@
                                         "thr": "0",
                                         "ess": "0"
                                     },
-                                    "keywords": [],
-                                    "animi": [],
-                                    "abilities": [
-                                        {
-                                            "name": "Pathfinder",
-                                            "description": ""
-                                        }
-                                    ]
+                                    "keywords": [
+                                        "Pathfinder"
+                                    ],
+                                    "animi": []
                                 },
                                 {
                                     "cost": "1",
@@ -6308,7 +6304,7 @@
                                     "abilities": [
                                         {
                                             "name": "Girded",
-                                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                                            "description": "This model and models B2B with it gain Resistance: Blast."
                                         }
                                     ],
                                     "weapons": [
@@ -6482,7 +6478,7 @@
                         },
                         {
                             "name": "Imprint [Jury-Rigged [SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged [SPD]."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged [SPD]. (A model with Jury-Rigged can spend 1 focus point to use Jury-Rigged at the start of its activation. This activation, the model gains +2 SPD. At the end of the activation, the model suffers 1 damage point to its first available Movement system box. The model can't use Jury-Rigged if its Movement system is crippled. Jury-Rigged can only be used once per activation.)"
                         },
                         {
                             "name": "Special Issue [Vladimir]",
@@ -6612,7 +6608,7 @@
         },
         {
             "name": "Great Bear Class",
-            "points": "12-17",
+            "points": "*",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
                 "Khador"
@@ -7711,7 +7707,7 @@
                     "characterabilities": [
                         {
                             "name": "Imprint [Jury-Rigged [SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged [SPD]."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged [SPD]. (A model with Jury-Rigged can spend 1 focus point to use Jury-Rigged at the start of its activation. This activation, the model gains +2 SPD. At the end of the activation, the model suffers 1 damage point to its first available Movement system box. The model can't use Jury-Rigged if its Movement system is crippled. Jury-Rigged can only be used once per activation.)"
                         },
                         {
                             "name": "Smasher",
@@ -8002,7 +7998,7 @@
                     "name": "Mastodon",
                     "title": "Khador Colassal Warjack",
                     "modeltype": [
-                        "Warlock"
+                        "Warjack"
                     ],
                     "keywords": [
                         "Construct",
@@ -8170,7 +8166,7 @@
                                     "abilities": [
                                         {
                                             "name": "Cleave",
-                                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                                         }
                                     ],
                                     "weapons": [
@@ -8803,7 +8799,7 @@
                     "characterabilities": [
                         {
                             "name": "Imprint [Jury-Rigged[SPD]]",
-                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged[SPD]."
+                            "description": "This model can spend 1 focus point at any time during its activation to gain Jury-Rigged[SPD]. (A model with Jury-Rigged can spend 1 focus point to use Jury-Rigged at the start of its activation. This activation, the model gains +2 SPD. At the end of the activation, the model suffers 1 damage point to its first available Movement system box. The model can't use Jury-Rigged if its Movement system is crippled. Jury-Rigged can only be used once per activation.)"
                         },
                         {
                             "name": "Shield Guard",
@@ -9809,6 +9805,7 @@
                 "Khador"
             ],
             "factions": [
+                "Crucible Guard",
                 "Khador"
             ],
             "fieldallowance": "2",
@@ -9840,6 +9837,10 @@
                         {
                             "name": "Reposition [2\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 2\", then it's activation ends."
+                        },
+                        {
+                            "name": "Requisition [Crucible Guard]",
+                            "description": "This model/unit can be included in a Crucible Guard army as if it were that faction."
                         },
                         {
                             "name": "Roadblock",
@@ -10425,7 +10426,7 @@
                         },
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Hauler",
@@ -11359,7 +11360,7 @@
                         },
                         {
                             "name": "Elite Cadre [Wraiths, Widow Makers] [Hunter]",
-                            "description": "Friendly Wraiths, Widow Makers models gain Hunter."
+                            "description": "Friendly Wraiths, Widow Makers models gain Hunter. (A model with Hunter ignores concealment and cover when making ranged attacks.)"
                         },
                         {
                             "name": "Marksman",
@@ -11903,7 +11904,7 @@
                     "characterabilities": [
                         {
                             "name": "Elite Cadre [Kossite Woodsmen and Manhunters] [Treewalker]",
-                            "description": "Friendly Kossite Woodsmen and Manhunters models gain Treewalker."
+                            "description": "Friendly Kossite Woodsmen and Manhunters models gain Treewalker. (A model with Treewalker ignores forests when determining LOS. While completely within a forest, this model gains +2 DEF against melee attack accuracy rolls.)"
                         },
                         {
                             "name": "Treewalker",
@@ -12037,10 +12038,10 @@
             ],
             "fieldallowance": "4",
             "unitpoints": {
+                "mincost": "2",
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts",
                 "maxcost": "4",
-                "mincost": "2"
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -12100,10 +12101,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "8",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12"
+                "mincost": "8",
+                "maxcost": "12",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -12218,10 +12219,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "minunit": "Leader and 3 Grunts",
                 "maxcost": "4",
-                "maxunit": "Leader and 5 Grunts",
                 "mincost": "2",
-                "minunit": "Leader and 3 Grunts"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -12273,10 +12274,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "9",
                 "maxunit": "Leader and 9 Grunts",
+                "maxcost": "15",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "15"
+                "mincost": "9"
             },
             "models": [
                 {
@@ -12299,7 +12300,7 @@
                             "description": "Until the start of their next activation, each affected model’s shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
                         },
                         {
-                            "name": "Practiced Manuevers",
+                            "name": "Practiced Maneuvers",
                             "description": "Each model in this unit can ignore other models in this unit when determining LOS and can advance through them if it has enough movement to move completely past them."
                         },
                         {
@@ -12360,10 +12361,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "minunit": "Volkov, Kolsk and Yarovich ",
-                "mincost": "9",
                 "maxunit": "-",
-                "maxcost": "-"
+                "minunit": "Volkov, Kolsk and Yarovich ",
+                "maxcost": "-",
+                "mincost": "9"
             },
             "models": [
                 {
@@ -12388,7 +12389,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Coordinated Strike",
@@ -12408,7 +12409,7 @@
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -12458,7 +12459,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Flank [Great Bear]",
@@ -12478,7 +12479,7 @@
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -12532,7 +12533,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Flank [Great Bear]",
@@ -12548,7 +12549,7 @@
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -12591,8 +12592,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "mincost": "8",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "15",
                 "maxunit": "Leader and 4 Grunts"
             },
@@ -12715,9 +12716,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
-                "maxunit": "-",
                 "mincost": "5"
             },
             "models": [
@@ -12880,9 +12881,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "17",
+                "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "10",
-                "maxunit": "Leader and 4 Grunts"
+                "mincost": "10"
             },
             "models": [
                 {
@@ -12975,9 +12976,9 @@
             "fieldallowance": "C",
             "unitpoints": {
                 "minunit": "Arcondvich and Standard",
-                "maxcost": "-",
                 "mincost": "5",
-                "maxunit": "-"
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -13113,8 +13114,8 @@
             "unitpoints": {
                 "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts",
-                "maxcost": "10"
+                "maxcost": "10",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -13196,10 +13197,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "14",
                 "mincost": "8",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "14"
             },
             "models": [
                 {
@@ -13298,10 +13299,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "7",
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "13",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -13388,9 +13389,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "14",
-                "minunit": "Leader and 3 Grunts",
                 "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 3 Grunts",
+                "maxcost": "14",
                 "mincost": "8"
             },
             "models": [
@@ -13492,10 +13493,10 @@
             ],
             "fieldallowance": "1",
             "unitpoints": {
+                "mincost": "11",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "20",
-                "mincost": "11"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -13607,9 +13608,9 @@
             "fieldallowance": "1",
             "unitpoints": {
                 "mincost": "10",
-                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "19",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "19"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -13730,10 +13731,10 @@
             ],
             "fieldallowance": "4",
             "unitpoints": {
-                "maxcost": "-",
+                "mincost": "7",
                 "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "7"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -13811,10 +13812,10 @@
             ],
             "fieldallowance": "4",
             "unitpoints": {
-                "maxunit": "-",
                 "maxcost": "-",
+                "mincost": "7",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "7"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -13903,10 +13904,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "-",
                 "maxcost": "-",
-                "mincost": "6"
+                "maxunit": "-",
+                "mincost": "6",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -13979,10 +13980,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "9",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
                 "mincost": "4",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "9"
             },
             "models": [
                 {
@@ -13997,7 +13998,7 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Practiced Manuevers",
+                            "name": "Practiced Maneuvers",
                             "description": "Each model in this unit can ignore other models in this unit when determining LOS and can advance through them if it has enough movement to move completely past them."
                         }
                     ],
@@ -14052,10 +14053,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "9",
                 "mincost": "5",
-                "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "9",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -14119,10 +14120,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "12",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 5 Grunts",
-                "mincost": "6"
+                "mincost": "6",
+                "maxcost": "12",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -14362,7 +14363,7 @@
                         },
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Repair [d3+3] (★Action)",
@@ -14439,7 +14440,7 @@
                             "description": "Until the start of their next activation, each affected model’s shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
                         },
                         {
-                            "name": "Practiced Manuevers",
+                            "name": "Practiced Maneuvers",
                             "description": "Each model in this unit can ignore other models in this unit when determining LOS and can advance through them if it has enough movement to move completely past them."
                         },
                         {
@@ -14588,7 +14589,7 @@
                         },
                         {
                             "name": "Granted [Silencer]",
-                            "description": "While this model is in play, models in its unit gain Silencer."
+                            "description": "While this model is in play, models in its unit gain Silencer. (A model with Silence does not have to make Berserk attacks.)"
                         },
                         {
                             "name": "Requisition [Religion of the Twins]",
@@ -14919,7 +14920,7 @@
                         },
                         {
                             "name": "Tactics [Sturdy]",
-                            "description": "Models in this unit gain Sturdy."
+                            "description": "Models in this unit gain Sturdy. (A model with Sturdy cannot be pushed.)"
                         }
                     ],
                     "stats": {
@@ -15290,7 +15291,7 @@
                         },
                         {
                             "name": "Granted [Pathfinder, Reposition [3\"]]",
-                            "description": "While this model is in play, models in its unit gain Pathfinder and Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
+                            "description": "While this model is in play, models in its unit gain Pathfinder and Reposition [3\"]. (a model with Pathfinder ignores the movement penalty of Rough [Forest] and Rough [Rubble] terrain while advancing.) (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
                         },
                         {
                             "name": "Mark Target",

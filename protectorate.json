@@ -615,7 +615,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Gung-ho]",
-                            "description": "Cohort models in this model's battlegroup gain Gung-ho."
+                            "description": "Cohort models in this model's battlegroup gain Gung-ho. (A model with Gung-ho can run or charge without spending focus or fury.)"
                         },
                         {
                             "name": "Hatred",
@@ -1044,11 +1044,11 @@
                         },
                         {
                             "name": "Aura Of Empowerment",
-                            "description": "When a friendly Faction warjack beings its activation in this model's CMD range, that warjack gains 1 focus point."
+                            "description": "When a friendly Faction warjack begins its activation in this model's CMD range, that warjack gains 1 focus point."
                         },
                         {
                             "name": "Elite Cadre [Faction 'Jack Marshal] [Aura of Empowerment]",
-                            "description": "Friendly Faction 'Jack Marshal models gain Aura of Empowerment."
+                            "description": "Friendly Faction 'Jack Marshal models gain Aura of Empowerment. (When a friendly Faction warjack beings its activation in the CMD range of a model with Aura of Empowerment, that warjack gains 1 focus point.)"
                         },
                         {
                             "name": "Glory Of Menoth",
@@ -1059,7 +1059,7 @@
                             "description": "An enemy model that ends it's activation within 2\" of this model suffers the Continuous Fire effect. Righteous Flames lasts for one round."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -1165,7 +1165,7 @@
                         },
                         {
                             "name": "Field Marshal [Oracular Vision]",
-                            "description": "Cohort models in this model's battlegroup gain Oracular Vision."
+                            "description": "Cohort models in this model's battlegroup gain Oracular Vision. (Once per turn when a model with Oracular Vision is directly hit by an attack, you can immediately force the model or spend 1 focus to not suffer a damage roll from the attack.)"
                         },
                         {
                             "name": "Oracular Vision",
@@ -1459,7 +1459,7 @@
                     },
                     "execution": {
                         "name": "Field Marshal [Purgation]",
-                        "description": "Cohort models in this model's battlegroup gain Purgation."
+                        "description": "Cohort models in this model's battlegroup gain Purgation. (A model with Purgation gains an additional die on accuracy and damage rolls with this weapon against models with an enemy upkeep spell or animus on them.)"
                     },
                     "stats": {
                         "basesize": "40mm",
@@ -1486,7 +1486,7 @@
                             "ability": [
                                 {
                                     "name": "Purgation",
-                                    "description": "Attacks with this weapon gain an additional die on attack accuracy and damage rolls when attacking models with an enemy upkeep spell or animus on them."
+                                    "description": "Gain an additional die on accuracy and damage rolls with this weapon against models with an enemy upkeep spell or animus on them."
                                 }
                             ],
                             "damagetype": [
@@ -1844,7 +1844,7 @@
                         },
                         {
                             "name": "Elite Cadre [Exemplar Vengers] [Divine Inspiration]",
-                            "description": "Friendly Exemplar Vengers models gain Divine Inspiration."
+                            "description": "Friendly Exemplar Vengers models gain Divine Inspiration. (A model with Divine Inspiration gains an additional die on melee attack accuracy and damage rolls. Discard the lowest die of each roll.)"
                         },
                         {
                             "name": "Reposition [3\"]",
@@ -2300,7 +2300,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [True Sight]",
-                            "description": "Cohort models in this model's battlegroup gain True Sight."
+                            "description": "Cohort models in this model's battlegroup gain True Sight. (A model with True Sight ignores cloud effects when determining LOS. This model also ignores Stealth.)"
                         },
                         {
                             "name": "Irregulars [Blessing Of Vengeance]",
@@ -2321,7 +2321,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Knights Exemplar] [Dying Breath]",
-                        "description": "Friendly Knights Exemplar models gain Dying Breath."
+                        "description": "Friendly Knights Exemplar models gain Dying Breath. (When a model with Dying Breath is boxed by an enemy attack at any time except while it is advancing, it can be immediately make one basic attack.)"
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -2836,7 +2836,7 @@
                         },
                         {
                             "name": "Elite Cadre [Daughters Of The Flame Units] [Vengeance]",
-                            "description": "Friendly Daughters Of The Flame Units models gain Vengeance."
+                            "description": "Friendly Daughters Of The Flame Units models gain Vengeance. (During your Maintenance Phase, if one or more models in this unit with Vengeance were damaged by enemy attacks during the last round, each model in the unit can advance 3” and make one basic melee attack.)"
                         },
                         {
                             "name": "Gates Of Death",
@@ -2916,9 +2916,9 @@
                             "rng": "6",
                             "aoe": "-",
                             "pow": "-",
-                            "dur": "UP",
+                            "dur": "Up",
                             "off": "NO",
-                            "description": "Target friendly Faction model/unit gains +2 to its melee damage rolls and Take Down. (Models disabled by a melee attack made by a model with Take Down cannot make a Tough roll. Models boxed by a melee attack made by a model with Take Down are removed from play.)."
+                            "description": "Target friendly Faction model/unit gains +2 to it's melee attack damage rolls and Takedown."
                         },
                         {
                             "name": "Stranglehold",
@@ -3607,7 +3607,7 @@
                             "description": "When one or more friendly Faction warrior models are destroyed or removed from play by enemy attacks while within 5” of this model, this model gains +2 on Melee accuracy and Melee damage rolls for one round."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         }
                     ],
@@ -4048,7 +4048,7 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         }
                     ],
@@ -6626,7 +6626,7 @@
                             "ability": [
                                 {
                                     "name": "Purgation",
-                                    "description": "Attacks with this weapon gain an additional die on attack accuracy and damage rolls when attacking models with an enemy upkeep spell or animus on them."
+                                    "description": "Gain an additional die on accuracy and damage rolls with this weapon against models with an enemy upkeep spell or animus on them."
                                 }
                             ],
                             "presetabilities": [
@@ -7039,7 +7039,7 @@
                     "characterabilities": [
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Roadblock",
@@ -7188,7 +7188,7 @@
                             "description": "During its activation, this model can forfeit its Normal Movement or Combat Action to gain +4 DEF. If an enemy attack misses it at any time except while advancing, after the attack is resolved this model can make a full advance. Shifting Sand Stance lasts for one round."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -7256,11 +7256,11 @@
                         },
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Leadership [Paladin] [Girded]",
-                            "description": "While in this model's CMD range, friendly faction Paladin gain Girded."
+                            "description": "While in this model's CMD range, friendly faction Paladin gain Girded. (A model with Girded and models B2B with it gain Resistance: Blast.)"
                         },
                         {
                             "name": "Reposition [3\"]",
@@ -7346,11 +7346,11 @@
                     "characterabilities": [
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Leadership [Paladin] [Girded]",
-                            "description": "While in this model's CMD range, friendly faction Paladin gain Girded."
+                            "description": "While in this model's CMD range, friendly faction Paladin gain Girded. (A model with Girded and models B2B with it gain Resistance: Blast.)"
                         },
                         {
                             "name": "Retaliatory Strike",
@@ -8180,7 +8180,7 @@
                     "characterabilities": [
                         {
                             "name": "Elite Cadre [Paladins of the Order of the Wall] [Righteous Vengeance]",
-                            "description": "Friendly Paladins of the Order of the Wall models gain Righteous Vengeance."
+                            "description": "Friendly Paladins of the Order of the Wall models gain Righteous Vengeance. (If one or more friendly Faction warrior models were destroyed or removed from play by enemy attacks while within 5\" of this model during the last round, during your Maintenance Phase a model with Righteous Vengeance can advance up to 3\" and make one basic melee attack.)"
                         },
                         {
                             "name": "Inhuman Resolve",
@@ -9124,9 +9124,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "minunit": "Leader and 3 Grunts",
-                "mincost": "3",
+                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "5",
-                "maxunit": "Leader and 5 Grunts"
+                "mincost": "3"
             },
             "models": [
                 {
@@ -9268,10 +9268,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "6",
                 "minunit": "Leader and 6 Grunts",
-                "maxcost": "10",
                 "maxunit": "Leader and 10 Grunts",
-                "mincost": "6"
+                "maxcost": "10"
             },
             "models": [
                 {
@@ -9342,10 +9342,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxunit": "-",
                 "minunit": "Gunner and 2 Grunts",
-                "mincost": "4",
                 "maxcost": "-",
-                "maxunit": "-"
+                "mincost": "4"
             },
             "models": [
                 {
@@ -9458,10 +9458,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "14",
-                "mincost": "9",
                 "maxunit": "Leader and 4 Grunts",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "9",
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "14"
             },
             "models": [
                 {
@@ -9553,10 +9553,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "14",
+                "minunit": "Leader and 2 Grunts",
                 "mincost": "9",
                 "maxunit": "Leader and 3 Grunts",
-                "minunit": "Leader and 2 Grunts"
+                "maxcost": "14"
             },
             "models": [
                 {
@@ -9634,9 +9634,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "mincost": "8",
                 "minunit": "Leader and 5 Grunts",
                 "maxcost": "13",
-                "mincost": "8",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -9724,10 +9724,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "17",
                 "minunit": "Leader and 2 Grunts",
                 "mincost": "10",
-                "maxunit": "Leader and 4 Grunts",
-                "maxcost": "17"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -9828,10 +9828,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
                 "maxcost": "15",
-                "mincost": "9",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 4 Grunts",
+                "mincost": "9"
             },
             "models": [
                 {
@@ -9916,8 +9916,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "7",
                 "maxcost": "12",
+                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -9993,9 +9993,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "10",
-                "mincost": "5"
+                "mincost": "5",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -10081,10 +10081,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
+                "maxcost": "-",
                 "mincost": "5",
-                "maxunit": "-",
-                "maxcost": "-"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -10100,7 +10100,7 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Practiced Manuevers",
+                            "name": "Practiced Maneuvers",
                             "description": "Each model in this unit can ignore other models in this unit when determining LOS and can advance through them if it has enough movement to move completely past them."
                         },
                         {
@@ -10159,9 +10159,9 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "maxunit": "-",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "7",
-                "maxcost": "-",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -10222,10 +10222,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "1",
-                "mincost": "6",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -10302,10 +10302,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "minunit": "Visgoth Juviah Rhoven and Honor Guard",
-                "maxcost": "-",
                 "maxunit": "-",
-                "mincost": "8"
+                "maxcost": "-",
+                "mincost": "8",
+                "minunit": "Visgoth Juviah Rhoven and Honor Guard"
             },
             "models": [
                 {
@@ -10402,7 +10402,7 @@
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -10832,7 +10832,7 @@
                         },
                         {
                             "name": "Granted [Cleave]",
-                            "description": "While this model is in play, models in its unit gain Cleave."
+                            "description": "While this model is in play, models in its unit gain Cleave. (When a model with Cleave destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved the model can make one additional melee attack. The model can make only one additional attack as a result of Cleave each activation.)"
                         },
                         {
                             "name": "Tactics [Overtake]",
@@ -10964,7 +10964,7 @@
                         },
                         {
                             "name": "Granted [Practiced Maneuvers]",
-                            "description": "While this model is in play, models in its unit gain Practiced Maneuvers."
+                            "description": "While this model is in play, models in its unit gain Practiced Maneuvers. (A model with Practiced Manuevers can ignore other models in its unit when determining LOS and can advance through them if it has enough movement to move completely past them.)"
                         },
                         {
                             "name": "Iron Zeal",

@@ -2855,7 +2855,7 @@
                             "description": "Immediately after this model resolves a melee attack in which it destroys one or more living models, it can end its activation and remove d3 damage points."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -2933,7 +2933,7 @@
                             "description": "This model gains +1 ARM for each soul token currently on it."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -3414,10 +3414,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "11",
                 "mincost": "6",
-                "minunit": "Leader and 4 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11"
+                "minunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -3491,10 +3491,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "mincost": "9",
+                "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "mincost": "9",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -3580,9 +3580,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
                 "minunit": "Leader and 4 Grunts",
-                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "11"
             },
             "models": [
@@ -3648,10 +3648,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
-                "maxunit": "-",
-                "mincost": "10"
+                "mincost": "10",
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -3745,10 +3745,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "12",
-                "minunit": "Leader and 4 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "7"
+                "minunit": "Leader and 4 Grunts",
+                "mincost": "7",
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -3816,10 +3816,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "8",
-                "maxcost": "-"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -3900,10 +3900,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "9",
                 "maxunit": "-",
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
-                "mincost": "9"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -3984,10 +3984,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "4",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "-"
+                "maxunit": "-",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {

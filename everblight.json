@@ -4855,7 +4855,7 @@
                             "ability": [
                                 {
                                     "name": "Cleave",
-                                    "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                                    "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                                 }
                             ]
                         }
@@ -6220,7 +6220,7 @@
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Aggressive]",
-                            "description": "Cohort models in this model's battlegroup gain Aggressive."
+                            "description": "Cohort models in this model's battlegroup gain Aggressive. (A model with Aggressive can run or charge without spending a focus point.)"
                         },
                         {
                             "name": "Flank [Friendly Faction Lesser Warbeast]",
@@ -6616,7 +6616,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Leadership [Blighted Nyss Swordsmen] [True Strike]",
@@ -7427,7 +7427,7 @@
                         },
                         {
                             "name": "Leadership [Virtue] [Blight Cloud]",
-                            "description": "While in this model's CMD range, friendly faction Virtue gain Blight Cloud."
+                            "description": "While in this model's CMD range, friendly faction Virtue gain Blight Cloud. (A model with Blight Cloud can use Blight Cloud once per activation at any time. Center a 3” AOE cloud effect on the model. The AOE remains centered on the model for one round. If the model is destroyed or removed from play, remove the AOE from play. Models in the AOE when it is placed or that enter or end their activation in the AOE suffer the Continuous Corrosion effect.)"
                         },
                         {
                             "name": "Meltdown",
@@ -7527,7 +7527,7 @@
                         },
                         {
                             "name": "Leadership [Blighted Ogrun] [Blood Drinker]",
-                            "description": "While in this model's CMD range, friendly faction Blighted Ogrun gain Blood Drinker."
+                            "description": "While in this model's CMD range, friendly faction Blighted Ogrun gain Blood Drinker. (Immediately after a model with Blood Drinker resolves a melee attack in which it destroys one or more living models, it can end its activation and remove d3 damage points.)"
                         },
                         {
                             "name": "Unyielding",
@@ -7648,10 +7648,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "-",
                 "mincost": "8",
+                "maxcost": "-",
                 "minunit": "Sevryn, Rhylyss and Vysarr",
-                "maxcost": "-"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7916,10 +7916,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11",
                 "mincost": "6",
-                "maxcost": "11"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7991,10 +7991,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "7",
                 "maxcost": "12",
-                "minunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -8075,9 +8075,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxcost": "-",
-                "maxunit": "-",
                 "mincost": "4",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -8167,9 +8167,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "14",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "9"
+                "mincost": "9",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -8195,7 +8195,7 @@
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -8238,9 +8238,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "Leader and 4 Grunts",
-                "maxcost": "16",
+                "mincost": "10",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "10"
+                "maxcost": "16"
             },
             "models": [
                 {
@@ -8334,10 +8334,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "minunit": "Gunner and 2 Grunts",
+                "maxcost": "-",
                 "mincost": "3",
-                "maxcost": "-"
+                "maxunit": "-",
+                "minunit": "Gunner and 2 Grunts"
             },
             "models": [
                 {
@@ -8467,10 +8467,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "5",
-                "mincost": "3",
+                "maxunit": "Vessel and 6 Grunts",
                 "minunit": "Vessel and 4 Grunts",
-                "maxunit": "Vessel and 6 Grunts"
+                "mincost": "3",
+                "maxcost": "5"
             },
             "models": [
                 {
@@ -8573,10 +8573,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "7",
-                "maxcost": "-",
-                "minunit": "Leader and 5 Grunts"
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -8645,10 +8645,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "-",
+                "mincost": "7",
                 "maxcost": "-",
-                "mincost": "7"
+                "maxunit": "-",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -8725,9 +8725,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "12",
-                "maxunit": "Leader and 9 Grunts",
+                "mincost": "7",
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "7"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -8786,9 +8786,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
-                "maxcost": "13",
                 "mincost": "8",
+                "maxcost": "13",
+                "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts"
             },
             "models": [
@@ -8881,10 +8881,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "maxcost": "13",
                 "mincost": "8",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts",
-                "maxcost": "13"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -8978,10 +8978,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "6",
-                "maxcost": "9",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "6",
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "9"
             },
             "models": [
                 {
@@ -9153,10 +9153,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
+                "maxcost": "11",
                 "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9223,10 +9223,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11",
                 "mincost": "7",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -9292,10 +9292,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
                 "mincost": "6",
-                "maxcost": "-",
-                "minunit": "Leader and 3 Tentacles"
+                "minunit": "Leader and 3 Tentacles",
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -9445,10 +9445,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
                 "maxunit": "-",
-                "mincost": "7",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "7"
             },
             "models": [
                 {
@@ -9642,7 +9642,7 @@
                         },
                         {
                             "name": "Granted [Shadow bind]",
-                            "description": "While this model is in play, models in its unit gain Shadow bind."
+                            "description": "While this model is in play, models in its unit gain Shadow bind. (A model hit by a weapon with Shadow Bind suffers Shadow Bind for one round. (A model suffering shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.))"
                         },
                         {
                             "name": "Tactics [Advance Deploy]",
@@ -9746,7 +9746,7 @@
                         },
                         {
                             "name": "Tactics [Combined Arms]",
-                            "description": "Models in this unit gain Combined Arms."
+                            "description": "Models in this unit gain Combined Arms. (When a model with Combined Arms misses an accuracy roll for a combined ranged attack, it can reroll that accuracy roll. Each accuracy roll can be rerolled only once as a result of Combined Arms.)"
                         }
                     ],
                     "stats": {
@@ -9804,7 +9804,7 @@
                     "characterabilities": [
                         {
                             "name": "Granted [Ready Ammo]",
-                            "description": "While this model is in play, models in its unit gain Ready Ammo."
+                            "description": "While this model is in play, models in its unit gain Ready Ammo. (RNG CMD. Target friendly Ready Ammo unit, while  in formation, the ranged weapons of models in that unit become ROF 2.)"
                         },
                         {
                             "name": "Tainted Arrows",
@@ -9870,7 +9870,7 @@
                         },
                         {
                             "name": "Tactics [Hunter]",
-                            "description": "Models in this unit gain Hunter."
+                            "description": "Models in this unit gain Hunter. (A model with Hunter ignores concealment and cover when making ranged attacks.)"
                         }
                     ],
                     "stats": {
@@ -10109,7 +10109,7 @@
                         },
                         {
                             "name": "Tactics [Duelist]",
-                            "description": "Models in this unit gain Duelist."
+                            "description": "Models in this unit gain Duelist. (A model with Duelist gains +2 DEF against melee accuracy rolls.)"
                         }
                     ],
                     "stats": {
@@ -10173,7 +10173,7 @@
                         },
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Command Attachment [Blighted Nyss Legionnaires]",
@@ -10189,11 +10189,11 @@
                         },
                         {
                             "name": "Tactics [Blood-Bound]",
-                            "description": "Models in this unit gain Blood-Bound."
+                            "description": "Models in this unit gain Blood-Bound. (When a model with Blood-Bound destroys a living enemy model with an attack during its activation, after the attack is resolved you can return to play one destroyed model in its unit. Place the returned model completely within 3\" of the attacking model. The returned model cannot activate the turn it returns to play. The destroyed enemy model is removed from play and does not provide a soul or corpse token.)"
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -10248,7 +10248,7 @@
                         },
                         {
                             "name": "Wall of Steel",
-                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM. "
+                            "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM."
                         }
                     ],
                     "stats": {
@@ -10407,7 +10407,7 @@
                         },
                         {
                             "name": "Tactics [Prey]",
-                            "description": "Models in this unit gain Prey."
+                            "description": "Models in this unit gain Prey. (After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. A model with Prey gains +2 to attack and damage rolls against its prey. When the prey is destroyed or removed from play, choose another model/unit to be the prey.)"
                         }
                     ],
                     "stats": {

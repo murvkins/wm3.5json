@@ -417,10 +417,10 @@
                         },
                         {
                             "name": "Leadership [Wolf Sworn] [Prowl, Sidestep]",
-                            "description": "While in this model's CMD range, friendly faction Wolf Sworn gain Prowl and Sidestep. (While a model with Prowl has concealment, it gains Stealth.)"
+                            "description": "While in this model's CMD range, friendly faction Wolf Sworn gain Prowl and Sidestep. (While a model with Prowl has concealment, it gains Stealth.) (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved.)"
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         },
                         {
@@ -903,8 +903,8 @@
                         "description": "Place any number of fury points on each friendly Faction warbeast in Kaya's battlegroup currently in her control range. She can immediately leech fury points from warbeasts in her battlegroup that are in her control range."
                     },
                     "execution": {
-                        "name": "Stealth",
-                        "description": ""
+                        "name": "Stealthy",
+                        "description": "This model gains Stealth."
                     },
                     "stats": {
                         "basesize": "30mm",
@@ -5523,7 +5523,7 @@
                             "ability": [
                                 {
                                     "name": "Purgation",
-                                    "description": "Attacks with this weapon gain an additional die on attack accuracy and damage rolls when attacking models with an enemy upkeep spell or animus on them."
+                                    "description": "Gain an additional die on accuracy and damage rolls with this weapon against models with an enemy upkeep spell or animus on them."
                                 }
                             ],
                             "damagetype": [
@@ -6427,8 +6427,8 @@
                             "description": "This model ignores concealment and cover when making ranged attacks."
                         },
                         {
-                            "name": "Leadership [Tharn Wolf Riders] [Pending]",
-                            "description": "While in this model's CMD range, friendly faction Tharn Wolf Riders gain Pending."
+                            "name": "Leadership [Tharn Wolf Riders] [Follow your Lead [Thran Wolf Rider Champion]]",
+                            "description": "While in this model's CMD range, friendly faction Tharn Wolf Riders gain Follow your Lead [Thran Wolf Rider Champion]. (While a model with Follow your Lead is in the command range of Thran Wolf Rider Champion it is always considred to be in formation as if it were in its Unit Leader's command range.)"
                         },
                         {
                             "name": "Priority Target [Solos and Command Attachments]",
@@ -6803,7 +6803,7 @@
                     "characterabilities": [
                         {
                             "name": "Cleave",
-                            "description": " When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
+                            "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can make only one additional attack as a result of Cleave each activation."
                         },
                         {
                             "name": "Dragoon",
@@ -6970,10 +6970,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "-",
                 "minunit": "Brighid and Caul",
+                "maxcost": "-",
                 "mincost": "7",
-                "maxcost": "-"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7123,9 +7123,9 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
+                "minunit": "Skoll, Tala and Caleb",
                 "maxunit": "-",
                 "maxcost": "-",
-                "minunit": "Skoll, Tala and Caleb",
                 "mincost": "8"
             },
             "models": [
@@ -7360,8 +7360,8 @@
             "unitpoints": {
                 "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "9",
-                "maxcost": "15"
+                "maxcost": "15",
+                "mincost": "9"
             },
             "models": [
                 {
@@ -7474,9 +7474,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxunit": "-",
                 "minunit": "Skoll, Tala and Caleb",
                 "maxcost": "-",
-                "maxunit": "-",
                 "mincost": "8"
             },
             "models": [
@@ -7573,10 +7573,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
-                "maxcost": "15",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "9"
+                "mincost": "9",
+                "maxcost": "15",
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -7642,8 +7642,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
                 "maxcost": "-",
+                "minunit": "Leader and 3 Grunts",
                 "maxunit": "-",
                 "mincost": "6"
             },
@@ -7760,10 +7760,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "5"
+                "mincost": "5",
+                "maxcost": "-",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7839,10 +7839,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "15",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "9",
-                "maxunit": "Leader and 4 Grunts"
+                "maxcost": "15",
+                "maxunit": "Leader and 4 Grunts",
+                "mincost": "9"
             },
             "models": [
                 {
@@ -7980,9 +7980,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "-",
-                "minunit": "Leader and 2 Grunts",
+                "mincost": "5",
                 "maxunit": "-",
-                "mincost": "5"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8101,9 +8101,9 @@
             "fieldallowance": "1",
             "unitpoints": {
                 "maxcost": "-",
-                "maxunit": "-",
                 "mincost": "5",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -8179,10 +8179,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "5",
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
-                "maxunit": "-"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "-",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -8267,9 +8267,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "-",
-                "minunit": "Leader and 2 Grunts",
+                "mincost": "5",
                 "maxcost": "-",
-                "mincost": "5"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8366,9 +8366,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "10",
+                "maxcost": "16",
                 "maxunit": "Leader and 4 Grunts",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "16"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8501,10 +8501,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
+                "mincost": "5",
                 "maxunit": "-",
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "5"
+                "maxcost": "-",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -8600,9 +8600,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "5",
                 "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
+                "mincost": "5",
                 "maxunit": "-"
             },
             "models": [
@@ -8903,8 +8903,8 @@
                             "description": "After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. This model gains +2 to attack accuracy and damage rolls against it's prey. When the prey is destroyed or removed from play, choose another model/unit to be the prey."
                         },
                         {
-                            "name": "Tactics [Quickwork]",
-                            "description": "Models in this unit gain Quickwork."
+                            "name": "Tactics [Quick Work]",
+                            "description": "Models in this unit gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its Combat Action, immediately after the attack is resolved it can make one basic ranged attack.)"
                         }
                     ],
                     "stats": {
@@ -9319,11 +9319,11 @@
                         },
                         {
                             "name": "Granted [Divine Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Divine Inspiration."
+                            "description": "While this model is in play, models in its unit gain Divine Inspiration. (A model with Divine Inspiration gains an additional die on melee attack accuracy and damage rolls. Discard the lowest die of each roll.)"
                         },
                         {
                             "name": "Tactics [Sacred Ward]",
-                            "description": "Models in this unit gain Sacred Ward."
+                            "description": "Models in this unit gain Sacred Ward. (A model with Sacred Ward cannot be targeted by enemy spells.)"
                         }
                     ],
                     "stats": {
@@ -9409,7 +9409,7 @@
                         },
                         {
                             "name": "Granted [Vengeance]",
-                            "description": "While this model is in play, models in its unit gain Vengeance."
+                            "description": "While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in this unit with Vengeance were damaged by enemy attacks during the last round, each model in the unit can advance 3” and make one basic melee attack.)"
                         },
                         {
                             "name": "Heart Eater",
@@ -9702,7 +9702,7 @@
                         },
                         {
                             "name": "Granted [Vengeance]",
-                            "description": "While this model is in play, models in its unit gain Vengeance."
+                            "description": "While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in this unit with Vengeance were damaged by enemy attacks during the last round, each model in the unit can advance 3” and make one basic melee attack.)"
                         },
                         {
                             "name": "Power Swell",

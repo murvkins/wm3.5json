@@ -350,7 +350,8 @@
             ],
             "factions": [
                 "Convergence of Cyriss",
-                "Crucible Guard"
+                "Crucible Guard",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -382,12 +383,20 @@
                             "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+3 damage point from it."
                         },
                         {
+                            "name": "Requisition [Supernal Coalition]",
+                            "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
+                        },
+                        {
                             "name": "Resourceful",
                             "description": "This model can upkeep spells on models in it's battlegroup without spending focus or fury."
                         },
                         {
                             "name": "Split Loyalties [Ord] [Crucible Guard]",
                             "description": "When included in a Ord army, Locke 1 is a Ord model and not a Crucible Guard model. When included in a Crucible Guard army, Locke 1 is a Crucible Guard model and not a Ord model."
+                        },
+                        {
+                            "name": "Strange Bedfellows",
+                            "description": "When included in a Supernal Coalition army, this model can include cohort models in its battlegroup that share a primary faction identity as this model. Jackmarshals may be assigned Cohort models from their primary faction identity."
                         }
                     ],
                     "feat": {
@@ -546,7 +555,7 @@
                         },
                         {
                             "name": "Elite Cadre [Railless Interceptor] [Steel Cavalry]",
-                            "description": "Friendly Railless Interceptor models gain Steel Cavalry."
+                            "description": "Friendly Railless Interceptor models gain Steel Cavalry. (A model with Steel Cavalry counts as a cavalry model, but does not gain a Mount attack. When it makes an impact attack, that attack has a base POW equal to this model's STR. The melee range of impact attacks is 1\".)"
                         },
                         {
                             "name": "Exhaust Fumes",
@@ -726,7 +735,8 @@
                 "Crucible Guard"
             ],
             "factions": [
-                "Crucible Guard"
+                "Crucible Guard",
+                "Supernal Coalition"
             ],
             "fieldallowance": "C",
             "models": [
@@ -2200,7 +2210,7 @@
                     "characterabilities": [
                         {
                             "name": "Girded",
-                            "description": "This model and models B2B with it gain Blast Resistance. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)"
+                            "description": "This model and models B2B with it gain Resistance: Blast."
                         },
                         {
                             "name": "Steady",
@@ -2463,7 +2473,8 @@
                 "Crucible Guard"
             ],
             "factions": [
-                "Crucible Guard"
+                "Crucible Guard",
+                "Supernal Coalition"
             ],
             "fieldallowance": "2",
             "models": [
@@ -2566,7 +2577,8 @@
                 "Crucible Guard"
             ],
             "factions": [
-                "Crucible Guard"
+                "Crucible Guard",
+                "Supernal Coalition"
             ],
             "fieldallowance": "2",
             "models": [
@@ -2603,7 +2615,7 @@
                             "description": "This model/unit can be included in a Supernal Coalition army as if it were that faction."
                         },
                         {
-                            "name": "Side Step",
+                            "name": "Sidestep",
                             "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
                         }
                     ],
@@ -2752,10 +2764,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "-",
-                "mincost": "4",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "-",
-                "minunit": "Leader and 2 Grunts"
+                "maxunit": "-",
+                "mincost": "4"
             },
             "models": [
                 {
@@ -2871,10 +2883,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "6",
+                "maxunit": "-",
                 "maxcost": "-",
-                "maxunit": "-"
+                "mincost": "6",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -2979,10 +2991,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
+                "mincost": "7",
                 "minunit": "Leader and 2 Grunts",
                 "maxcost": "12",
-                "mincost": "7"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -3093,9 +3105,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "7",
-                "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -3186,7 +3198,8 @@
             "factions": [
                 "Crucible Guard",
                 "Llael",
-                "Ord"
+                "Ord",
+                "Supernal Coalition"
             ],
             "fieldallowance": "3",
             "unitpoints": {
@@ -3286,10 +3299,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "maxunit": "Leader and 4 Grunts",
                 "mincost": "9",
-                "maxcost": "15",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts"
+                "maxcost": "15"
             },
             "models": [
                 {
@@ -3400,8 +3413,8 @@
             "unitpoints": {
                 "maxcost": "-",
                 "minunit": "Gunner and 2 Grunts",
-                "maxunit": "-",
-                "mincost": "5"
+                "mincost": "5",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -3977,7 +3990,8 @@
             "factions": [
                 "Crucible Guard",
                 "Llael",
-                "Ord"
+                "Ord",
+                "Supernal Coalition"
             ],
             "fieldallowance": "3",
             "attachlimit": "1",
@@ -4180,7 +4194,8 @@
             "factions": [
                 "Crucible Guard",
                 "Llael",
-                "Ord"
+                "Ord",
+                "Supernal Coalition"
             ],
             "fieldallowance": "U",
             "attachlimit": "3",
