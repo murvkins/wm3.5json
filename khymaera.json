@@ -801,7 +801,7 @@
                                             "ability": [
                                                 {
                                                     "name": "Critical Sustained Attack",
-                                                    "description": ""
+                                                    "description": "On a critical hit during this model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits."
                                                 }
                                             ]
                                         }
