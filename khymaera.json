@@ -1156,7 +1156,7 @@
                                             "fieldoffire": "None",
                                             "rng": "1",
                                             "pow": "6",
-                                            "count": "4",
+                                            "count": "1",
                                             "ability": [
                                                 {
                                                     "name": "Critical Armor-Piercing",
