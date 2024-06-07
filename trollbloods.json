@@ -1,5 +1,5 @@
 {
-    "updated": "06-02-2024",
+    "updated": "06-06-2024",
     "group": [
         {
             "primary": {
@@ -100,6 +100,7 @@
                                         "type": "ranged",
                                         "fieldoffire": "none",
                                         "rng": "12",
+                                        "rof": "1",
                                         "pow": "12",
                                         "count": "1"
                                     },
@@ -288,8 +289,8 @@
                                 ],
                                 "characterabilities": [
                                     {
-                                        "name": "Attached",
-                                        "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader's Battlegroup."
+                                        "name": "Attached [Borka Kegslayer]",
+                                        "description": "This model is attached to Borka Kegslayer. Each Leader can have only one model/unit attached to it."
                                     },
                                     {
                                         "name": "Companion [Borka Kegslayer]",
@@ -495,7 +496,7 @@
                     },
                     {
                         "name": "Braghen Ragemonger",
-                        "points": "+30",
+                        "points": "30",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
                             "Talion Charter",
@@ -536,7 +537,7 @@
                                         "description": "This model may select a number of spells from its faction spell pool according to its designated spell rack number. This model gains these spells in addition to the spells that are already on its card. A model may not have two identical spells on its spell card. When making spell selections from the spell pool deduct the spells COST from this model's available Battlegroup Points unless the spell entry lists another cost."
                                     },
                                     {
-                                        "name": "Split Loyalties [Trollbloods][Talion Charter]",
+                                        "name": "Split Loyalties [Trollbloods] [Talion Charter]",
                                         "description": "When included in a Trollbloods army, Ragemonger 1 is a Trollbloods model and not a Talion Charter model. When included in a Talion Charter army, Ragemonger 1 is a Talion Charter model and not a Trollbloods model."
                                     },
                                     {
@@ -583,6 +584,9 @@
                                                 "name": "Skewer",
                                                 "description": "When this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved the damaged model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction."
                                             }
+                                        ],
+                                        "damagetype": [
+                                            "Arcane"
                                         ]
                                     },
                                     {
@@ -597,6 +601,9 @@
                                                 "name": "Critical Weaken",
                                                 "description": "On a critical hit, a living model hit by this weapon suffers -2 STR and DEF for one round."
                                             }
+                                        ],
+                                        "damagetype": [
+                                            "Arcane"
                                         ]
                                     },
                                     {
@@ -951,9 +958,12 @@
                                     "Warlock"
                                 ],
                                 "keywords": [
+                                    "Brineblood",
                                     "Gun Mage",
                                     "Gunfighter",
+                                    "MK4",
                                     "Privateer",
+                                    "Southern Kriels",
                                     "Tough",
                                     "Trollkin"
                                 ],
@@ -1082,6 +1092,28 @@
                                         "count": "1"
                                     }
                                 ],
+                                "spells": [
+                                    {
+                                        "name": "Bullet Dodger",
+                                        "cost": "2",
+                                        "rng": "6",
+                                        "aoe": "-",
+                                        "pow": "-",
+                                        "dur": "UP",
+                                        "off": "NO",
+                                        "description": "Target friendly Faction model gains +2 DEF and Dodge. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)."
+                                    },
+                                    {
+                                        "name": "Energizer",
+                                        "cost": "2",
+                                        "rng": "SELF",
+                                        "aoe": "CTRL",
+                                        "pow": "-",
+                                        "dur": "-",
+                                        "off": "NO",
+                                        "description": "Each model in the spellcaster's battlegroup that is currently in its Control Range can immediately advance up to 2\". Energizer can be cast only once per activation."
+                                    }
+                                ],
                                 "displayorder": 0
                             }
                         ]
@@ -1108,6 +1140,9 @@
                                     "Warrior"
                                 ],
                                 "keywords": [
+                                    "Brineblood",
+                                    "MK4",
+                                    "Southern Kriels",
                                     "Tough",
                                     "Trollkin"
                                 ],
@@ -1379,7 +1414,7 @@
                         ]
                     },
                     {
-                        "name": "Grim Angus, Leader of the “Hunters Grim” & Muggs and Krump",
+                        "name": "Grim Angus, Leader of the Hunters Grim",
                         "points": "29",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
@@ -1446,7 +1481,7 @@
                                 ],
                                 "feat": {
                                     "name": "On My Mark",
-                                    "description": "While in Grim’s Control range, friendly Faction models gain Mark Target and their ranged weapons gain Snipe. On My Mark lasts for one turn. (Other friendly Faction models gain +2 to ranged accuracy rolls against enemy models within 5” of a model with Mark Target that are in it's LOS.) (Ranged weapons with Snipe gain +4 RNG.)"
+                                    "description": "While in Grim's Control range, friendly Faction models gain Mark Target and their ranged weapons gain Snipe. On My Mark lasts for one turn. (Other friendly Faction models gain +2 to ranged accuracy rolls against enemy models within 5” of a model with Mark Target that are in it's LOS.) (Ranged weapons with Snipe gain +4 RNG.)"
                                 },
                                 "execution": {
                                     "name": "Prowl",
@@ -1561,6 +1596,10 @@
                                         "description": "This model is included in any army that includes Grim Angus, Leader of the \"Hunters Grim\". If Grim Angus, Leader of the \"Hunters Grim\" is destroyed or removed from play, remove this model from play. This model is part of Grim Angus, Leader of the \"Hunters Grim\"'s battlegroup."
                                     },
                                     {
+                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
+                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
+                                    },
+                                    {
                                         "name": "Partisan [Trollbloods]",
                                         "description": "When included in a Trollbloods army, this model is a Trollbloods model instead of a Mercenary model."
                                     },
@@ -1575,10 +1614,6 @@
                                     {
                                         "name": "Warrant Officer [Reposition [3\"]]",
                                         "description": "While this model is alive, and not under enemy control, non-cohort models in this model's battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition 3\" can advance up to 3\", then it's activation ends.)"
-                                    },
-                                    {
-                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
                                     }
                                 ],
                                 "stats": {
@@ -1635,6 +1670,10 @@
                                         "description": "This model is included in any army that includes Grim Angus, Leader of the \"Hunters Grim\". If Grim Angus, Leader of the \"Hunters Grim\" is destroyed or removed from play, remove this model from play. This model is part of Grim Angus, Leader of the \"Hunters Grim\"'s battlegroup."
                                     },
                                     {
+                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
+                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
+                                    },
+                                    {
                                         "name": "Partisan [Trollbloods]",
                                         "description": "When included in a Trollbloods army, this model is a Trollbloods model instead of a Mercenary model."
                                     },
@@ -1653,10 +1692,6 @@
                                     {
                                         "name": "Warrant Officer [Circular Vision]",
                                         "description": "While this model is alive, and not under enemy control, non-cohort models in this model's battlegroup gain Circular Vision. (Models never gain a back strike bonus against a model with Circular Vision.)"
-                                    },
-                                    {
-                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
                                     }
                                 ],
                                 "stats": {
@@ -1902,7 +1937,7 @@
                                 ],
                                 "feat": {
                                     "name": "Call of Valor",
-                                    "description": "Friendly Faction models currently in Grissel’s Control range gain Reposition [3”] and Unyielding. Call of Valor lasts for one round. (At the end of an activation in which it did not run or fail a charge, a model with Reposition [3\"] can advance up to 3\", then its activation ends.) (A model with Unyielding gains +2 ARM against melee damage rolls)"
+                                    "description": "Friendly Faction models currently in Grissel's Control range gain Reposition [3”] and Unyielding. Call of Valor lasts for one round. (At the end of an activation in which it did not run or fail a charge, a model with Reposition [3\"] can advance up to 3\", then its activation ends.) (A model with Unyielding gains +2 ARM against melee damage rolls)"
                                 },
                                 "execution": {
                                     "name": "Rise",
@@ -1936,6 +1971,10 @@
                                             {
                                                 "name": "Hoof It",
                                                 "description": "RNG CMD. Target friendly non-warlock non-warcaster living Faction model/unit. If the model/unit is in range, affected models that did not run or fail a charge this turn can make a full advance at the end of this turn after all friendly models have ended their activations. During this movement, affected models cannot be targeted by free strikes."
+                                            },
+                                            {
+                                                "name": "Rallying Cry",
+                                                "description": "RNG CMD. Target friendly faction model/unit. If the model/unit is in range, it gains +1 STR and immediately stands up. Models that became knocked down this turn are not affected by Rallying Cry."
                                             },
                                             {
                                                 "name": "War Cry",
@@ -2024,14 +2063,14 @@
                                         "description": "While in the spellcaster's Control Range, friendly Faction models gain +2 DEF against ranged and magic attacks. Deflection lasts for one round."
                                     },
                                     {
-                                        "name": "Discord",
-                                        "cost": "2",
-                                        "rng": "6",
+                                        "name": "Mob Mentality",
+                                        "cost": "3",
+                                        "rng": "CTRL",
                                         "aoe": "-",
                                         "pow": "-",
                                         "dur": "UP",
-                                        "off": "YES",
-                                        "description": "Target model in the spellcaster's battlegroup gains Wailing. (While within 5” of a model with wailing, enemy models cannot cast or channel spells.)"
+                                        "off": "NO",
+                                        "description": "When a friendly Faction model in the spellcaster's control range destroys one or more enemy models with a melee or ranged attack during its activation, immediately after the attack is resolved one warrior model in the spellcaster's control range can advance up to 3\". A model can advance as a result of Mob Mentality only once per turn."
                                     }
                                 ],
                                 "displayorder": 0
@@ -2102,7 +2141,7 @@
                                         "count": "1",
                                         "ability": [
                                             {
-                                                "name": "Critical Smite",
+                                                "name": "Smite (★Attack)",
                                                 "description": "On a critical hit, the model hit can be slammed d6\" directly away from this model. If the model hit has a larger base than the attacking model, it is moved only half the distance rolled. The POW of collateral damage is equal to the STR of this model."
                                             }
                                         ],
@@ -2405,7 +2444,7 @@
                                 ],
                                 "feat": {
                                     "name": "Dhunia's Wrath",
-                                    "description": "Enemy models suffer d6 damage points for each focus, fury, or essence point they spend while in Doomshaper’s Control range. Enemy warbeasts suffer d6 damage points for each fury point they receive as a result of being forced while in Doomshaper’s Control range. If a model is destroyed as a result of this damage while casting a spell, the spell does not take effect. If a model is destroyed as a result of this damage while making an attack, the target model suffers no further damage or effects from the attack. Dhunia’s Wrath lasts for one round."
+                                    "description": "Enemy models suffer d6 damage points for each focus, fury, or essence point they spend while in Doomshaper's Control range. Enemy warbeasts suffer d6 damage points for each fury point they receive as a result of being forced while in Doomshaper's Control range. If a model is destroyed as a result of this damage while casting a spell, the spell does not take effect. If a model is destroyed as a result of this damage while making an attack, the target model suffers no further damage or effects from the attack. Dhunia's Wrath lasts for one round."
                                 },
                                 "execution": {
                                     "name": "Mage Static",
@@ -2456,6 +2495,16 @@
                                         "description": "Enemy upkeep spells in the spellcaster's Control range immediately expire. When an upkeep spell expires as a result of Dissolution, the model maintaining the spell suffers d3 damage points."
                                     },
                                     {
+                                        "name": "Fog of War",
+                                        "cost": "3",
+                                        "rng": "SELF",
+                                        "aoe": "CTRL",
+                                        "pow": "-",
+                                        "dur": "UP",
+                                        "off": "NO",
+                                        "description": "Models gain concealment while in the spellcaster's Control Range."
+                                    },
+                                    {
                                         "name": "Fortune",
                                         "cost": "2",
                                         "rng": "6",
@@ -2464,16 +2513,6 @@
                                         "dur": "UP",
                                         "off": "NO",
                                         "description": "Target friendly Faction model/unit can reroll its missed attack rolls. Each attack roll can be rerolled only once as a result of Fortune."
-                                    },
-                                    {
-                                        "name": "Rampager",
-                                        "cost": "4",
-                                        "rng": "10",
-                                        "aoe": "-",
-                                        "pow": "-",
-                                        "dur": "-",
-                                        "off": "YES",
-                                        "description": "Take Control of target enemy warbeast. You can make one full advance with the warbeast and can then make one basic attack with it, then Rampager expires. The enemy warbeast cannot be targeted by free strikes during this movement. While the warbeast is affected by Rampager, it cannot be forced and you cannot use its animus. Rampager can be cast only once per activation. A warbeast can be affected by Rampager only once per turn."
                                     },
                                     {
                                         "name": "Stranglehold",
@@ -2513,7 +2552,7 @@
                         "fieldallowance": "C",
                         "models": [
                             {
-                                "name": "Horgle, The Anvil",
+                                "name": "Horgle 1",
                                 "title": "Trollblood Warlock",
                                 "modeltype": [
                                     "Warlock"
@@ -2570,7 +2609,7 @@
                                         "fieldoffire": "none",
                                         "rng": "1",
                                         "pow": "5",
-                                        "count": "1",
+                                        "count": "2",
                                         "damagetype": [
                                             "Arcane"
                                         ],
@@ -2591,16 +2630,6 @@
                                         "description": "Consuming Flames causes fire damage. Models hit suffer the Continuous Fire effect."
                                     },
                                     {
-                                        "name": "Firestarter",
-                                        "cost": "2",
-                                        "rng": "6",
-                                        "aoe": "-",
-                                        "pow": "-",
-                                        "dur": "UP",
-                                        "off": "NO",
-                                        "description": "Target a model in the spellcaster's battlegroup. That model's melee and ranged weapons gain Continuous fire."
-                                    },
-                                    {
                                         "name": "Inviolable Resolve",
                                         "cost": "2",
                                         "rng": "6",
@@ -2609,6 +2638,16 @@
                                         "dur": "UP",
                                         "off": "NO",
                                         "description": "Target friendly Faction model/unit gains +2 ARM and cannot be knocked down or moved by a push or a slam."
+                                    },
+                                    {
+                                        "name": "Molten Force",
+                                        "cost": "2",
+                                        "rng": "10",
+                                        "aoe": "-",
+                                        "pow": "-",
+                                        "dur": "TURN",
+                                        "off": "NO",
+                                        "description": "Target a model/unit, that model's melee and ranged weapons gain Continuous fire."
                                     },
                                     {
                                         "name": "Solid Ground",
@@ -2646,6 +2685,7 @@
                                     "Warlock"
                                 ],
                                 "keywords": [
+                                    "Gun Mage",
                                     "Gunfighter",
                                     "Pathfinder",
                                     "Tough",
@@ -2675,7 +2715,7 @@
                                 ],
                                 "feat": {
                                     "name": "Rolling Fog",
-                                    "description": "Place six 4” AOE cloud effects anywhere completely within Skuld's Control range. Rolling Fog AOEs do not block friendly Faction model's LOS. Friendly Faction models can advance through other friendly Faction models that are in a Rolling Fog AOEs if they have enough movement to move completely past them. While in one or more Rolling Fog AOEs, living enemy models suffer -2 to accuracy rolls. Rolling Fog lasts for one round."
+                                    "description": "Place six 4” AOE cloud effects anywhere completely within Skuld's Control range. Rolling Fog AOE's do not block friendly Faction model's LOS. Friendly Faction models can advance through other friendly Faction models that are in a Rolling Fog AOEs if they have enough movement to move completely past them. While in one or more Rolling Fog AOEs, living enemy models suffer -2 to accuracy rolls. Rolling Fog lasts for one round."
                                 },
                                 "execution": {
                                     "name": "Apparition",
@@ -2934,7 +2974,7 @@
                     },
                     {
                         "name": "Leto, Blood Brother of the Kriels",
-                        "points": "+28",
+                        "points": "28",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
                             "Trollbloods"
@@ -3050,7 +3090,7 @@
                     },
                     {
                         "name": "Madrak Ironhide, Thornwood Chieftain",
-                        "points": "+29",
+                        "points": "29",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
                             "Trollbloods"
@@ -3194,7 +3234,7 @@
                     },
                     {
                         "name": "Madrak Ironhide, World Ender",
-                        "points": "+28",
+                        "points": "28",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
                             "Trollbloods"
@@ -3226,7 +3266,7 @@
                                     },
                                     {
                                         "name": "Grim Salvation",
-                                        "description": "If this model is directly hit by a basic attack made by an enemy mode, choose a friendly non-incorporeal warrior model within 3” of it to be directly hit instead. That model is automatically hit and suffers all damage and effects."
+                                        "description": "If this model is directly hit by a basic attack made by an enemy model, choose a friendly non-incorporeal warrior model within 3” of it to be directly hit instead. That model is automatically hit and suffers all damage and effects."
                                     },
                                     {
                                         "name": "Relentless Charge",
@@ -3342,7 +3382,7 @@
                     },
                     {
                         "name": "Madrak, Great Chieftain",
-                        "points": "+29",
+                        "points": "29",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
                             "Trollbloods"
@@ -3392,7 +3432,7 @@
                                 ],
                                 "feat": {
                                     "name": "Rallying Cry",
-                                    "description": "While in Madrak's Control range, friendly Faction warrior models cannot become knocked down. When a friendly Faction warrior model makes a Tough roll of 4, 5, or 6 while in Madrak's Control range, remove 1 damage point from that model. After removing tis damage the affected model can advance up to 3” unless it was disabled while advancing. The affected model cannot be targeted by free strikes during this movement. Rallying Cry lasts for one round."
+                                    "description": "While in Madrak's Control range, friendly Faction warrior models cannot become knocked down. When a friendly Faction warrior model makes a Tough roll of 4, 5, or 6 while in Madrak's Control range, remove 1 damage point from that model. After removing this damage the affected model can advance up to 3” unless it was disabled while advancing. The affected model cannot be targeted by free strikes during this movement. Rallying Cry lasts for one round."
                                 },
                                 "execution": {
                                     "name": "Set Defense",
@@ -3515,7 +3555,7 @@
                     },
                     {
                         "name": "Ragnor Skysplitter, the Runemaster",
-                        "points": "+30",
+                        "points": "30",
                         "category": "Warcasters/Warlocks/Masters",
                         "primaryfaction": [
                             "Trollbloods"
@@ -3679,12 +3719,14 @@
                                 "keywords": [
                                     "Amphibious",
                                     "Bull Croak",
+                                    "MK4",
                                     "Pathfinder",
-                                    "Resistance: Corrosion"
+                                    "Resistance: Corrosion",
+                                    "Southern Kriels"
                                 ],
                                 "characterabilities": [
                                     {
-                                        "name": "Attuned Spirit [any]",
+                                        "name": "Attuned Spirit",
                                         "description": "Once per activation, this model can cast the animus of friendly faction warbeast in it's battlegroup without spending fury."
                                     },
                                     {
@@ -3813,6 +3855,7 @@
                                 "keywords": [
                                     "Amphibious",
                                     "Dual Attack",
+                                    "MK4",
                                     "Pathfinder",
                                     "Power Attack: Headbutt",
                                     "Power Attack: Power Strike",
@@ -3820,6 +3863,7 @@
                                     "Power Attack: Sweep",
                                     "Power Attack: Throw",
                                     "Power Attack: Trample",
+                                    "Southern Kriels",
                                     "Unstoppable"
                                 ],
                                 "characterabilities": [
@@ -3891,7 +3935,7 @@
                                         "options": [
                                             {
                                                 "cost": "10",
-                                                "name": "Head 1",
+                                                "name": "Head 1 - Bulbous Chomper",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -3928,7 +3972,7 @@
                                             },
                                             {
                                                 "cost": "12",
-                                                "name": "Electro Lure Head",
+                                                "name": "Head 2 - Electro Lure",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -3972,11 +4016,11 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Figurehead",
+                                        "groupname": "Figurehead Options",
                                         "options": [
                                             {
                                                 "cost": "7",
-                                                "name": "Mermaid",
+                                                "name": "Figurehead 1 - Mermaid",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -4008,7 +4052,7 @@
                                             },
                                             {
                                                 "cost": "6",
-                                                "name": "Triton",
+                                                "name": "Firegurehead 2 - Triton",
                                                 "statmods": {
                                                     "spd": "1",
                                                     "str": "0",
@@ -4047,11 +4091,11 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Tentacle Weapon",
+                                        "groupname": "Left Tentacle Weapon Options",
                                         "options": [
                                             {
                                                 "cost": "6",
-                                                "name": "Main Gun",
+                                                "name": "Left Tentatacle Weapon 1 - Main Gun",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -4089,7 +4133,7 @@
                                             },
                                             {
                                                 "cost": "7",
-                                                "name": "Powder Cask",
+                                                "name": "Left Tentatacle Weapon 2 - Powder Cask",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -4123,11 +4167,11 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Tentacle Weapon 2",
+                                        "groupname": "Right Tentacle Weapon Options",
                                         "options": [
                                             {
                                                 "cost": "1",
-                                                "name": "Main Gun",
+                                                "name": "Right Tentatacle Weapon 1 - Main Gun",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -4165,7 +4209,7 @@
                                             },
                                             {
                                                 "cost": "1",
-                                                "name": "Powder Cask",
+                                                "name": "Right Tentatacle Weapon 2 - Powder Cask",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -4233,9 +4277,11 @@
                                     "Amphibious",
                                     "Dire Troll",
                                     "Dual Attack",
+                                    "MK4",
                                     "Power Attack: Headbutt",
                                     "Power Attack: Slam",
-                                    "Power Attack: Trample"
+                                    "Power Attack: Trample",
+                                    "Southern Kriels"
                                 ],
                                 "characterabilities": [
                                     {
@@ -4976,6 +5022,14 @@
                                         "description": "The spellcaster's Ranged weapons gain Snipe. Far Strike lasts for one turn. (An attack with a weapon with Snipe gains +4 RNG.)"
                                     }
                                 ],
+                                "spiral": [
+                                    "6",
+                                    "3",
+                                    "7",
+                                    "5",
+                                    "6",
+                                    "3"
+                                ],
                                 "displayorder": 0
                             }
                         ]
@@ -5215,7 +5269,7 @@
                                         "description": "When this model boxes a living model with a melee attack, it can choose to remove the boxed model from play. When it does, this model can remove d3 damage points."
                                     },
                                     {
-                                        "name": "Special Issue [Gunngjorn]",
+                                        "name": "Special Issue [Gunnbjorn]",
                                         "description": ""
                                     }
                                 ],
@@ -5226,11 +5280,11 @@
                                     "mat": "7",
                                     "rat": "7",
                                     "def": "12",
-                                    "arm": "18",
+                                    "arm": "19",
                                     "cmd": "5",
                                     "hp": "30",
                                     "fury": "4",
-                                    "thr": "9"
+                                    "thr": "10"
                                 },
                                 "weapons": [
                                     {
@@ -5634,9 +5688,9 @@
                                 ],
                                 "spiral": [
                                     "5",
-                                    "3",
-                                    "5",
                                     "2",
+                                    "5",
+                                    "3",
                                     "5",
                                     "2"
                                 ],
@@ -5736,10 +5790,13 @@
                                     {
                                         "name": "Big Meaty Fist",
                                         "type": "Melee",
-                                        "fieldoffire": "None",
+                                        "fieldoffire": "left",
                                         "rng": "2",
                                         "pow": "4",
                                         "count": "1",
+                                        "damagetype": [
+                                            "Disruption"
+                                        ],
                                         "presetabilities": [
                                             "Open Fist"
                                         ]
@@ -5747,7 +5804,7 @@
                                     {
                                         "name": "Big Meaty Fist",
                                         "type": "Melee",
-                                        "fieldoffire": "None",
+                                        "fieldoffire": "right",
                                         "rng": "2",
                                         "pow": "4",
                                         "count": "1",
@@ -6132,8 +6189,16 @@
                                 "keywords": [
                                     "Amphibious",
                                     "Dual Attack",
+                                    "MK4",
                                     "Power Attack: Headbutt",
-                                    "Power Attack: Slam"
+                                    "Power Attack: Slam",
+                                    "Southern Kriels"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Regeneration [d3]",
+                                        "description": "This model can be forced to remove d3 damage points once per activation. This model cannot use Regeneration during an activation it runs."
+                                    }
                                 ],
                                 "stats": {
                                     "basesize": "50MM",
@@ -6470,7 +6535,7 @@
                                         "options": [
                                             {
                                                 "cost": "2",
-                                                "name": "Left 1 - Boarding Axe",
+                                                "name": "Left Arm 1 - Boarding Axe",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -6507,7 +6572,7 @@
                                             },
                                             {
                                                 "cost": "4",
-                                                "name": "Left 2 - Chain Shot Explosive",
+                                                "name": "Left Arm 2 - Chain Shot Explosive",
                                                 "statmods": {
                                                     "spd": "0",
                                                     "str": "0",
@@ -8228,7 +8293,8 @@
                                     "Warrior"
                                 ],
                                 "keywords": [
-                                    "Tough"
+                                    "Tough",
+                                    "Trollkin"
                                 ],
                                 "characterabilities": [
                                     {
@@ -8738,6 +8804,7 @@
                                     "Warrior"
                                 ],
                                 "keywords": [
+                                    "Brineblood",
                                     "Dual Attack",
                                     "Fellcaller",
                                     "Gunfighter",
@@ -8806,7 +8873,7 @@
                                                     },
                                                     {
                                                         "name": "You In Particular",
-                                                        "description": ""
+                                                        "description": "This attack becomes RNG 12 POW 12."
                                                     }
                                                 ]
                                             }
@@ -9012,7 +9079,7 @@
                                         "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
                                     },
                                     {
-                                        "name": "Ride by Goreing",
+                                        "name": "Ride by Goring",
                                         "description": "This model gains +2” movement and can make one Mount attack in addition to their normal attacks while making a Ride By attack."
                                     }
                                 ],
@@ -9243,6 +9310,10 @@
                                 "modeltype": [
                                     "Solo",
                                     "Warrior"
+                                ],
+                                "keywords": [
+                                    "Tough",
+                                    "Trollkin"
                                 ],
                                 "characterabilities": [
                                     {
@@ -9835,7 +9906,7 @@
                                     {
                                         "topability": {
                                             "name": "Storytelling",
-                                            "description": ""
+                                            "description": "At any time during this model's activation, it can tell one of the following stories. A friendly Faction model/unit can be affected by only one story each turn."
                                         },
                                         "subabilities": [
                                             {
@@ -9945,8 +10016,8 @@
                         ]
                     },
                     {
-                        "name": "Troll Whelp",
-                        "points": "1 For 2 Whelps",
+                        "name": "Troll Whelp x2",
+                        "points": "1",
                         "category": "Solos",
                         "primaryfaction": [
                             "Trollbloods"
@@ -10174,92 +10245,6 @@
                         ]
                     },
                     {
-                        "name": "Trollkin Runebearer",
-                        "points": "4",
-                        "category": "Solos",
-                        "primaryfaction": [
-                            "Trollbloods"
-                        ],
-                        "factions": [
-                            "Trollbloods"
-                        ],
-                        "fieldallowance": "1",
-                        "models": [
-                            {
-                                "name": "Trollkin Runebearer",
-                                "title": "Trollblood Solo",
-                                "modeltype": [
-                                    "Solo",
-                                    "Warrior"
-                                ],
-                                "keywords": [
-                                    "Northkin",
-                                    "Pathfinder",
-                                    "Tough",
-                                    "Trollkin"
-                                ],
-                                "characterabilities": [
-                                    {
-                                        "name": "Arcane Repeater",
-                                        "description": "While this model's Leader is within 5” of it, that warcaster's Control range is extended 2”."
-                                    },
-                                    {
-                                        "name": "Attached",
-                                        "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader's Battlegroup."
-                                    },
-                                    {
-                                        "name": "Power Glyphs",
-                                        "description": "Once per game, when the Leader this model is attached to casts a spell you may use Power Glyphs. The Spell cast gains an additional die on attack and damage rolls. Drop the lowest die in each roll."
-                                    }
-                                ],
-                                "stats": {
-                                    "basesize": "40MM",
-                                    "spd": "6",
-                                    "str": "6",
-                                    "aat": "6",
-                                    "mat": "5",
-                                    "rat": "4",
-                                    "def": "12",
-                                    "arm": "14",
-                                    "cmd": "5",
-                                    "hp": "8"
-                                },
-                                "nestedabilities": [
-                                    {
-                                        "topability": {
-                                            "name": "Magic Ability",
-                                            "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
-                                        },
-                                        "subabilities": [
-                                            {
-                                                "name": "Harmonious Exaltation (★Action)",
-                                                "description": "RNG CMD. Target this model's leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
-                                            },
-                                            {
-                                                "name": "Spell Slave (★Action) (★Attack)",
-                                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "weapons": [
-                                    {
-                                        "name": "Stone Slabs",
-                                        "type": "Melee",
-                                        "fieldoffire": "None",
-                                        "rng": "1",
-                                        "pow": "2",
-                                        "count": "1",
-                                        "damagetype": [
-                                            "Arcane"
-                                        ]
-                                    }
-                                ],
-                                "displayorder": 0
-                            }
-                        ]
-                    },
-                    {
                         "name": "Trollkin Skinner",
                         "points": "4",
                         "category": "Solos",
@@ -10445,6 +10430,186 @@
                         ]
                     },
                     {
+                        "name": "Dannon Blythe & Bull",
+                        "category": "Units",
+                        "primaryfaction": [
+                            "Mercenaries",
+                            "Trollbloods"
+                        ],
+                        "factions": [
+                            "Blindwater Congregation",
+                            "Cephalyx",
+                            "Circle Orboros",
+                            "Convergence of Cyriss",
+                            "Crucible Guard",
+                            "Cryx",
+                            "Cygnar",
+                            "Grymkin",
+                            "Infernals",
+                            "Ios",
+                            "Khador",
+                            "Khymaera",
+                            "Legion of Everblight",
+                            "Llael",
+                            "Mercenaries",
+                            "Ord",
+                            "Orgoth",
+                            "Protectorate of Menoth",
+                            "Religion of the Twins",
+                            "Searforge Commission",
+                            "Skorne",
+                            "Supernal Coalition",
+                            "Talion Charter",
+                            "Thornfall Alliance",
+                            "Trollbloods"
+                        ],
+                        "fieldallowance": "C",
+                        "unitpoints": {
+                            "maxunit": "-",
+                            "mincost": "5",
+                            "maxcost": "-",
+                            "minunit": "Blythe and Bull"
+                        },
+                        "models": [
+                            {
+                                "name": "Blythe 1",
+                                "title": "Mercenary Unit",
+                                "modeltype": [
+                                    "Unit",
+                                    "Warrior"
+                                ],
+                                "keywords": [
+                                    "Gunfighter",
+                                    "Officer",
+                                    "Pathfinder"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Intelligence",
+                                        "description": "You gain +1 to the starting roll determining the order of deployment and play."
+                                    },
+                                    {
+                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
+                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
+                                    },
+                                    {
+                                        "name": "Partisan [Trollbloods]",
+                                        "description": "When included in a Trollbloods army, this model is a Trollbloods model instead of a Mercenary model."
+                                    },
+                                    {
+                                        "name": "Reconnaissance (★Action)",
+                                        "description": "Choose one enemy model or unit with ambush that has not yet been put into play. Its controller must immediately deploy the chosen model or unit. This ability can only be used once per game."
+                                    },
+                                    {
+                                        "name": "Tactics [Prey]",
+                                        "description": "Models in this unit gain Prey. (After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. A model with Prey gains +2 to attack and damage rolls against its prey. When the prey is destroyed or removed from play, choose another model/unit to be the prey.)"
+                                    },
+                                    {
+                                        "name": "Tactics [Take Down]",
+                                        "description": "Models in this unit gain Take Down. (Models disabled by a melee attack made by a model with Take Down cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.)"
+                                    }
+                                ],
+                                "stats": {
+                                    "basesize": "30MM",
+                                    "spd": "6",
+                                    "str": "5",
+                                    "mat": "6",
+                                    "rat": "6",
+                                    "def": "15",
+                                    "arm": "13",
+                                    "cmd": "6",
+                                    "hp": "5"
+                                },
+                                "weapons": [
+                                    {
+                                        "name": "Pistol",
+                                        "type": "ranged",
+                                        "fieldoffire": "None",
+                                        "rng": "8",
+                                        "rof": "1",
+                                        "pow": "10",
+                                        "count": "1"
+                                    },
+                                    {
+                                        "name": "SWW Sword",
+                                        "type": "Melee",
+                                        "fieldoffire": "None",
+                                        "rng": "1",
+                                        "pow": "3",
+                                        "count": "1"
+                                    }
+                                ],
+                                "displayorder": 0
+                            },
+                            {
+                                "name": "Bull 1",
+                                "title": "Mercenary Unit",
+                                "modeltype": [
+                                    "Unit",
+                                    "Warrior"
+                                ],
+                                "keywords": [
+                                    "Pathfinder",
+                                    "Tough",
+                                    "Trollkin"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
+                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
+                                    },
+                                    {
+                                        "name": "Rapid Strike",
+                                        "description": "This model can make one additional melee attack each Combat Action."
+                                    }
+                                ],
+                                "stats": {
+                                    "basesize": "40MM",
+                                    "spd": "6",
+                                    "str": "7",
+                                    "mat": "6",
+                                    "rat": "6",
+                                    "def": "13",
+                                    "arm": "15",
+                                    "cmd": "6",
+                                    "hp": "8"
+                                },
+                                "weapons": [
+                                    {
+                                        "name": "Demolisher",
+                                        "type": "ranged",
+                                        "fieldoffire": "None",
+                                        "rng": "10",
+                                        "rof": "3",
+                                        "pow": "12",
+                                        "count": "1",
+                                        "ability": [
+                                            {
+                                                "name": "Batter",
+                                                "description": "When an enemy model is hit by this weapon during this model's activation, it becomes knocked down and can be pushed 1” directly away from this model. If the model hit is pushed, this model can immediately advance 1” directly toward it."
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Great Sword",
+                                        "type": "melee",
+                                        "fieldoffire": "None",
+                                        "rng": "1",
+                                        "pow": "4",
+                                        "count": "1",
+                                        "ability": [
+                                            {
+                                                "name": "Beat Back",
+                                                "description": "Immediately after a basic attack with a weapon with Beat Back is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "displayorder": 1
+                            }
+                        ]
+                    },
+                    {
                         "name": "Dhunian Knot",
                         "category": "Units",
                         "primaryfaction": [
@@ -10457,8 +10622,8 @@
                         "unitpoints": {
                             "minunit": "Leader and 5 Grunts",
                             "maxunit": "-",
-                            "maxcost": "-",
-                            "mincost": "6"
+                            "mincost": "6",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -10535,6 +10700,115 @@
                         ]
                     },
                     {
+                        "name": "Farrow Slaughterhousers",
+                        "category": "Units",
+                        "primaryfaction": [
+                            "Blindwater Congregation",
+                            "Circle Orboros",
+                            "Khador",
+                            "Khymaera",
+                            "Legion of Everblight",
+                            "Mercenaries",
+                            "Skorne",
+                            "Thornfall Alliance",
+                            "Trollbloods"
+                        ],
+                        "factions": [
+                            "Blindwater Congregation",
+                            "Circle Orboros",
+                            "Khador",
+                            "Khymaera",
+                            "Legion of Everblight",
+                            "Mercenaries",
+                            "Skorne",
+                            "Thornfall Alliance",
+                            "Trollbloods"
+                        ],
+                        "fieldallowance": "3",
+                        "unitpoints": {
+                            "maxcost": "-",
+                            "minunit": "Leader and 5 Grunts",
+                            "mincost": "8",
+                            "maxunit": "-"
+                        },
+                        "models": [
+                            {
+                                "name": "Farrow Slaughterhousers",
+                                "title": "Mercenary Thornfall Alliance Unit",
+                                "modeltype": [
+                                    "Unit",
+                                    "Warrior"
+                                ],
+                                "keywords": [
+                                    "Farrow",
+                                    "Tough"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Finisher",
+                                        "description": "This model gains an additional die on damage rolls against damaged models."
+                                    },
+                                    {
+                                        "name": "Impervious Flesh",
+                                        "description": "When this model suffers a damage roll, roll one fewer die."
+                                    },
+                                    {
+                                        "name": "Mercenary [Circle Orboros, Legion of Everblight, Skorne, Trollbloods, Khymera, Blindwater Congregation]",
+                                        "description": "This model will work for Circle Orboros, Legion of Everblight, Skorne, Trollbloods, Khymera, Blindwater Congregation."
+                                    },
+                                    {
+                                        "name": "Partisan [Thornfall Alliance]",
+                                        "description": "When included in a Thornfall Alliance army, this model is a Thornfall Alliance model instead of a Mercenary model."
+                                    },
+                                    {
+                                        "name": "Relentless Charge",
+                                        "description": "While advancing as part of a charge, this model gains Pathfinder."
+                                    },
+                                    {
+                                        "name": "Rise",
+                                        "description": "If this model is knocked down at the beginning of your Maintenance Phase, it stands up."
+                                    },
+                                    {
+                                        "name": "Take Down",
+                                        "description": "Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play."
+                                    }
+                                ],
+                                "stats": {
+                                    "basesize": "30MM",
+                                    "spd": "5",
+                                    "str": "8",
+                                    "mat": "7",
+                                    "rat": "4",
+                                    "def": "12",
+                                    "arm": "15",
+                                    "cmd": "7",
+                                    "hp": "1"
+                                },
+                                "weapons": [
+                                    {
+                                        "name": "Pole Cleaver",
+                                        "type": "Melee",
+                                        "fieldoffire": "None",
+                                        "rng": "2",
+                                        "pow": "5",
+                                        "count": "1",
+                                        "ability": [
+                                            {
+                                                "name": "Powerful Charge",
+                                                "description": "This model gains +2 to charge accuracy rolls with this weapon."
+                                            },
+                                            {
+                                                "name": "Thresher (★Attack)",
+                                                "description": "This model makes one melee attack with this weapon against each model in it's LOS that is in this weapon's melee range. Thresher attacks are simultaneous."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "displayorder": 0
+                            }
+                        ]
+                    },
+                    {
                         "name": "Fire Spitters",
                         "category": "Units",
                         "primaryfaction": [
@@ -10547,10 +10821,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxcost": "-",
-                            "minunit": "Leader and 2 Grunts",
                             "mincost": "4",
-                            "maxunit": "-"
+                            "minunit": "Leader and 2 Grunts",
+                            "maxunit": "-",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -10643,6 +10917,166 @@
                         ]
                     },
                     {
+                        "name": "Greygore Boomhowler & Co",
+                        "category": "Units",
+                        "primaryfaction": [
+                            "Mercenaries",
+                            "Trollbloods"
+                        ],
+                        "factions": [
+                            "Crucible Guard",
+                            "Cryx",
+                            "Cygnar",
+                            "Khador",
+                            "Llael",
+                            "Mercenaries",
+                            "Ord",
+                            "Searforge Commission",
+                            "Thornfall Alliance",
+                            "Trollbloods"
+                        ],
+                        "fieldallowance": "C",
+                        "unitpoints": {
+                            "maxcost": "12",
+                            "mincost": "8",
+                            "maxunit": "Boomhowler and 9 Grunts",
+                            "minunit": "Boomhowler and 5 Grunts"
+                        },
+                        "models": [
+                            {
+                                "name": "Greygore Boomhowler",
+                                "title": "Mercenary Unit",
+                                "modeltype": [
+                                    "Unit",
+                                    "Warrior"
+                                ],
+                                "keywords": [
+                                    "Combined Melee Attack",
+                                    "Officer",
+                                    "Tough",
+                                    "Trollkin"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Mercenary [Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods]",
+                                        "description": "This model will work for Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods."
+                                    },
+                                    {
+                                        "name": "Partisan [Trollbloods]",
+                                        "description": "When included in a Trollbloods army, this model is a Trollbloods model instead of a Mercenary model."
+                                    },
+                                    {
+                                        "name": "Shooting Gallery",
+                                        "description": "This model gains +2 to Ranged accuracy rolls against models within 5” of it."
+                                    }
+                                ],
+                                "stats": {
+                                    "basesize": "40MM",
+                                    "spd": "5",
+                                    "str": "7",
+                                    "mat": "7",
+                                    "rat": "6",
+                                    "def": "12",
+                                    "arm": "15",
+                                    "cmd": "8",
+                                    "hp": "8"
+                                },
+                                "nestedabilities": [
+                                    {
+                                        "topability": {
+                                            "name": "Fell Calls",
+                                            "description": "This model can make one of the following calls at any time during its activation. A friendly Faction model/unit can be affected by only one call each turn."
+                                        },
+                                        "subabilities": [
+                                            {
+                                                "name": "Cacophony",
+                                                "description": "While in this model's command range, enemy models/units cannot cast spells or be used to channel spells. Cacophony lasts for one round."
+                                            },
+                                            {
+                                                "name": "Call of Defiance",
+                                                "description": "While in formation, models in this unit do not lose Tough while knocked down. Call of Defiance lasts for one round."
+                                            },
+                                            {
+                                                "name": "Reveille",
+                                                "description": "Knocked down friendly Faction models in this model's CMD range immediately stand up. Models that became knocked down this turn are not affected by Reveille."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "weapons": [
+                                    {
+                                        "name": "Blunderbuss",
+                                        "type": "ranged",
+                                        "fieldoffire": "None",
+                                        "rng": "8",
+                                        "rof": "1",
+                                        "pow": "12",
+                                        "count": "1"
+                                    },
+                                    {
+                                        "name": "Great Axe",
+                                        "type": "Melee",
+                                        "fieldoffire": "None",
+                                        "rng": "`",
+                                        "pow": "5",
+                                        "count": "`"
+                                    }
+                                ],
+                                "displayorder": 0
+                            },
+                            {
+                                "name": "Grunts",
+                                "title": "Mercenary Unit",
+                                "modeltype": [
+                                    "Unit",
+                                    "Warrior",
+                                    "Grunt"
+                                ],
+                                "keywords": [
+                                    "Combined Melee Attack",
+                                    "Tough"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Mercenary [Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods]",
+                                        "description": "This model will work for Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods."
+                                    }
+                                ],
+                                "stats": {
+                                    "basesize": "40MM",
+                                    "spd": "5",
+                                    "str": "7",
+                                    "mat": "6",
+                                    "rat": "5",
+                                    "def": "12",
+                                    "arm": "15",
+                                    "cmd": "7",
+                                    "hp": "1"
+                                },
+                                "weapons": [
+                                    {
+                                        "name": "Blunderbuss",
+                                        "type": "ranged",
+                                        "fieldoffire": "None",
+                                        "rng": "8",
+                                        "rof": "1",
+                                        "pow": "12",
+                                        "count": "1"
+                                    },
+                                    {
+                                        "name": "Great Axe",
+                                        "type": "Melee",
+                                        "fieldoffire": "None",
+                                        "rng": "1",
+                                        "pow": "5",
+                                        "count": "1"
+                                    }
+                                ],
+                                "displayorder": 1
+                            }
+                        ]
+                    },
+                    {
                         "name": "Kriel Warriors",
                         "category": "Units",
                         "primaryfaction": [
@@ -10653,10 +11087,10 @@
                         ],
                         "fieldallowance": "U",
                         "unitpoints": {
-                            "maxunit": "Leader and 9 Grunts",
-                            "maxcost": "10",
+                            "minunit": "Leader and 5 Grunts",
                             "mincost": "6",
-                            "minunit": "Leader and 5 Grunts"
+                            "maxcost": "10",
+                            "maxunit": "Leader and 9 Grunts"
                         },
                         "models": [
                             {
@@ -10732,7 +11166,7 @@
                         ]
                     },
                     {
-                        "name": "Krielstone & Stone Scribes",
+                        "name": "Krielstone Bearer & Stone Scribes",
                         "category": "Units",
                         "primaryfaction": [
                             "Trollbloods"
@@ -10839,9 +11273,9 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "mincost": "6",
                             "maxcost": "11",
                             "minunit": "Leader and 5 Grunts",
+                            "mincost": "6",
                             "maxunit": "Leader and 9 Grunts"
                         },
                         "models": [
@@ -10914,10 +11348,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "mincost": "5",
+                            "maxcost": "7",
                             "maxunit": "Leader and 5 Grunts",
-                            "minunit": "Leader and 3 Grunts",
-                            "maxcost": "7"
+                            "mincost": "5",
+                            "minunit": "Leader and 3 Grunts"
                         },
                         "models": [
                             {
@@ -11029,10 +11463,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "mincost": "6",
                             "maxunit": "-",
-                            "maxcost": "-",
-                            "minunit": "Leader, Trollkin Grunt, Pyg"
+                            "minunit": "Leader, Trollkin Grunt, Pyg",
+                            "mincost": "6",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -11182,10 +11616,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxcost": "7",
-                            "minunit": "Leader and 3 Grunts",
+                            "maxcost": "13",
                             "maxunit": "Leader and 5 Grunts",
-                            "mincost": "5"
+                            "mincost": "8",
+                            "minunit": "Leader and 3 Grunts"
                         },
                         "models": [
                             {
@@ -11279,7 +11713,7 @@
                         ]
                     },
                     {
-                        "name": "Pummeler",
+                        "name": "Pummeler Crew",
                         "category": "Units",
                         "primaryfaction": [
                             "Trollbloods"
@@ -11289,10 +11723,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "minunit": "Leader and 3 Grunts",
-                            "mincost": "5",
-                            "maxcost": "7",
-                            "maxunit": "Leader and 5 Grunts"
+                            "maxunit": "-",
+                            "minunit": "Leader and 2 Grunts",
+                            "mincost": "4",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -11305,7 +11739,8 @@
                                 "keywords": [
                                     "Officer",
                                     "Tough",
-                                    "Trollkin"
+                                    "Trollkin",
+                                    "Weapon Crew"
                                 ],
                                 "characterabilities": [
                                     {
@@ -11429,8 +11864,8 @@
                         "fieldallowance": "2",
                         "unitpoints": {
                             "maxcost": "11",
-                            "maxunit": "Leader and 9 Grunts",
                             "minunit": "Leader and 5 Grunts",
+                            "maxunit": "Leader and 9 Grunts",
                             "mincost": "6"
                         },
                         "models": [
@@ -11513,10 +11948,10 @@
                         ],
                         "fieldallowance": "1",
                         "unitpoints": {
-                            "mincost": "5",
-                            "maxunit": "Leader and 5 Grunts",
-                            "maxcost": "7",
-                            "minunit": "Leader and 3 Grunts"
+                            "minunit": "Leader and 5 Grunts",
+                            "maxunit": "Leader and 9 Grunts",
+                            "maxcost": "12",
+                            "mincost": "8"
                         },
                         "models": [
                             {
@@ -11608,12 +12043,12 @@
                         "factions": [
                             "Trollbloods"
                         ],
-                        "fieldallowance": "1",
+                        "fieldallowance": "2",
                         "unitpoints": {
-                            "maxcost": "7",
-                            "minunit": "Leader and 3 Grunts",
-                            "maxunit": "Leader and 5 Grunts",
-                            "mincost": "5"
+                            "maxcost": "10",
+                            "minunit": "Leader and 5 Grunts",
+                            "maxunit": "Leader and 9 Grunts",
+                            "mincost": "6"
                         },
                         "models": [
                             {
@@ -11683,10 +12118,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxunit": "Leader and 9 Grunts",
-                            "maxcost": "11",
-                            "mincost": "6",
-                            "minunit": "Leader and 5 Grunts"
+                            "maxcost": "-",
+                            "mincost": "3",
+                            "minunit": "Leader and 2 Grunts",
+                            "maxunit": "-"
                         },
                         "models": [
                             {
@@ -11779,9 +12214,9 @@
                         "fieldallowance": "2",
                         "unitpoints": {
                             "minunit": "Leader and 3 Grunts",
-                            "mincost": "7",
                             "maxcost": "10",
-                            "maxunit": "Leader and 5 Grunts"
+                            "maxunit": "Leader and 5 Grunts",
+                            "mincost": "7"
                         },
                         "models": [
                             {
@@ -11875,10 +12310,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxunit": "Leader and 9 Grunts",
                             "minunit": "Leader and 5 Grunts",
                             "mincost": "6",
-                            "maxcost": "11"
+                            "maxcost": "11",
+                            "maxunit": "Leader and 9 Grunts"
                         },
                         "models": [
                             {
@@ -11947,10 +12382,10 @@
                         ],
                         "fieldallowance": "3",
                         "unitpoints": {
-                            "maxunit": "Leader and 5 Grunts",
-                            "mincost": "7",
-                            "minunit": "Leader and 3 Grunts",
-                            "maxcost": "10"
+                            "maxcost": "14",
+                            "minunit": "Leader and 5 Grunts",
+                            "maxunit": "Leader and 9 Grunts",
+                            "mincost": "8"
                         },
                         "models": [
                             {
@@ -11997,7 +12432,7 @@
                                         "count": "1"
                                     },
                                     {
-                                        "name": "Gunblade",
+                                        "name": "Gun Blade",
                                         "type": "Melee",
                                         "fieldoffire": "None",
                                         "rng": "1",
@@ -12026,10 +12461,10 @@
                         ],
                         "fieldallowance": "C",
                         "unitpoints": {
-                            "maxcost": "10",
-                            "minunit": "Leader and 3 Grunts",
-                            "mincost": "7",
-                            "maxunit": "Leader and 5 Grunts"
+                            "mincost": "8",
+                            "minunit": "Wrathar, Tor, Rhudd",
+                            "maxunit": "-",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -12345,9 +12780,9 @@
                         "fieldallowance": "2",
                         "unitpoints": {
                             "minunit": "Leader and 2 Grunts",
-                            "maxcost": "-",
                             "maxunit": "-",
-                            "mincost": "4"
+                            "mincost": "4",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -12429,7 +12864,7 @@
                         ]
                     },
                     {
-                        "name": "Thumper",
+                        "name": "Thumper Crew",
                         "category": "Units",
                         "primaryfaction": [
                             "Trollbloods"
@@ -12439,10 +12874,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxunit": "Leader and 5 Grunts",
-                            "mincost": "7",
-                            "minunit": "Leader and 3 Grunts",
-                            "maxcost": "10"
+                            "maxunit": "-",
+                            "minunit": "Leader and 2 Grunts",
+                            "mincost": "4",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -12453,9 +12888,9 @@
                                     "Warrior"
                                 ],
                                 "keywords": [
-                                    "Officer",
                                     "Tough",
-                                    "Trollkin"
+                                    "Trollkin",
+                                    "Weapon Crew"
                                 ],
                                 "characterabilities": [
                                     {
@@ -12517,6 +12952,10 @@
                                     "Warrior",
                                     "Grunt"
                                 ],
+                                "keywords": [
+                                    "Tough",
+                                    "Trollkin"
+                                ],
                                 "stats": {
                                     "basesize": "40MM",
                                     "spd": "5",
@@ -12555,10 +12994,10 @@
                         ],
                         "fieldallowance": "3",
                         "unitpoints": {
-                            "mincost": "7",
-                            "maxunit": "Leader and 5 Grunts",
-                            "maxcost": "10",
-                            "minunit": "Leader and 3 Grunts"
+                            "maxcost": "-",
+                            "maxunit": "-",
+                            "minunit": "Leader and 3 Grunts",
+                            "mincost": "8"
                         },
                         "models": [
                             {
@@ -12643,10 +13082,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxunit": "Leader and 5 Grunts",
-                            "minunit": "Leader and 3 Grunts",
-                            "maxcost": "10",
-                            "mincost": "7"
+                            "maxcost": "16",
+                            "mincost": "10",
+                            "minunit": "Leader and 2 Grunts",
+                            "maxunit": "Leader and 4 Grunts"
                         },
                         "models": [
                             {
@@ -12685,6 +13124,28 @@
                                     "cmd": "7",
                                     "hp": "8"
                                 },
+                                "hpbars": [
+                                    {
+                                        "name": "Leader",
+                                        "hp": "8"
+                                    },
+                                    {
+                                        "name": "Model A",
+                                        "hp": "8"
+                                    },
+                                    {
+                                        "name": "Model B",
+                                        "hp": "8"
+                                    },
+                                    {
+                                        "name": "Model C",
+                                        "hp": "8"
+                                    },
+                                    {
+                                        "name": "Model D",
+                                        "hp": "8"
+                                    }
+                                ],
                                 "weapons": [
                                     {
                                         "name": "Hand Weapon",
@@ -12713,10 +13174,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "minunit": "Leader and 5 Grunts",
                             "maxcost": "13",
-                            "maxunit": "Leader and 9 Grunts",
-                            "mincost": "8"
+                            "minunit": "Leader and 5 Grunts",
+                            "mincost": "8",
+                            "maxunit": "Leader and 9 Grunts"
                         },
                         "models": [
                             {
@@ -12786,9 +13247,9 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "mincost": "5",
+                            "maxcost": "14",
+                            "mincost": "8",
                             "maxunit": "Leader and 9 Grunts",
-                            "maxcost": "9",
                             "minunit": "Leader and 5 Grunts"
                         },
                         "models": [
@@ -12867,10 +13328,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "mincost": "5",
-                            "maxcost": "9",
-                            "maxunit": "Leader and 9 Grunts",
-                            "minunit": "Leader and 5 Grunts"
+                            "maxunit": "Leader and 4 Grunts",
+                            "mincost": "12",
+                            "maxcost": "18",
+                            "minunit": "Leader and 2 Grunts"
                         },
                         "models": [
                             {
@@ -12900,7 +13361,7 @@
                                         "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
                                     },
                                     {
-                                        "name": "Ride by Goreing",
+                                        "name": "Ride by Goring",
                                         "description": "This model gains +2” movement and can make one Mount attack in addition to their normal attacks while making a Ride By attack."
                                     },
                                     {
@@ -12994,10 +13455,10 @@
                         ],
                         "fieldallowance": "U",
                         "unitpoints": {
+                            "minunit": "Leader and 2 Grunts",
                             "mincost": "8",
                             "maxunit": "-",
-                            "maxcost": "-",
-                            "minunit": "Leader and 2 Grunts"
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -13040,6 +13501,20 @@
                                     "cmd": "6",
                                     "hp": "8"
                                 },
+                                "hpbars": [
+                                    {
+                                        "name": "Leader",
+                                        "hp": "8"
+                                    },
+                                    {
+                                        "name": "Model A",
+                                        "hp": "8"
+                                    },
+                                    {
+                                        "name": "Model B",
+                                        "hp": "8"
+                                    }
+                                ],
                                 "nestedabilities": [
                                     {
                                         "topability": {
@@ -13096,10 +13571,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxcost": "-",
+                            "mincost": "10",
                             "maxunit": "-",
-                            "mincost": "8",
-                            "minunit": "Leader and 2 Grunts"
+                            "minunit": "Leader and 5 Grunts",
+                            "maxcost": "-"
                         },
                         "models": [
                             {
@@ -13290,10 +13765,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
+                            "maxunit": "Leader and 4 Grunts",
                             "minunit": "Leader and 2 Grunts",
-                            "maxunit": "-",
-                            "maxcost": "-",
-                            "mincost": "8"
+                            "mincost": "6",
+                            "maxcost": "10"
                         },
                         "models": [
                             {
@@ -13369,10 +13844,10 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "maxcost": "-",
+                            "maxcost": "15",
+                            "maxunit": "Leader and 4 Grunts",
                             "minunit": "Leader and 2 Grunts",
-                            "mincost": "8",
-                            "maxunit": "-"
+                            "mincost": "9"
                         },
                         "models": [
                             {
@@ -13570,7 +14045,8 @@
                                 ],
                                 "keywords": [
                                     "Combined Melee Attack",
-                                    "Tough"
+                                    "Tough",
+                                    "Trollkin"
                                 ],
                                 "characterabilities": [
                                     {
@@ -13583,7 +14059,7 @@
                                     },
                                     {
                                         "name": "Kriel Defiance",
-                                        "description": "Once per game during this model's activation this model can use Kriel Defiance. When a model in this unit makes a Tough roll, it succeeds on a roll of 4+."
+                                        "description": "Once per game during this model's activation this model can use Kriel Defiance. When a model in this unit makes a Tough roll, it succeeds on a roll of 4, 5, or 6."
                                     },
                                     {
                                         "name": "Take Up",
@@ -13640,7 +14116,8 @@
                                 ],
                                 "keywords": [
                                     "Combined Melee Attack",
-                                    "Tough"
+                                    "Tough",
+                                    "Trollkin"
                                 ],
                                 "characterabilities": [
                                     {
@@ -13956,8 +14433,8 @@
                                 ],
                                 "characterabilities": [
                                     {
-                                        "name": "Command Attachment [Krielstone & Stone Scribes]",
-                                        "description": "This attachment can be added to a Krielstone & Stone Scribes unit."
+                                        "name": "Command Attachment [Krielstone Bearer & Stone Scribes]",
+                                        "description": "This attachment can be added to a Krielstone Bearer & Stone Scribes unit."
                                     }
                                 ],
                                 "stats": {
@@ -14008,7 +14485,7 @@
                         ]
                     },
                     {
-                        "name": "Pyg Bushwhackers Officer & Mortar",
+                        "name": "Pyg Bushwhacker Officer & Mortar",
                         "points": "4",
                         "category": "Attachments",
                         "primaryfaction": [
@@ -14252,7 +14729,7 @@
                         ]
                     },
                     {
-                        "name": "Scattergunners Officer & Standard",
+                        "name": "Scattergunner Officer & Standard",
                         "points": "3",
                         "category": "Attachments",
                         "primaryfaction": [
@@ -14310,7 +14787,7 @@
                                 },
                                 "weapons": [
                                     {
-                                        "name": "Scattergunner",
+                                        "name": "Scattergun",
                                         "type": "ranged",
                                         "fieldoffire": "None",
                                         "rng": "SP8",
@@ -14319,7 +14796,7 @@
                                         "count": "1"
                                     },
                                     {
-                                        "name": "Gunblade",
+                                        "name": "Gun Blade",
                                         "type": "Melee",
                                         "fieldoffire": "None",
                                         "rng": "1",
@@ -14341,6 +14818,10 @@
                                 "modeltype": [
                                     "Attachment",
                                     "Warrior"
+                                ],
+                                "keywords": [
+                                    "Tough",
+                                    "Trollkin"
                                 ],
                                 "characterabilities": [
                                     {
@@ -14498,8 +14979,8 @@
                                 ],
                                 "characterabilities": [
                                     {
-                                        "name": "Command Attachment [Krielstone & Stone Scribes]",
-                                        "description": "This attachment can be added to a Krielstone & Stone Scribes unit."
+                                        "name": "Command Attachment [Krielstone Bearer & Stone Scribes]",
+                                        "description": "This attachment can be added to a Krielstone Bearer & Stone Scribes unit."
                                     }
                                 ],
                                 "stats": {
@@ -14684,6 +15165,92 @@
                         ]
                     },
                     {
+                        "name": "Trollkin Runebearer",
+                        "points": "4",
+                        "category": "Attachments",
+                        "primaryfaction": [
+                            "Trollbloods"
+                        ],
+                        "factions": [
+                            "Trollbloods"
+                        ],
+                        "fieldallowance": "1",
+                        "models": [
+                            {
+                                "name": "Trollkin Runebearer",
+                                "title": "Trollblood Solo",
+                                "modeltype": [
+                                    "Solo",
+                                    "Warrior"
+                                ],
+                                "keywords": [
+                                    "Northkin",
+                                    "Pathfinder",
+                                    "Tough",
+                                    "Trollkin"
+                                ],
+                                "characterabilities": [
+                                    {
+                                        "name": "Arcane Repeater",
+                                        "description": "While this model's Leader is within 5” of it, that warcaster's Control range is extended 2”."
+                                    },
+                                    {
+                                        "name": "Attached",
+                                        "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader's Battlegroup."
+                                    },
+                                    {
+                                        "name": "Power Glyphs",
+                                        "description": "Once per game, when the Leader this model is attached to casts a spell you may use Power Glyphs. The Spell cast gains an additional die on attack and damage rolls. Drop the lowest die in each roll."
+                                    }
+                                ],
+                                "stats": {
+                                    "basesize": "40MM",
+                                    "spd": "6",
+                                    "str": "6",
+                                    "aat": "6",
+                                    "mat": "5",
+                                    "rat": "4",
+                                    "def": "12",
+                                    "arm": "14",
+                                    "cmd": "5",
+                                    "hp": "8"
+                                },
+                                "nestedabilities": [
+                                    {
+                                        "topability": {
+                                            "name": "Magic Ability",
+                                            "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                                        },
+                                        "subabilities": [
+                                            {
+                                                "name": "Harmonious Exaltation (★Action)",
+                                                "description": "RNG CMD. Target this model's leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
+                                            },
+                                            {
+                                                "name": "Spell Slave (★Action) (★Attack)",
+                                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "weapons": [
+                                    {
+                                        "name": "Stone Slabs",
+                                        "type": "Melee",
+                                        "fieldoffire": "None",
+                                        "rng": "1",
+                                        "pow": "2",
+                                        "count": "1",
+                                        "damagetype": [
+                                            "Arcane"
+                                        ]
+                                    }
+                                ],
+                                "displayorder": 0
+                            }
+                        ]
+                    },
+                    {
                         "name": "Trollkin Sorcerer",
                         "points": "2",
                         "category": "Attachments",
@@ -14780,7 +15347,7 @@
                     },
                     {
                         "name": "Hearthgut Hooch Hauler",
-                        "points": "16",
+                        "points": "13",
                         "category": "Battle Engines",
                         "primaryfaction": [
                             "Trollbloods"
@@ -14933,7 +15500,7 @@
                     },
                     {
                         "name": "War Wagon",
-                        "points": "16",
+                        "points": "15",
                         "category": "Battle Engines",
                         "primaryfaction": [
                             "Trollbloods"
@@ -14971,7 +15538,7 @@
                                         "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
                                     },
                                     {
-                                        "name": "Ride by Goreing",
+                                        "name": "Ride by Goring",
                                         "description": "This model gains +2” movement and can make one Mount attack in addition to their normal attacks while making a Ride By attack."
                                     },
                                     {
@@ -14985,7 +15552,7 @@
                                     "str": "14",
                                     "mat": "6",
                                     "rat": "5",
-                                    "def": "8",
+                                    "def": "9",
                                     "arm": "20",
                                     "cmd": "5",
                                     "hp": "38"
@@ -15377,7 +15944,7 @@
                     },
                     {
                         "name": "Invictus",
-                        "points": "20",
+                        "points": "17",
                         "category": "Warjacks/Warbeasts/Horrors",
                         "primaryfaction": [
                             "Mercenaries"
@@ -15439,12 +16006,8 @@
                                         "description": "This model is included in any army that includes Magnus the Unstoppable. If Magnus the Unstoppable is destroyed or removed from play, remove this model from play. This model is part of Magnus the Unstoppable's battlegroup."
                                     },
                                     {
-                                        "name": "Dispensation [Magnus] [Magnus the Unstoppable]",
-                                        "description": "This model can be included in Magnus lists as an cohort model. If it is, don't include Magnus the Unstoppable models however, the point cost of this model remains the same as if Magnus the Unstoppable were included. This model loses compainion in this case."
-                                    },
-                                    {
-                                        "name": "Mercenary [any army]",
-                                        "description": "This model will work for any army."
+                                        "name": "Dispensation [Magnus]",
+                                        "description": "This model can be included in Magnus lists as an cohort model. If it is, you cannot add other Magnus models and this model loses Companion."
                                     }
                                 ],
                                 "stats": {
@@ -15606,149 +16169,7 @@
                                         }
                                     ]
                                 },
-                                "displayorder": 1
-                            }
-                        ]
-                    },
-                    {
-                        "name": "War Boar MMD47",
-                        "points": "20",
-                        "category": "Warjacks/Warbeasts/Horrors",
-                        "primaryfaction": [
-                            "Mercenaries"
-                        ],
-                        "factions": [
-                            "Blindwater Congregation",
-                            "Cephalyx",
-                            "Circle Orboros",
-                            "Convergence of Cyriss",
-                            "Crucible Guard",
-                            "Cryx",
-                            "Cygnar",
-                            "Grymkin",
-                            "Infernals",
-                            "Ios",
-                            "Khador",
-                            "Khymaera",
-                            "Legion of Everblight",
-                            "Llael",
-                            "Mercenaries",
-                            "Ord",
-                            "Orgoth",
-                            "Protectorate of Menoth",
-                            "Religion of the Twins",
-                            "Searforge Commission",
-                            "Skorne",
-                            "Supernal Coalition",
-                            "Talion Charter",
-                            "Thornfall Alliance",
-                            "Trollbloods"
-                        ],
-                        "fieldallowance": "C",
-                        "models": [
-                            {
-                                "name": "War Boar MMD47",
-                                "title": "Mercenary Super Heavy Warbeast",
-                                "modeltype": [
-                                    "Warbeast",
-                                    "Companion"
-                                ],
-                                "keywords": [
-                                    "Dual Attack",
-                                    "Eyeless Sight",
-                                    "Gladiator",
-                                    "MK4",
-                                    "Power Attack: Headbutt",
-                                    "Power Attack: Slam",
-                                    "Power Attack: Trample",
-                                    "Unstoppable"
-                                ],
-                                "characterabilities": [
-                                    {
-                                        "name": "Bond [Carver]",
-                                        "description": "If this model begins the game in Carver's battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Carver and in his Control range, it gains Exhaust Fumes."
-                                    },
-                                    {
-                                        "name": "Companion [Carver Ultimus]",
-                                        "description": "This model is included in any army that includes Carver Ultimus. If Carver Ultimus is destroyed or removed from play, remove this model from play. This model is part of Carver Ultimus's battlegroup."
-                                    },
-                                    {
-                                        "name": "Dispensation [Carver] [Carver Ultimus]",
-                                        "description": "This model can be included in Carver lists as an cohort model. If it is, don't include Carver Ultimus models however, the point cost of this model remains the same as if Carver Ultimus were included. This model loses compainion in this case."
-                                    },
-                                    {
-                                        "name": "Full Boar",
-                                        "description": "This model can use Full Boar at the start of its activation. This model gains +2 SPD that activation. At the end of that activation, this model suffers d3 damage points. Full Boar can only be used once per activation."
-                                    },
-                                    {
-                                        "name": "Mercenary [any army]",
-                                        "description": "This model will work for any army."
-                                    }
-                                ],
-                                "stats": {
-                                    "basesize": "80MM",
-                                    "spd": "4",
-                                    "str": "12",
-                                    "mat": "7",
-                                    "rat": "6",
-                                    "def": "10",
-                                    "arm": "19",
-                                    "hp": "35",
-                                    "fury": "5",
-                                    "thr": "8"
-                                },
-                                "weapons": [
-                                    {
-                                        "name": "Volley Cannon",
-                                        "type": "ranged",
-                                        "fieldoffire": "None",
-                                        "rng": "12",
-                                        "rof": "2",
-                                        "pow": "13",
-                                        "count": "2",
-                                        "ability": [
-                                            {
-                                                "name": "Volume Fire",
-                                                "description": "Attacks with this weapon gain +1 to attack accuracy and damage rolls against medium-based models and +2 to attack accuracy and damage rolls against large, extra-large, and huge-based models."
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "Chain Tusks",
-                                        "type": "Melee",
-                                        "fieldoffire": "None",
-                                        "rng": "1",
-                                        "pow": "6",
-                                        "count": "1",
-                                        "ability": [
-                                            {
-                                                "name": "Critical Shred",
-                                                "description": "On a critical hit with this weapon during this model's Combat Action, after the attack is resolved this model can make one additional attack with this weapon against the model hit."
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "animi": [
-                                    {
-                                        "name": "Recoil",
-                                        "cost": "1",
-                                        "rng": "SELF",
-                                        "aoe": "-",
-                                        "pow": "10",
-                                        "dur": "Turn",
-                                        "off": "NO",
-                                        "description": "The spellcaster gains Swift Hunter. Recoil lasts for one turn. (When a model with Swift Hunter destroys one or more enemy models with a basic aranged attack, immediately after the attack is resolved it can advance up to 2\".)"
-                                    }
-                                ],
-                                "spiral": [
-                                    "6",
-                                    "3",
-                                    "10",
-                                    "7",
-                                    "6",
-                                    "3"
-                                ],
-                                "displayorder": 1
+                                "displayorder": 0
                             }
                         ]
                     },
@@ -16443,7 +16864,8 @@
                         "points": "20",
                         "category": "Solos",
                         "primaryfaction": [
-                            "Mercenaries"
+                            "Mercenaries",
+                            "Thornfall Alliance"
                         ],
                         "factions": [
                             "Blindwater Congregation",
@@ -16476,7 +16898,7 @@
                         "models": [
                             {
                                 "name": "Carver 2",
-                                "title": "Mercenary Solo Lesser Warlock",
+                                "title": "Mercenary Thornfall Alliance Solo Lesser Warlock",
                                 "modeltype": [
                                     "Solo",
                                     "Warrior"
@@ -16503,6 +16925,10 @@
                                     {
                                         "name": "Mercenary [any army]",
                                         "description": "This model will work for any army."
+                                    },
+                                    {
+                                        "name": "Partisan [Thornfall Alliance]",
+                                        "description": "When included in a Thornfall Alliance army, this model is a Thornfall Alliance model instead of a Mercenary model."
                                     }
                                 ],
                                 "stats": {
@@ -16600,7 +17026,7 @@
                             },
                             {
                                 "name": "War Boar MMD47",
-                                "title": "Mercenary Super Heavy Warbeast",
+                                "title": "Mercenary Thornfall Alliance Super Heavy Warbeast",
                                 "modeltype": [
                                     "Warbeast",
                                     "Companion"
@@ -16625,16 +17051,12 @@
                                         "description": "This model is included in any army that includes Carver Ultimus. If Carver Ultimus is destroyed or removed from play, remove this model from play. This model is part of Carver Ultimus's battlegroup."
                                     },
                                     {
-                                        "name": "Dispensation [Carver] [Carver Ultimus]",
-                                        "description": "This model can be included in Carver lists as an cohort model. If it is, don't include Carver Ultimus models however, the point cost of this model remains the same as if Carver Ultimus were included. This model loses compainion in this case."
+                                        "name": "Dispensation [Carver]",
+                                        "description": "This model can be included in Carver lists as an cohort model. If it is, you cannot add other Carver models and this model loses Companion."
                                     },
                                     {
                                         "name": "Full Boar",
                                         "description": "This model can use Full Boar at the start of its activation. This model gains +2 SPD that activation. At the end of that activation, this model suffers d3 damage points. Full Boar can only be used once per activation."
-                                    },
-                                    {
-                                        "name": "Mercenary [any army]",
-                                        "description": "This model will work for any army."
                                     }
                                 ],
                                 "stats": {
@@ -18982,12 +19404,8 @@
                                         "description": "This model is included in any army that includes Magnus the Unstoppable. If Magnus the Unstoppable is destroyed or removed from play, remove this model from play. This model is part of Magnus the Unstoppable's battlegroup."
                                     },
                                     {
-                                        "name": "Dispensation [Magnus] [Magnus the Unstoppable]",
-                                        "description": "This model can be included in Magnus lists as an cohort model. If it is, don't include Magnus the Unstoppable models however, the point cost of this model remains the same as if Magnus the Unstoppable were included. This model loses compainion in this case."
-                                    },
-                                    {
-                                        "name": "Mercenary [any army]",
-                                        "description": "This model will work for any army."
+                                        "name": "Dispensation [Magnus]",
+                                        "description": "This model can be included in Magnus lists as an cohort model. If it is, you cannot add other Magnus models and this model loses Companion."
                                     }
                                 ],
                                 "stats": {
@@ -20808,7 +21226,7 @@
                                         ]
                                     },
                                     {
-                                        "name": "Posiend Hand Weapon",
+                                        "name": "Poisoned Hand Weapon",
                                         "type": "Melee",
                                         "fieldoffire": "None",
                                         "rng": "1",
@@ -21399,10 +21817,10 @@
                         ],
                         "fieldallowance": "C",
                         "unitpoints": {
-                            "maxcost": "14",
-                            "minunit": "Raefyll and 5 Grunts",
+                            "maxunit": "Raefyll and 9 Grunts",
                             "mincost": "8",
-                            "maxunit": "Raefyll and 9 Grunts"
+                            "minunit": "Raefyll and 5 Grunts",
+                            "maxcost": "14"
                         },
                         "models": [
                             {
@@ -21528,186 +21946,6 @@
                         ]
                     },
                     {
-                        "name": "Dannon Blythe & Bull",
-                        "category": "Units",
-                        "primaryfaction": [
-                            "Mercenaries",
-                            "Trollbloods"
-                        ],
-                        "factions": [
-                            "Blindwater Congregation",
-                            "Cephalyx",
-                            "Circle Orboros",
-                            "Convergence of Cyriss",
-                            "Crucible Guard",
-                            "Cryx",
-                            "Cygnar",
-                            "Grymkin",
-                            "Infernals",
-                            "Ios",
-                            "Khador",
-                            "Khymaera",
-                            "Legion of Everblight",
-                            "Llael",
-                            "Mercenaries",
-                            "Ord",
-                            "Orgoth",
-                            "Protectorate of Menoth",
-                            "Religion of the Twins",
-                            "Searforge Commission",
-                            "Skorne",
-                            "Supernal Coalition",
-                            "Talion Charter",
-                            "Thornfall Alliance",
-                            "Trollbloods"
-                        ],
-                        "fieldallowance": "C",
-                        "unitpoints": {
-                            "minunit": "Blythe and Bull",
-                            "mincost": "5",
-                            "maxcost": "-",
-                            "maxunit": "-"
-                        },
-                        "models": [
-                            {
-                                "name": "Blythe 1",
-                                "title": "Mercenary Unit",
-                                "modeltype": [
-                                    "Unit",
-                                    "Warrior"
-                                ],
-                                "keywords": [
-                                    "Gunfighter",
-                                    "Officer",
-                                    "Pathfinder"
-                                ],
-                                "characterabilities": [
-                                    {
-                                        "name": "Intelligence",
-                                        "description": "You gain +1 to the starting roll determining the order of deployment and play."
-                                    },
-                                    {
-                                        "name": "Partisan [Trollbloods]",
-                                        "description": "When included in a Trollbloods army, this model is a Trollbloods model instead of a Mercenary model."
-                                    },
-                                    {
-                                        "name": "Reconnaissance (★Action)",
-                                        "description": "Choose one enemy model or unit with ambush that has not yet been put into play. Its controller must immediately deploy the chosen model or unit. This ability can only be used once per game."
-                                    },
-                                    {
-                                        "name": "Tactics [Prey]",
-                                        "description": "Models in this unit gain Prey. (After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. A model with Prey gains +2 to attack and damage rolls against its prey. When the prey is destroyed or removed from play, choose another model/unit to be the prey.)"
-                                    },
-                                    {
-                                        "name": "Tactics [Take Down]",
-                                        "description": "Models in this unit gain Take Down. (Models disabled by a melee attack made by a model with Take Down cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.)"
-                                    },
-                                    {
-                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
-                                    }
-                                ],
-                                "stats": {
-                                    "basesize": "30MM",
-                                    "spd": "6",
-                                    "str": "5",
-                                    "mat": "6",
-                                    "rat": "6",
-                                    "def": "15",
-                                    "arm": "13",
-                                    "cmd": "6",
-                                    "hp": "5"
-                                },
-                                "weapons": [
-                                    {
-                                        "name": "Pistol",
-                                        "type": "ranged",
-                                        "fieldoffire": "None",
-                                        "rng": "8",
-                                        "rof": "1",
-                                        "pow": "10",
-                                        "count": "1"
-                                    },
-                                    {
-                                        "name": "SWW Sword",
-                                        "type": "Melee",
-                                        "fieldoffire": "None",
-                                        "rng": "1",
-                                        "pow": "3",
-                                        "count": "1"
-                                    }
-                                ],
-                                "displayorder": 0
-                            },
-                            {
-                                "name": "Bull 1",
-                                "title": "Mercenary Unit",
-                                "modeltype": [
-                                    "Unit",
-                                    "Warrior"
-                                ],
-                                "keywords": [
-                                    "Pathfinder",
-                                    "Tough",
-                                    "Trollkin"
-                                ],
-                                "characterabilities": [
-                                    {
-                                        "name": "Rapid Strike",
-                                        "description": "This model can make one additional melee attack each Combat Action."
-                                    },
-                                    {
-                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
-                                    }
-                                ],
-                                "stats": {
-                                    "basesize": "40MM",
-                                    "spd": "6",
-                                    "str": "7",
-                                    "mat": "6",
-                                    "rat": "6",
-                                    "def": "13",
-                                    "arm": "15",
-                                    "cmd": "6",
-                                    "hp": "8"
-                                },
-                                "weapons": [
-                                    {
-                                        "name": "Demolisher",
-                                        "type": "ranged",
-                                        "fieldoffire": "None",
-                                        "rng": "10",
-                                        "rof": "3",
-                                        "pow": "12",
-                                        "count": "1",
-                                        "ability": [
-                                            {
-                                                "name": "Batter",
-                                                "description": "When an enemy model is hit by this weapon during this model's activation, it becomes knocked down and can be pushed 1” directly away from this model. If the model hit is pushed, this model can immediately advance 1” directly toward it."
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "Great Sword",
-                                        "type": "melee",
-                                        "fieldoffire": "None",
-                                        "rng": "1",
-                                        "pow": "4",
-                                        "count": "1",
-                                        "ability": [
-                                            {
-                                                "name": "Beat Back",
-                                                "description": "Immediately after a basic attack with a weapon with Beat Back is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "displayorder": 1
-                            }
-                        ]
-                    },
-                    {
                         "name": "Gatorman Posse",
                         "category": "Units",
                         "primaryfaction": [
@@ -21725,10 +21963,10 @@
                         ],
                         "fieldallowance": "3",
                         "unitpoints": {
-                            "minunit": "Leader and 5 Grunts",
-                            "mincost": "7",
-                            "maxcost": "10",
-                            "maxunit": "Leader and 9 Grunts"
+                            "maxcost": "13",
+                            "maxunit": "Leader and 4 Grunts",
+                            "mincost": "8",
+                            "minunit": "Leader and 2 Grunts"
                         },
                         "models": [
                             {
@@ -21835,170 +22073,11 @@
                         ]
                     },
                     {
-                        "name": "Greygore Boomhowler & Co",
-                        "category": "Units",
-                        "primaryfaction": [
-                            "Mercenaries",
-                            "Trollbloods"
-                        ],
-                        "factions": [
-                            "Crucible Guard",
-                            "Cryx",
-                            "Cygnar",
-                            "Khador",
-                            "Llael",
-                            "Mercenaries",
-                            "Ord",
-                            "Searforge Commission",
-                            "Thornfall Alliance",
-                            "Trollbloods"
-                        ],
-                        "fieldallowance": "C",
-                        "unitpoints": {
-                            "mincost": "8",
-                            "maxcost": "12",
-                            "minunit": "Boomhowler and 5 Grunts",
-                            "maxunit": "Boomhowler and 9 Grunts"
-                        },
-                        "models": [
-                            {
-                                "name": "Boomhowler 1",
-                                "title": "Mercenary Unit",
-                                "modeltype": [
-                                    "Unit",
-                                    "Warrior"
-                                ],
-                                "keywords": [
-                                    "Combined Melee Attack",
-                                    "Officer",
-                                    "Tough",
-                                    "Trollkin"
-                                ],
-                                "characterabilities": [
-                                    {
-                                        "name": "Partisan [Trollbloods]",
-                                        "description": "When included in a Trollbloods army, this model is a Trollbloods model instead of a Mercenary model."
-                                    },
-                                    {
-                                        "name": "Shooting Gallery",
-                                        "description": "This model gains +2 to Ranged accuracy rolls against models within 5” of it."
-                                    },
-                                    {
-                                        "name": "Mercenary [Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods."
-                                    }
-                                ],
-                                "stats": {
-                                    "basesize": "40MM",
-                                    "spd": "5",
-                                    "str": "7",
-                                    "mat": "7",
-                                    "rat": "6",
-                                    "def": "12",
-                                    "arm": "15",
-                                    "cmd": "8",
-                                    "hp": "8"
-                                },
-                                "nestedabilities": [
-                                    {
-                                        "topability": {
-                                            "name": "Fell Calls",
-                                            "description": "This model can make one of the following calls at any time during its activation. A friendly Faction model/unit can be affected by only one call each turn."
-                                        },
-                                        "subabilities": [
-                                            {
-                                                "name": "Cacophony",
-                                                "description": "While in this model's command range, enemy models/units cannot cast spells or be used to channel spells. Cacophony lasts for one round."
-                                            },
-                                            {
-                                                "name": "Call of Defiance",
-                                                "description": "While in formation, models in this unit do not lose Tough while knocked down. Call of Defiance lasts for one round."
-                                            },
-                                            {
-                                                "name": "Reveille",
-                                                "description": "Knocked down friendly Faction models in this model's CMD range immediately stand up. Models that became knocked down this turn are not affected by Reveille."
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "weapons": [
-                                    {
-                                        "name": "Blunderbuss",
-                                        "type": "ranged",
-                                        "fieldoffire": "None",
-                                        "rng": "8",
-                                        "rof": "1",
-                                        "pow": "12",
-                                        "count": "1"
-                                    },
-                                    {
-                                        "name": "Great Axe",
-                                        "type": "Melee",
-                                        "fieldoffire": "None",
-                                        "rng": "`",
-                                        "pow": "5",
-                                        "count": "`"
-                                    }
-                                ],
-                                "displayorder": 0
-                            },
-                            {
-                                "name": "Grunts",
-                                "title": "Mercenary Unit",
-                                "modeltype": [
-                                    "Unit",
-                                    "Warrior",
-                                    "Grunt"
-                                ],
-                                "keywords": [
-                                    "Combined Melee Attack",
-                                    "Tough"
-                                ],
-                                "characterabilities": [
-                                    {
-                                        "name": "Mercenary [Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Crucible Guard, Cryx, Cygnar, Khador, Llael, Ord, Searforge Commission, Thornfall Alliance, Trollbloods."
-                                    }
-                                ],
-                                "stats": {
-                                    "basesize": "40MM",
-                                    "spd": "5",
-                                    "str": "7",
-                                    "mat": "6",
-                                    "rat": "5",
-                                    "def": "12",
-                                    "arm": "15",
-                                    "cmd": "7",
-                                    "hp": "1"
-                                },
-                                "weapons": [
-                                    {
-                                        "name": "Blunderbuss",
-                                        "type": "ranged",
-                                        "fieldoffire": "None",
-                                        "rng": "8",
-                                        "rof": "1",
-                                        "pow": "12",
-                                        "count": "1"
-                                    },
-                                    {
-                                        "name": "Great Axe",
-                                        "type": "Melee",
-                                        "fieldoffire": "None",
-                                        "rng": "1",
-                                        "pow": "5",
-                                        "count": "1"
-                                    }
-                                ],
-                                "displayorder": 1
-                            }
-                        ]
-                    },
-                    {
                         "name": "Idrian Skirmishers",
                         "category": "Units",
                         "primaryfaction": [
-                            "Mercenaries"
+                            "Mercenaries",
+                            "Protectorate of Menoth"
                         ],
                         "factions": [
                             "Circle Orboros",
@@ -22009,14 +22088,14 @@
                         ],
                         "fieldallowance": "2",
                         "unitpoints": {
-                            "mincost": "7",
-                            "minunit": "Leader and 5 Grunts",
                             "maxunit": "Leader and 9 Grunts",
-                            "maxcost": "12"
+                            "mincost": "7",
+                            "maxcost": "12",
+                            "minunit": "Leader and 5 Grunts"
                         },
                         "models": [
                             {
-                                "name": "Idrian Skirmishers",
+                                "name": "Leader and Grunts",
                                 "title": "Mercenary Unit",
                                 "modeltype": [
                                     "Unit",
@@ -22030,16 +22109,16 @@
                                 ],
                                 "characterabilities": [
                                     {
+                                        "name": "Mercenary [Circle Orboros, Protectorate of Menoth, Skorne, Trollbloods]",
+                                        "description": "This model will work for Circle Orboros, Protectorate of Menoth, Skorne, Trollbloods."
+                                    },
+                                    {
                                         "name": "Order: Bushwhack",
                                         "description": "During this unit's activation, affected models make their Combat Action before their Normal Movement. Affected models must make a full advance as their Normal Movement this activation."
                                     },
                                     {
                                         "name": "Partisan [Protectorate of Menoth]",
                                         "description": "When included in a Protectorate of Menoth army, this model is a Protectorate of Menoth model instead of a Mercenary model."
-                                    },
-                                    {
-                                        "name": "Mercenary [Circle Orboros, Protectorate of Menoth, Skorne, Trollbloods]",
-                                        "description": "This model will work for Circle Orboros, Protectorate of Menoth, Skorne, Trollbloods."
                                     }
                                 ],
                                 "stats": {
@@ -22105,9 +22184,9 @@
                         ],
                         "fieldallowance": "1",
                         "unitpoints": {
-                            "minunit": "Leader and 1 Grunt",
-                            "maxcost": "-",
                             "mincost": "2",
+                            "maxcost": "-",
+                            "minunit": "Leader and 1 Grunt",
                             "maxunit": "-"
                         },
                         "models": [
@@ -22194,7 +22273,8 @@
                         "points": "3",
                         "category": "Attachments",
                         "primaryfaction": [
-                            "Mercenaries"
+                            "Mercenaries",
+                            "Protectorate of Menoth"
                         ],
                         "factions": [
                             "Circle Orboros",
@@ -22258,7 +22338,7 @@
                                 },
                                 "weapons": [
                                     {
-                                        "name": "Military",
+                                        "name": "Military Rifle",
                                         "type": "ranged",
                                         "fieldoffire": "None",
                                         "rng": "10",
@@ -22853,8 +22933,8 @@
                                         "description": "Small and medium-based units and solos can enter this structure through a door on the lower level. A model/unit ending its Normal Movement within 1” of the door can choose to enter this building. Models entering this building can be placed on either the lower or upper levels. Models in a unit occupying this structure can be placed on either floor or both. There can be up to six small-based models or three medium-based models on each floor. There must be room for a model's base for it to be placed on either floor."
                                     },
                                     {
-                                        "name": "Mercenary [Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods]",
-                                        "description": "This model will work for Blindwater Congregation, Cephalyx, Circle Orboros, Convergence of Cyriss, Crucible Guard, Cryx, Cygnar, Grymkin, Infernals, Ios, Khador, Khymaera, Legion of Everblight, Llael, Ord, Orgoth, Protectorate of Menoth, Religion of the Twins, Searforge Commission, Skorne, Supernal Coalition, Talion Charter, Thornfall Alliance, Trollbloods."
+                                        "name": "Mercenary [any army]",
+                                        "description": "This model will work for any army."
                                     },
                                     {
                                         "name": "Movement Inside [Bunker]",
