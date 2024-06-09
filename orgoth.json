@@ -2177,7 +2177,7 @@
                                 },
                                 "modularoptions": [
                                     {
-                                        "groupname": "Head Options",
+                                        "groupname": "Head",
                                         "options": [
                                             {
                                                 "cost": "5",
@@ -2334,7 +2334,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Right Arm Options",
+                                        "groupname": "Right Arm",
                                         "options": [
                                             {
                                                 "cost": "7",
@@ -2507,7 +2507,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Left Arm Options",
+                                        "groupname": "Left Arm",
                                         "options": [
                                             {
                                                 "cost": "6",

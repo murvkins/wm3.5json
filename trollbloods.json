@@ -3931,7 +3931,7 @@
                                 ],
                                 "modularoptions": [
                                     {
-                                        "groupname": "Head Options",
+                                        "groupname": "Head",
                                         "options": [
                                             {
                                                 "cost": "10",
@@ -4016,7 +4016,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Figurehead Options",
+                                        "groupname": "Figurehead",
                                         "options": [
                                             {
                                                 "cost": "7",
@@ -4091,7 +4091,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Left Tentacle Weapon Options",
+                                        "groupname": "Left Tentacle Weapon",
                                         "options": [
                                             {
                                                 "cost": "6",
@@ -4167,7 +4167,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Right Tentacle Weapon Options",
+                                        "groupname": "Right Tentacle Weapon",
                                         "options": [
                                             {
                                                 "cost": "1",
@@ -4307,7 +4307,7 @@
                                 },
                                 "modularoptions": [
                                     {
-                                        "groupname": "Head Options",
+                                        "groupname": "Head",
                                         "options": [
                                             {
                                                 "cost": "2",
@@ -4439,7 +4439,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Fin Options",
+                                        "groupname": "Fin",
                                         "options": [
                                             {
                                                 "cost": "2",
@@ -4525,7 +4525,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Right Arm Options",
+                                        "groupname": "Right Arm",
                                         "options": [
                                             {
                                                 "cost": "6",
@@ -4652,7 +4652,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Left Arm Options",
+                                        "groupname": "Left Arm",
                                         "options": [
                                             {
                                                 "cost": "5",
@@ -6213,7 +6213,7 @@
                                 },
                                 "modularoptions": [
                                     {
-                                        "groupname": "Head Options",
+                                        "groupname": "Head",
                                         "options": [
                                             {
                                                 "cost": "1",
@@ -6299,7 +6299,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Booze Options",
+                                        "groupname": "Booze",
                                         "options": [
                                             {
                                                 "cost": "1",
@@ -6400,7 +6400,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Right Arm Options",
+                                        "groupname": "Right Arm",
                                         "options": [
                                             {
                                                 "cost": "3",
@@ -6531,7 +6531,7 @@
                                         ]
                                     },
                                     {
-                                        "groupname": "Left Arm Options",
+                                        "groupname": "Left Arm",
                                         "options": [
                                             {
                                                 "cost": "2",
